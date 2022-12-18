@@ -1,0 +1,36 @@
+.Categories {
+  border: 1px solid #F1F3F2;
+  border-radius: 25px;
+  padding: 28px 24px;
+  display: grid;
+  grid-template-rows: 24px repeat(4, 1fr);
+  gap: 1.5rem;
+  min-width: 269px;
+  width: fit-content;
+  height: fit-content;
+}
+.Categories .Category {
+  display: flex;
+  flex-direction: row;
+  width: 230px;
+  padding: 12px 16px;
+  border-radius: 15px;
+}
+.Categories .Category img {
+  width: 61px;
+}
+.Categories .Category h3 {
+  margin-left: 1rem;
+}
+.Categories .Category:hover {
+  cursor: pointer;
+  background-color: #F7F5FF;
+}
+.Categories .Category.active {
+  background-color: #F3F1FE;
+}
+.Categories .Category.active h3 {
+  color: #081270;
+}
+
+/*# sourceMappingURL=Categories.css.map */

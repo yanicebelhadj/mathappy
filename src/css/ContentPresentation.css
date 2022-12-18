@@ -1,0 +1,76 @@
+.ContentPresentation {
+  min-width: 517px;
+}
+.ContentPresentation img {
+  width: 100%;
+}
+.ContentPresentation .TextArea {
+  width: calc(100% - 17px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 2rem auto;
+}
+.ContentPresentation .TextArea .Notes {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.ContentPresentation .TextArea .Notes .Stars {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.ContentPresentation .TextArea .Notes .NoteInFloat {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+}
+.ContentPresentation .TextArea .Notes .NbNote {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #A8A8A8;
+}
+.ContentPresentation .TextArea a {
+  padding: 12px 32px;
+  color: #fff;
+  background-color: #5BC1FC;
+  width: fit-content;
+  border-radius: 28px;
+}
+.ContentPresentation .TextArea .Line {
+  height: 1px;
+  width: 100%;
+  background-color: #E9E9E9;
+}
+.ContentPresentation .TextArea .ContentPresentation {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 24px 16px;
+}
+.ContentPresentation .TextArea .ContentPresentation .Item {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.ContentPresentation .TextArea .ContentPresentation .Item .icon svg {
+  border-radius: 19px;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.ContentPresentation .TextArea .ContentPresentation .Item .TextArea {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ContentPresentation .TextArea .ContentPresentation .Item .TextArea .Title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.ContentPresentation .TextArea .ContentPresentation .Item .TextArea .Description {
+  color: #7A8594;
+}
+
+/*# sourceMappingURL=ContentPresentation.css.map */

@@ -1,0 +1,16 @@
+.HomePage .HomePageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1295px;
+  padding: 2rem 2rem 2rem 7rem;
+}
+.HomePage .HomePageContainer h1 {
+  margin: 0 0 1.5rem;
+}
+.HomePage .HomePageContainer .Line {
+  display: flex;
+  gap: 40px;
+}
+
+/*# sourceMappingURL=HomePage.css.map */

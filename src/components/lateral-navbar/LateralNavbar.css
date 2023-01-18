@@ -1,0 +1,107 @@
+.LateralNavbar {
+  position: fixed;
+  z-index: 2;
+  height: 100vw;
+  padding: 1.5rem 8px;
+  background-color: var(--selagoBlue);
+}
+.LateralNavbar .Logo {
+  filter: drop-shadow(-4px -4px 15px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
+}
+.LateralNavbar .non-active {
+  display: none !important;
+}
+.LateralNavbar .logo.non-active {
+  display: none;
+}
+.LateralNavbar .logo.active {
+  display: block;
+}
+.LateralNavbar .logo-large.non-active {
+  display: none;
+}
+.LateralNavbar .logo-large.active {
+  display: block;
+}
+.LateralNavbar .categories {
+  margin-top: 80px;
+  padding: 24px 16px;
+  gap: 2rem;
+  display: grid;
+  justify-content: flex-start;
+  grid-template-rows: repeat(4, 1fr);
+  background-color: var(--white);
+  border-radius: 31.5px;
+}
+.LateralNavbar .categories .backgroundSelect {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  background-color: var(--selagoPurple);
+  margin-left: calc(50% - 12px);
+  transform: translate(-50%);
+  margin-top: 117px;
+  transition: 200ms;
+}
+.LateralNavbar .categories li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+.LateralNavbar .categories li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--deepSapphire);
+}
+.LateralNavbar .categories li a .icon {
+  display: flex;
+  z-index: 2;
+}
+.LateralNavbar .categories li.active svg path {
+  fill: var(--deepSapphire);
+}
+.LateralNavbar .categories li:hover {
+  cursor: pointer;
+}
+.LateralNavbar .menu {
+  margin-top: 2.5rem;
+}
+.LateralNavbar .menu li {
+  border-radius: 10px;
+}
+.LateralNavbar .menu li a {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  gap: 1rem;
+  padding: 10px 16px;
+}
+.LateralNavbar .menu li a p {
+  color: var(--scorpion);
+  display: none;
+}
+.LateralNavbar .menu li:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+.LateralNavbar .menu li:hover .icon svg path {
+  fill: var(--deepSapphire);
+}
+.LateralNavbar .menu li:hover p {
+  color: var(--deepSapphire);
+}
+
+.LateralNavbar:hover .menu li p {
+  display: block;
+}
+
+.large-lateral-navbar {
+  padding: 1.5rem 1rem;
+}
+
+/*# sourceMappingURL=LateralNavbar.css.map */

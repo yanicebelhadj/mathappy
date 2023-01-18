@@ -1,0 +1,37 @@
+header {
+  padding: 1.5rem 2.5rem 0 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100% - 9.5rem);
+  position: fixed;
+  background-color: var(--white);
+}
+header .message-homePage {
+  display: none;
+  color: var(--deepSapphire);
+}
+header .message-homePage.active {
+  display: block;
+}
+
+header.visible-forced {
+  display: flex !important;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  padding: 1.5rem 0 0;
+}
+header.visible-forced .search-box .search-form input {
+  width: 420px;
+}
+header.visible-forced .search-box .suggestion {
+  width: calc(420px - 3rem);
+}
+
+header.active {
+  display: none;
+}
+
+/*# sourceMappingURL=header.styles.css.map */

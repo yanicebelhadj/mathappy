@@ -1,0 +1,57 @@
+.course-page {
+  padding: 6.5rem 2.5rem 2.5rem 20rem;
+  max-width: 800px;
+}
+.course-page h1 {
+  color: var(--deepSapphire);
+}
+.course-page h2 {
+  color: var(--deepSapphire);
+  margin: 2rem 0 1rem;
+}
+.course-page p {
+  color: var(--tundora);
+}
+.course-page p strong {
+  font-weight: 600;
+}
+.course-page .example {
+  position: relative;
+  z-index: -1;
+  background: var(--wildSand);
+  padding: 10px 10px 10px 30px;
+  border-radius: 8px;
+  margin-top: 2.5rem;
+}
+.course-page .example .icon {
+  position: relative;
+  top: -30px;
+  left: -50px;
+}
+.course-page .example .text-area {
+  margin-top: -47px;
+}
+.course-page .example .text-area p {
+  color: var(--black);
+}
+.course-page .reminder {
+  position: relative;
+  z-index: -1;
+  background: var(--linkWater);
+  padding: 10px 10px 10px 30px;
+  border-radius: 8px;
+  margin-top: 2.5rem;
+}
+.course-page .reminder .icon {
+  position: relative;
+  top: -30px;
+  left: -50px;
+}
+.course-page .reminder .text-area {
+  margin-top: -47px;
+}
+.course-page .reminder .text-area p {
+  color: var(--black);
+}
+
+/*# sourceMappingURL=CoursePage.styles.css.map */

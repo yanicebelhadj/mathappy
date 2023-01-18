@@ -1,0 +1,36 @@
+.Categories {
+  display: grid;
+  grid-template-rows: 24px repeat(4, 1fr);
+  gap: 1.5rem;
+  width: fit-content;
+  min-width: 269px;
+  height: fit-content;
+  border: 1px solid #F1F3F2;
+  border-radius: 25px;
+  padding: 28px 24px;
+}
+.Categories .Category {
+  display: flex;
+  flex-direction: row;
+  width: 230px;
+  border-radius: 15px;
+  padding: 12px 16px;
+}
+.Categories .Category img {
+  width: 61px;
+}
+.Categories .Category h3 {
+  margin-left: 1rem;
+}
+.Categories .Category:hover {
+  cursor: pointer;
+  background-color: var(--magnolia);
+}
+.Categories .Category.active {
+  background-color: var(--selagoPurple);
+}
+.Categories .Category.active h3 {
+  color: var(--deepSapphire);
+}
+
+/*# sourceMappingURL=Categories.css.map */

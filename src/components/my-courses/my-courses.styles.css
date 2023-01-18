@@ -1,0 +1,10 @@
+.my-courses {
+  padding: 24px 20px;
+  border-radius: 20px;
+  border: 1px solid var(--wildSand);
+}
+.my-courses .description {
+  color: var(--scorpion);
+}
+
+/*# sourceMappingURL=my-courses.styles.css.map */

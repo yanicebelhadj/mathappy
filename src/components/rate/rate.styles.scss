@@ -1,0 +1,15 @@
+.rate{
+    display: flex;
+    flex-direction: row;
+    .result-rate-star{
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+    .result-rate{
+        margin: 0 16px 0 12px;
+    }
+    .nb-rates{
+        color: var(--scorpion);
+    }
+}

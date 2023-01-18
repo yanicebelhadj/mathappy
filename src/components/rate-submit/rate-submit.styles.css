@@ -1,0 +1,26 @@
+.rate-submit {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.rate-submit .rate {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.rate-submit .submit-your-rate {
+  padding: 12px 24px;
+  border: 1px solid var(--gallery);
+  border-radius: 15px;
+}
+.rate-submit .submit-your-rate p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*# sourceMappingURL=rate-submit.styles.css.map */

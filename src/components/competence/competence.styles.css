@@ -1,0 +1,47 @@
+.competence {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 12px 16px;
+}
+.competence img {
+  height: 46px;
+}
+.competence .TextArea {
+  margin-left: 1rem;
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.competence .TextArea p {
+  color: var(--deepSapphire);
+}
+.competence .TextArea .Details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.competence .TextArea .Details p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  color: var(--scorpion);
+}
+.competence .TextArea .Details .Detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.competence .TextArea .Details .Detail .icon {
+  display: flex;
+  align-items: center;
+}
+
+.competence:hover {
+  cursor: pointer;
+  background-color: var(--selagoPurple);
+}
+
+/*# sourceMappingURL=competence.styles.css.map */

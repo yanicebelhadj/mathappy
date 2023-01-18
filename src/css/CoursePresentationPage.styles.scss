@@ -1,0 +1,27 @@
+.CoursePresentationPage{
+    padding: 6.5rem 2.5rem 2.5rem 7rem ;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+
+    h2{
+        color: var(--scorpion);
+    }
+
+    .starter-information-course{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .main-informations{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+
+    .cta-section{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

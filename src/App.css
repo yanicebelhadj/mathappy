@@ -2,47 +2,243 @@
 
 body{
     margin: 0;
+    --black: #000000;
+    --tundora: #404040;
+    --deepSapphire: #081271;
+    --salomie: #FFE68C;
+    --supernova: #FEC803; /* pas utilisé*/
+    --white: #FFFFFF;
+    --purpleHeart: #4835D7;
+    --oldLace: #FCEEE7;
+    --malibu: #5BC1FC;
+    --onahau: #C3E6FF; /* pas utilisé*/
+    --shakespeare: #5CA3D6; /* pas utilisé*/
+    --linkWater: #E9F4F9; 
+    --scorpion: #565656;
+    --wildSand: #F4F4F4;
+    --iron: #DDDFE0;
+    --catskillWhite: #F9FBFC;
+    --selagoPurple: #F3F1FE;
+    --magnolia: #FDFBFF;
+    --gallery: #EBEBEB;
+    --selagoBlue: #F6F8FE;
 }
 
-h1,h2,h3,p,a{
+h1,h2,h3,p,a,input{
     margin: 0;
     font-family: "Inter";
     letter-spacing: 0em;
     text-align: left;
 }
 
-img{
-    object-fit: contain;
+.h1-l{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
 }
 
-h1{
+.h1-m{
     font-size: 32px;
     font-weight: 700;
     line-height: 39px;
 }
 
-h2{
+.h2-m-semi-bold{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+.h2-m-medium{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
+.h2-s-semi-bold{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.h2-s-medium{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.p-xl-bold{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.p-xl-semi-bold{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.p-xl-medium{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.p-xl-regular{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.p-l-bold{
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    
 }
 
-h3{
+.p-l-semi-bold{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.p-l-medium{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.p-l-regular{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p-m-bold{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.p-m-semi-bold{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.p-m-medium{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.p-m-regular{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.p-s-bold{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.p-s-semi-bold{
     font-size: 14px;
     font-weight: 600;
     line-height: 17px;
 }
 
-p{
+.p-s-medium{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.p-s-regular{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.p-xs-bold{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.p-xs-semi-bold{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.p-xs-medium{
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;
 }
 
+.p-xs-regular{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.p-xxs-bold{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+}
+
+.p-xxs-semi-bold{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.p-xxs-medium{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.p-xxs-regular{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+img{
+    object-fit: contain;
+}
+
 a{
+    color: inherit;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
     text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.highlighth1{
+    background: linear-gradient(120deg, var(--salomie) 0%, var(--salomie) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 0 90%;
+}
+
+.highlighth2{
+    background: linear-gradient(120deg, var(--selagoPurple) 0%, var(--selagoPurple) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 0 90%;
 }

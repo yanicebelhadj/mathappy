@@ -1,0 +1,51 @@
+.method-math {
+  padding: 6.5rem 2.5rem 2.5rem 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+}
+.method-math h1 {
+  color: var(--deepSapphire);
+}
+.method-math h2 {
+  color: var(--deepSapphire);
+}
+.method-math .methode {
+  position: relative;
+  z-index: -1;
+  border-radius: 8px;
+  padding: 10px 10px 10px 30px;
+  background-color: var(--oldLace);
+}
+.method-math .methode .CheckList {
+  position: relative;
+  top: -30px;
+  left: -59px;
+}
+.method-math .methode .text-area {
+  margin-top: -47px;
+}
+.method-math .methode .text-area p {
+  color: var(--tundora);
+}
+.method-math .methode .text-area ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  margin: 10px 0 0;
+}
+.method-math .methode .text-area ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.method-math .methode .text-area ul li .icon {
+  margin-top: 6px;
+}
+.method-math .methode .text-area ul li .icon svg path {
+  fill: var(--purpleHeart);
+}
+
+/*# sourceMappingURL=MethodMath.styles.css.map */

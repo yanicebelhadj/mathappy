@@ -1,0 +1,12 @@
+.Registered-courses{
+    border: 1px solid var(--gallery);
+    padding: 1rem;
+    border-radius: 50%;
+    .icon{
+        display: flex;
+    }
+}
+
+.Registered-courses:hover{
+    cursor: pointer;
+}

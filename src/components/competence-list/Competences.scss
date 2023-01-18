@@ -1,0 +1,16 @@
+.Competences{
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--catskillWhite);
+    border-radius: 35px;
+    min-width: 322px;
+    // height: 80vh;
+    .ListCompetences{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow-y: scroll;
+    }
+}

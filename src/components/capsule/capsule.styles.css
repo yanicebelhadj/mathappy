@@ -1,0 +1,48 @@
+.capsule img {
+  max-width: 400px;
+  border-radius: 15px;
+}
+.capsule .cta .preliminary-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 32px 0 28px;
+}
+.capsule .cta .preliminary-cta .fiche-cta {
+  padding: 12px 24px;
+  background: var(--malibu);
+  border-radius: 28px;
+  color: var(--white);
+}
+.capsule .cta .preliminary-cta .register-course {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid var(--gallery);
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 28px;
+}
+.capsule .cta .preliminary-cta .register-course .icon {
+  display: flex;
+}
+.capsule .cta .preliminary-cta .register-course .icon svg {
+  height: 16px;
+  width: fit-content;
+}
+.capsule .cta .preliminary-cta .register-course p {
+  color: var(--deepSapphire);
+}
+.capsule .cta .course-cta {
+  background-color: var(--malibu);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 28px;
+}
+
+/*# sourceMappingURL=capsule.styles.css.map */

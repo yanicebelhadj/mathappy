@@ -1,0 +1,11 @@
+.last-course {
+  padding: 24px 20px;
+  border-radius: 20px;
+  border: 1px solid var(--wildSand);
+  width: 50%;
+}
+.last-course .description {
+  color: var(--scorpion);
+}
+
+/*# sourceMappingURL=last-course.styles.css.map */

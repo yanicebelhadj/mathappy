@@ -1,0 +1,17 @@
+.Competences {
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--catskillWhite);
+  border-radius: 35px;
+  min-width: 322px;
+}
+.Competences .ListCompetences {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: scroll;
+}
+
+/*# sourceMappingURL=Competences.css.map */

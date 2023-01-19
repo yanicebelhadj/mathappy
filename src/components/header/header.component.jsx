@@ -13,7 +13,7 @@ function Header(props){
     const namePage = location.pathname.split("/");
 
     return(
-        <header className={`${namePage[1] === "" ? "active" :""} ${props.visible ? "visible-forced" : ""}`}>
+        <header className={`${namePage[1] === "" ? "active" :""} ${props.visible ? "visible-forced" : ""} ${namePage[2] === "Le-cours" || namePage[2] === "MethodMath" || namePage[2] === "Exercices" || namePage[2] === "La-fiche" ? "little-header" : ""}`} >
             <p className={`message-homePage highlighth1 p-l-bold ${namePage[1] === "" ? "active" :""}`}>Salut Abdourrahmane</p>
             <SearchBox placeholder="Recherche un cours ..."/>
             <RegisteredCourses />

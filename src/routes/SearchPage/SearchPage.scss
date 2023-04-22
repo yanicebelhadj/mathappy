@@ -1,0 +1,59 @@
+.Search-page{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    .filters{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        .filter{
+            padding: 8px 24px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            border: 1px solid var(--gallery);
+            border-radius: 15px;
+            .icon{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .competence{
+        align-items: flex-start;
+        padding: 2rem;
+        img{
+            height: 66px;
+        }
+        .TextArea{
+            width: 800px !important;
+            margin-left: 2rem;
+            .title{
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            .category{
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: var(--scorpion);
+            }
+
+            .description{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: var(--scorpion);
+            }
+        }
+    }
+
+    .competence:hover{
+        background-color: inherit;
+        .title{
+            text-decoration: underline;
+        }
+    }
+}

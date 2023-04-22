@@ -1,0 +1,58 @@
+.Search-page {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.Search-page .filters {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.Search-page .filters .filter {
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid var(--gallery);
+  border-radius: 15px;
+}
+.Search-page .filters .filter .icon {
+  display: flex;
+  align-items: center;
+}
+.Search-page .competence {
+  align-items: flex-start;
+  padding: 2rem;
+}
+.Search-page .competence img {
+  height: 66px;
+}
+.Search-page .competence .TextArea {
+  width: 800px !important;
+  margin-left: 2rem;
+}
+.Search-page .competence .TextArea .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.Search-page .competence .TextArea .category {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--scorpion);
+}
+.Search-page .competence .TextArea .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--scorpion);
+}
+.Search-page .competence:hover {
+  background-color: inherit;
+}
+.Search-page .competence:hover .title {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=SearchPage.css.map */

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import { signInWithGoogleRedirect, createUserDocumentFromAuth, signInAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils"
-import { useState, useContext } from "react"
-import { UserContext } from "../../contexts/user.context"
+import { signInWithGoogleRedirect, signInAuthUserWithEmailAndPassword, auth } from "../../utils/firebase/firebase.utils"
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { useState } from "react"
 
 import facebook from "../../icons/facebook_blue.png"
 import google from "../../icons/google.png"
@@ -15,11 +15,11 @@ const defaultFormFields = {
 }
 
 const SignIn = () => {
-
     const [formFields, setFormFields] = useState(defaultFormFields);
     const { email, password } = formFields;
-
-    const { setCurrentUser } = useContext(UserContext);
+    const [user, loading] = useAuthState(auth);
+    console.log("user", user)
+    console.log("loading", loading)
 
     const handleChange = (event) => {
         const { name, value } = event.target;
@@ -27,16 +27,14 @@ const SignIn = () => {
     }
 
     const SignInWithGoogle = async () => {
-        const { user } = await signInWithGoogleRedirect();
-        await createUserDocumentFromAuth(user);
+        await signInWithGoogleRedirect();
     }
 
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const { user } = await signInAuthUserWithEmailAndPassword(email, password);
+            await signInAuthUserWithEmailAndPassword(email, password);
             setFormFields(defaultFormFields);
-
         } catch (error) {
             switch(error.code) {
                 case 'auth/wrong-password':
@@ -47,10 +45,13 @@ const SignIn = () => {
                     break;
                 default:
                     console.error(error)
-
             }
 
         }
+    }
+
+    if (user && !loading){
+        window.location.href = '/'; // Redirection vers la page de connexion
     }
 
     return(
@@ -59,7 +60,7 @@ const SignIn = () => {
             <h1>Connexion</h1>
             <div className="social-login">
                 <button className="p-m-regular facebook"><img src={facebook} alt="facebook"/></button>
-                <button onClick={signInWithGoogleRedirect} className="p-m-regular google"><img src={google} alt="google"/></button>
+                <button onClick={SignInWithGoogle} className="p-m-regular google"><img src={google} alt="google"/></button>
             </div>
             <div className="separator">
                 <div className="line"></div>

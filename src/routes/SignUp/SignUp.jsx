@@ -33,12 +33,13 @@ const SignUp = () => {
     const [formFields, setFormFields] = useState(defaultFormFields);
     const { name, surname, email, password, confirmPassword, phoneNumber, level } = formFields;
 
+    
+
     const handleChange = (event) => {
         const { name, value } = event.target;
         setFormFields({ ...formFields, [name]: value });
     }
 
-    console.log(formFields)
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -48,14 +49,15 @@ const SignUp = () => {
         }
 
         try {
-            const { user } = await createAuthUserWithEmailAndPassword(
+            const { user }  = await createAuthUserWithEmailAndPassword(
                 email,
                 password
             );
-            
-            await createUserDocumentFromAuth(user, { name, surname, phoneNumber, level });
-
+            await createUserDocumentFromAuth(user, { name, surname, phoneNumber, level })
             setFormFields(defaultFormFields);
+            
+            window.location.href = '/SignIn'; // Redirection vers la page de connexion
+
         } catch (error) {
             if(error.code === 'auth/email-already-in-use') {
                 alert('Email already in use');

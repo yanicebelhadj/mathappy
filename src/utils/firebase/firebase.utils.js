@@ -3,7 +3,6 @@ import { initializeApp } from "firebase/app";
 import { 
     getAuth, 
     signInWithRedirect, 
-    signInWithPopup,
     GoogleAuthProvider,
     createUserWithEmailAndPassword,
     signInWithEmailAndPassword,
@@ -18,12 +17,7 @@ import {
     setDoc 
 } from "firebase/firestore";
 
-// import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
 // Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDTHoiGrapICo6AFuRc9UDHh7A1gxfdB20",
   authDomain: "mathappy-web-app.firebaseapp.com",
@@ -35,8 +29,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const firbaseApp = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
+initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
 
@@ -45,14 +38,12 @@ googleProvider.setCustomParameters({
 });
 
 export const auth = getAuth();
-export const signInWithGooglePopup = () => signInWithPopup(auth, googleProvider);
 export const signInWithGoogleRedirect = () => signInWithRedirect(auth, googleProvider);
 
 export const db = getFirestore();
 
 export const createUserDocumentFromAuth = async (userAuth, additionalInformation = {}) => {
     if(!userAuth) return;
-
     const userDocRef = doc(db, "users", userAuth.uid);
     const userDocSnap = await getDoc(userDocRef);
     if(!userDocSnap.exists()) {
@@ -85,6 +76,10 @@ export const signInAuthUserWithEmailAndPassword = async (email, password) => {
     return await signInWithEmailAndPassword(auth, email, password);
 }
 
-export const signOutUser = async () => await signOut(auth); //video 108
+export const signOutUser = async () =>{
+    await signOut(auth); //video 108
+    window.location.href = '/math'; // Redirection vers la page de connexion
+
+} 
 
 export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth, callback);

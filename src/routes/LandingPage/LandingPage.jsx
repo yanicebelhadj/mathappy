@@ -38,11 +38,6 @@ const LandingPage = () => {
 
     const [modal, setModal] = useState(false)
 
-    const logGoogleUser = async () => {
-        const {user} = await signInWithGooglePopup();
-        const userDocRef = createUserDocumentFromAuth(user);
-    }
-
     return(
         <div className="landing-page">
             <header>

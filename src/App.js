@@ -16,7 +16,12 @@ import Navigation from './components/navigation/navigation.component.jsx';
 import SignIn from './routes/SignIn/SignIn.jsx';
 import SignUp from './routes/SignUp/SignUp.jsx';
 
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { auth } from './utils/firebase/firebase.utils';
+
+
 function App() {
+  const [user] = useAuthState(auth);
 
   return (
     <div className="App">
@@ -25,8 +30,8 @@ function App() {
           <Routes>
             <Route path='/math' exact element={<LandingPage />} />
             <Route path='/SignIn' exact element={<SignIn />} />
-            <Route path='/SignUp' exact element={<SignUp />} />
-            <Route path='/' element={<Navigation />}>
+            <Route path='/SignUp' exact element={<SignUp />} />  
+            <Route path='/' element={user ? <Navigation /> : <LandingPage />}>
               <Route index element={<DashBoard />} />
               <Route path='/SearchPage' exact element={<SearchPage />} />
               <Route path="/:id" element={<CoursePresentationPage />} />

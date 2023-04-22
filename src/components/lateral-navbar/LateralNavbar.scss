@@ -1,34 +1,22 @@
 .LateralNavbar{
     position: fixed;
+    margin-top: 73px;
     z-index: 2;
-    height: 100vw;
-    padding: 1.5rem 8px;
-    background-color: var(--selagoBlue);
-    .Logo{
-        filter: drop-shadow(-4px -4px 15px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
-    }
+    width: fit-content;
+    height: calc(100vw - 82px);
+    padding: 12px;
 
     .non-active{
         display: none !important;
     }
 
-    .logo.non-active{
-        display: none;
-    }
-
-    .logo.active{
+    .menuOpen{
         display: block;
     }
 
-    .logo-large.non-active{
+    .menuClosed{
         display: none;
     }
-
-    .logo-large.active {
-        display: block;
-    }
-
-
 
     .categories{
         margin-top: 80px;
@@ -64,7 +52,6 @@
                 flex-direction: row;
                 align-items: center;
                 gap: 0.5rem;
-                color: var(--deepSapphire);
 
                 .icon{
                     display: flex;
@@ -87,7 +74,6 @@
     }
     
     .menu{
-        margin-top: 2.5rem;
         li{
             border-radius: 10px;
             a{
@@ -95,11 +81,7 @@
                 align-items: center;
                 overflow: hidden;
                 gap: 1rem;
-                padding: 10px 16px;
-                p{
-                    color: var(--scorpion);
-                    display: none;
-                }
+                padding: 8px 12px;
             }
         }
         li:hover{
@@ -120,16 +102,12 @@
 
 }
 
-.LateralNavbar:hover{
-    .menu{
-        li{
-            p{
-                display: block;
-            }
-        }
-    }
-}
-
-.large-lateral-navbar{
-    padding: 1.5rem 1rem;
-}
+// .LateralNavbar:hover{
+//     .menu{
+//         li{
+//             p{
+//                 display: block;
+//             }
+//         }
+//     }
+// }

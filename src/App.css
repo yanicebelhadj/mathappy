@@ -24,7 +24,15 @@ body{
     --selagoBlue: #F6F8FE;
 }
 
-h1,h2,h3,p,a,input{
+.container{
+    padding: 105px 2.5rem 0 88px;
+}
+
+.container-menuOpen{
+    padding: 105px 2.5rem 0 210px;
+}
+
+h1,h2,h3,p,a,input,label{
     margin: 0;
     font-family: "Inter";
     letter-spacing: 0em;
@@ -227,6 +235,21 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
 }
 
 .highlighth1{

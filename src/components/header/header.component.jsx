@@ -1,21 +1,30 @@
 import React from "react"
-import { Link, useLocation } from "react-router-dom";
 import RegisteredCourses from "../registered-course/registered-courses.component"
 
 import SearchBox from "../search-box/search-box.component"
+import Logo from "../../icons/Logo.svg"
+import BurgerMenu from "../../icons/BurgerMenu.svg"
 
 import "./header.styles.css"
+import { useDispatch } from "react-redux"
+import { toggleMenu } from "../../store/redux"
+import { Link } from "react-router-dom"
 
+import { signOutUser } from "../../utils/firebase/firebase.utils"
 
-function Header(props){
-    
-    const location = useLocation();
-    const namePage = location.pathname.split("/");
+function Header(){    
+    const dispatch = useDispatch();
 
     return(
-        <header className={`${namePage[1] === "" ? "active" :""} ${props.visible ? "visible-forced" : ""} ${namePage[2] === "Le-cours" || namePage[2] === "MethodMath" || namePage[2] === "Exercices" || namePage[2] === "La-fiche" ? "little-header" : ""}`} >
-            <p className={`message-homePage highlighth1 p-l-bold ${namePage[1] === "" ? "active" :""}`}>Salut Abdourrahmane</p>
+        <header className="row justify-between">
+            <div className="row">
+                <img id="burger" src={BurgerMenu} alt="BurgerMenu" onClick={() => dispatch(toggleMenu())} /> 
+                <Link to="/">
+                    <img id="logo" src={Logo} alt="Logo" />
+                </Link>
+            </div>
             <SearchBox placeholder="Recherche un cours ..."/>
+            <div onClick={signOutUser}>Deconnecter</div>
             <RegisteredCourses />
         </header>
     )

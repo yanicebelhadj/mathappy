@@ -1,27 +1,19 @@
 .LateralNavbar {
   position: fixed;
+  margin-top: 73px;
   z-index: 2;
-  height: 100vw;
-  padding: 1.5rem 8px;
-  background-color: var(--selagoBlue);
-}
-.LateralNavbar .Logo {
-  filter: drop-shadow(-4px -4px 15px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
+  width: fit-content;
+  height: calc(100vw - 82px);
+  padding: 12px;
 }
 .LateralNavbar .non-active {
   display: none !important;
 }
-.LateralNavbar .logo.non-active {
-  display: none;
-}
-.LateralNavbar .logo.active {
+.LateralNavbar .menuOpen {
   display: block;
 }
-.LateralNavbar .logo-large.non-active {
+.LateralNavbar .menuClosed {
   display: none;
-}
-.LateralNavbar .logo-large.active {
-  display: block;
 }
 .LateralNavbar .categories {
   margin-top: 80px;
@@ -56,7 +48,6 @@
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
-  color: var(--deepSapphire);
 }
 .LateralNavbar .categories li a .icon {
   display: flex;
@@ -68,9 +59,6 @@
 .LateralNavbar .categories li:hover {
   cursor: pointer;
 }
-.LateralNavbar .menu {
-  margin-top: 2.5rem;
-}
 .LateralNavbar .menu li {
   border-radius: 10px;
 }
@@ -79,11 +67,7 @@
   align-items: center;
   overflow: hidden;
   gap: 1rem;
-  padding: 10px 16px;
-}
-.LateralNavbar .menu li a p {
-  color: var(--scorpion);
-  display: none;
+  padding: 8px 12px;
 }
 .LateralNavbar .menu li:hover {
   cursor: pointer;
@@ -94,14 +78,6 @@
 }
 .LateralNavbar .menu li:hover p {
   color: var(--deepSapphire);
-}
-
-.LateralNavbar:hover .menu li p {
-  display: block;
-}
-
-.large-lateral-navbar {
-  padding: 1.5rem 1rem;
 }
 
 /*# sourceMappingURL=LateralNavbar.css.map */

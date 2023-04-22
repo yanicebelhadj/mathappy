@@ -16,15 +16,15 @@ function Search() {
           x2="12.4123"
           y2="12.6159"
           stroke="#4593FE"
-          stroke-width="1.5"
-          stroke-linecap="round"
+          strokeWidth="1.5"
+          strokeinecap="round"
         />
         <circle
           cx="7"
           cy="7.66602"
           r="6.25"
           stroke="#4593FE"
-          stroke-width="1.5"
+          strokeWidth="1.5"
         />
       </svg>
     </div>

@@ -10,10 +10,25 @@ import { useDispatch } from "react-redux"
 import { toggleMenu } from "../../store/redux"
 import { Link } from "react-router-dom"
 
-import { signOutUser } from "../../utils/firebase/firebase.utils"
+import {signOut} from "firebase/auth"
+import { useNavigate } from 'react-router-dom'
+import {auth} from "../../firebase-config"
 
-function Header(){    
+// import { signOutUser } from "../../utils/firebase/firebase.utils"
+
+function Header(){   
+
+    const navigate = useNavigate()
+
     const dispatch = useDispatch();
+    const logOut = async () => {
+        try {
+          await signOut(auth)
+          navigate("/math")
+        } catch {
+          alert("For some reasons we can't deconnect, please check your internet connexion and retry.")
+        }
+      }
 
     return(
         <header className="row justify-between">
@@ -24,7 +39,7 @@ function Header(){
                 </Link>
             </div>
             <SearchBox placeholder="Recherche un cours ..."/>
-            <div onClick={signOutUser}>Deconnecter</div>
+            <button onClick={logOut}>Deconnecter</button>
             <RegisteredCourses />
         </header>
     )

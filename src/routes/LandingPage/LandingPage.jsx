@@ -1,13 +1,5 @@
 import { Link } from "react-router-dom"
-import { useState, useEffect } from "react"
-import { getRedirectResult } from "firebase/auth"
-
-import { 
-    auth,
-    signInWithGooglePopup, 
-    signInWithGoogleRedirect,
-    createUserDocumentFromAuth 
-} from "../../utils/firebase/firebase.utils"
+import { useState } from "react"
 
 import mainSection from "../../media/mainSection.png"
 import pilierReussite from "../../media/pilierReussite.png"
@@ -21,20 +13,9 @@ import LogoFooter from "../../icons/LogoFooter"
 import Instagram from "../../icons/Instagram"
 import Youtube from "../../icons/Youtube"
 import Tiktok from "../../icons/Tiktok"
-import facebook from "../../icons/facebook.png"
-import google from "../../icons/google.png"
-import apple from "../../icons/apple.png"
+
 
 const LandingPage = () => {
-    useEffect(() => {
-        async function fetchData() {
-            const response = await getRedirectResult(auth);
-            if (response) {
-                const userDocRef = createUserDocumentFromAuth(response.user);
-            }
-        }
-        fetchData()
-    }, []);
 
     const [modal, setModal] = useState(false)
 
@@ -56,7 +37,6 @@ const LandingPage = () => {
 
             {
                 modal &&
-
                 <div className="modal">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -65,10 +45,7 @@ const LandingPage = () => {
                         </div>
                         <p className="h2-m-medium">Excelle en mathématiques</p>
                         <div className="modal-body">
-                                <button className="p-m-regular facebook"><img src={facebook} alt="facebook"/>Se connecter avec Facebook</button>
-                                <button onClick={signInWithGoogleRedirect} className="p-m-regular google"><img src={google} alt="google"/>Se connecter avec Google</button>
-                                <button className="p-m-regular apple"><img src={apple} alt="apple"/>Se connecter avec Apple</button>
-                                <button className="p-m-medium email"><Link to="/SignIn">Se connecter avec Email</Link></button>
+                            <button className="p-m-medium email"><Link to="/SignIn">Se connecter avec Email</Link></button>
                         </div>
                         <div className="sign-up">
                             <p>Nouvel utilisateur ?</p> 

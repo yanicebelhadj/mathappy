@@ -1,77 +1,60 @@
 import { Link } from "react-router-dom"
-import { signInWithGoogleRedirect, signInAuthUserWithEmailAndPassword, auth } from "../../utils/firebase/firebase.utils"
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { useState } from "react"
+// import { signInWithGoogleRedirect, signInAuthUserWithEmailAndPassword, auth } from "../../utils/firebase/firebase.utils"
+// import { useAuthState } from 'react-firebase-hooks/auth';
+// import { useEffect, useState } from "react"
 
-import facebook from "../../icons/facebook_blue.png"
-import google from "../../icons/google.png"
+import React, { useContext, useRef, useState } from "react";
+import { UserContext } from "../../context/userContext";
+
+import { useNavigate } from "react-router-dom";
+
 import satellite from "../../media/modal.png"
 
 import "./SignIn.styles.css"
 
-const defaultFormFields = {
-    email: "",
-    password: ""
-}
-
 const SignIn = () => {
-    const [formFields, setFormFields] = useState(defaultFormFields);
-    const { email, password } = formFields;
-    const [user, loading] = useAuthState(auth);
-    console.log("user", user)
-    console.log("loading", loading)
+    const { signIn } = useContext(UserContext);
 
-    const handleChange = (event) => {
-        const { name, value } = event.target;
-        setFormFields({ ...formFields, [name]: value });
-    }
+    const navigate = useNavigate();
+  
+    const [validation, setValidation] = useState("");
+  
+    const inputs = useRef([]);
+    const addInputs = (el) => {
+      if (el && !inputs.current.includes(el)) {
+        inputs.current.push(el);
+      }
+    };
+    const formRef = useRef();
+  
+    const handleForm = async (e) => {
+      e.preventDefault();
 
-    const SignInWithGoogle = async () => {
-        await signInWithGoogleRedirect();
-    }
+      try {
+        await signIn(
+          inputs.current[0].value,
+          inputs.current[1].value
+        );
 
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        try {
-            await signInAuthUserWithEmailAndPassword(email, password);
-            setFormFields(defaultFormFields);
-        } catch (error) {
-            switch(error.code) {
-                case 'auth/wrong-password':
-                    alert("Mot de passe incorrect");
-                    break;
-                case 'auth/user-not-found':
-                    alert("Utilisateur non trouvé");
-                    break;
-                default:
-                    console.error(error)
-            }
+        setValidation("");
 
-        }
-    }
-
-    if (user && !loading){
-        window.location.href = '/'; // Redirection vers la page de connexion
-    }
+        navigate("/");
+      } catch {
+        setValidation("Wopsy, email and/or password incorrect")
+      }
+    };
 
     return(
         <div className="sign-in-form">
             <img src={satellite} alt="logo" />
             <h1>Connexion</h1>
-            <div className="social-login">
-                <button className="p-m-regular facebook"><img src={facebook} alt="facebook"/></button>
-                <button onClick={SignInWithGoogle} className="p-m-regular google"><img src={google} alt="google"/></button>
-            </div>
-            <div className="separator">
-                <div className="line"></div>
-                <p className="p-m-regular">OU</p>
-                <div className="line"></div>
-            </div>
-            <form onSubmit={handleSubmit}>
-                <input required type="email" placeholder="Adresse e-mail" className="p-m-regular" onChange={handleChange} name="email" value={email}/>
-                <input required type="password" placeholder="Mot de passe" className="p-m-regular" onChange={handleChange} name="password" value={password}/>
-
-                <button type="submit" className="p-s-bold connexion-button">Se connecter</button>
+            <form ref={formRef} onSubmit={handleForm}>
+                <input required type="email" placeholder="Adresse e-mail" className="p-m-regular" ref={addInputs} name="email" />
+                <input required type="password" placeholder="Mot de passe" className="p-m-regular" ref={addInputs} name="password" />
+                <p className="p-m-regular">{validation}</p>
+                <button type="submit" className="connexion-button">
+                    <p className="p-s-bold">Se connecter</p> 
+                </button>
             </form>
             <Link to="/" className="p-m-regular">Mot de passe oublié</Link>
             <div className="new-user">

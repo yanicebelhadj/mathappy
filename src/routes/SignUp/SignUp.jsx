@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom"
-import { useState } from "react"
-import { signInWithGoogleRedirect } from "../../utils/firebase/firebase.utils"
-import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth } from "../../utils/firebase/firebase.utils"
+
+import React, { useContext, useRef, useState, useEffect } from "react";
+import { UserContext } from "../../context/userContext";
+import { useNavigate } from "react-router-dom";
+
+import { createUserDocumentFromAuth } from "../../firebase-config"
 
 import Inscription from "../../media/Inscription.png"
 import sixieme from "../../media/sixieme.png"
@@ -10,8 +13,6 @@ import quatrieme from "../../media/quatrieme.png"
 import troisieme from "../../media/troisieme.png"
 import lastStep from "../../media/lastStep.png"
 
-import google from "../../icons/google.png"
-import facebook from "../../icons/facebook_blue.png"
 import arrowLeft from "../../icons/arrowLeft.svg"
 
 import "./SignUp.styles.css"
@@ -41,32 +42,98 @@ const SignUp = () => {
     }
 
 
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        if (password !== confirmPassword) {
-            alert("passwords don't match");
-            return;
-        }
+    // const handleSubmit = async (event) => {
+    //     event.preventDefault();
+    //     if (password !== confirmPassword) {
+    //         alert("passwords don't match");
+    //         return;
+    //     }
 
-        try {
-            const { user }  = await createAuthUserWithEmailAndPassword(
-                email,
-                password
-            );
-            await createUserDocumentFromAuth(user, { name, surname, phoneNumber, level })
-            setFormFields(defaultFormFields);
+    //     try {
+    //         const { user }  = await createAuthUserWithEmailAndPassword(
+    //             email,
+    //             password
+    //         );
+    //         await createUserDocumentFromAuth(user, { name, surname, phoneNumber, level })
+    //         setFormFields(defaultFormFields);
             
-            window.location.href = '/SignIn'; // Redirection vers la page de connexion
 
-        } catch (error) {
-            if(error.code === 'auth/email-already-in-use') {
-                alert('Email already in use');
-            }else{
-                console.error(error);
-            }
+    //     } catch (error) {
+    //         if(error.code === 'auth/email-already-in-use') {
+    //             alert('Email already in use');
+    //         }else{
+    //             console.error(error);
+    //         }
+    //     }
+    // }
+
+    /////////////////////////// VALIDATION EMAIL ///////////////////////////
+
+    const { signUp } = useContext(UserContext);
+
+    const navigate = useNavigate();
+    
+    const [validation, setValidation] = useState("");
+  
+    const inputs = useRef([])
+    const addInputs = el => {
+      if(el && !inputs.current.includes(el)){
+        inputs.current.push(el)
+      }
+    }  
+    const formRef = useRef();
+  
+    const handleForm = async (e) => {
+      e.preventDefault()
+  
+      if((password.length || confirmPassword.length) < 6) {
+        setValidation("6 characters min")
+        return;
+      }
+      else if(password !== confirmPassword) {
+        setValidation("Passwords do not match")
+        return;
+      }
+  
+      try {
+  
+        const { user } = await signUp( email, password )
+        await createUserDocumentFromAuth(user, { name, surname, phoneNumber, level })
+
+        setValidation("")
+        navigate("/SignIn")
+  
+      } catch (err) {
+  
+        if(err.code === "auth/invalid-email") {
+          setValidation("Email format invalid")
         }
+        
+        if(err.code === "auth/email-already-in-use") {
+          setValidation("Email already used")
+        }
+   
+      }
+  
     }
 
+    /////////////////////////// VALIDATION EMAIL ///////////////////////////
+
+    const validEmail = (email) => {
+        if(email.length > 0 && (typeof(email) === "string" && email.includes("@")) ){
+            return true
+        }
+        return false
+    }
+
+    const [message, setMessage] = useState(false);
+
+    const [levelValue, setLevelValue] = useState(null);
+
+    useEffect(() => {
+        console.log(formFields)
+    }, [formFields])
+    
     return(
         <div className="sign-up-form">
 
@@ -76,17 +143,16 @@ const SignUp = () => {
                     <img src={Inscription} alt="inscription" />
                     <div className="text-area">
                         <h1>Crée un compte pour apprendre</h1>
-                        <div className="social-login">
-                            <button className="p-m-regular facebook"><img src={facebook} alt="facebook"/>Joindre avec Facebook</button>
-                            <button onClick={signInWithGoogleRedirect} className="p-m-regular google"><img src={google} alt="google"/>Joindre avec Google</button>
-                        </div>
+
                         <div className="separator">
                             <div className="line"></div>
-                            <p className="p-m-regular">OU</p>
-                            <div className="line"></div>
                         </div>
-                        <input required type="email" placeholder="Adresse e-mail" className="p-m-regular" onChange={handleChange} name="email" value={email} />
-                        <button className="p-s-bold form-button" onClick={() => setPhase(1)}>S'inscrire</button>
+                        <input required ref={addInputs} type="email" placeholder="Adresse e-mail" className="p-m-regular" onChange={handleChange} name="email" value={email} />
+
+                        { message && <p>Format mail incorrect</p> }
+
+                        <button className="p-s-bold form-button" onClick={() =>{ validEmail(email) ? setPhase(1) : setMessage(true) }}>S'inscrire</button>
+                        
                         <p className="p-m-regular use-conditions">
                             En cliquant sur s’inscrire j’accepte les <Link>conditions d’utilisation</Link> et <Link>politique de confidentialité</Link> de Mathappy
                         </p>
@@ -109,53 +175,77 @@ const SignUp = () => {
                             <div className="progress-bar" style={{width:`${((subPhase+1)/3)*100}%`}}></div>
                         </div>
                     </div>
-                    <form onSubmit={handleSubmit}>
+                    <form ref={formRef} onSubmit={handleForm}>
                         {
                             subPhase === 0 &&
                             <section id="phase-1-1">
                                 <div className="information">
                                     <label>Prénom</label>
-                                    <input required type="text" placeholder="Mireille" className="p-m-regular" onChange={handleChange} name="name" value={name} />
+                                    <input required ref={addInputs} type="text" placeholder="Mireille" className="p-m-regular" onChange={handleChange} name="name" value={name} />
                                 </div>
                                 <div className="information">
                                     <label>Nom</label>
-                                    <input required type="text" placeholder="Dupont" className="p-m-regular" onChange={handleChange} name="surname" value={surname} />
+                                    <input required ref={addInputs} type="text" placeholder="Dupont" className="p-m-regular" onChange={handleChange} name="surname" value={surname} />
                                 </div>
                                 <div className="information">
                                     <label>Mot de passe</label>
-                                    <input required type="password" placeholder="Mot de passe" className="p-m-regular" onChange={handleChange} name="password" value={password} />
+                                    <input required ref={addInputs} type="password" placeholder="Mot de passe" className="p-m-regular" onChange={handleChange} name="password" value={password} />
                                 </div>
                                 <div className="information">
                                     <label>Confirmation mot de passe</label>
-                                    <input required type="password" placeholder="Mot de passe" className="p-m-regular" onChange={handleChange} name="confirmPassword" value={confirmPassword}/>
+                                    <input required ref={addInputs} type="password" placeholder="Mot de passe" className="p-m-regular" onChange={handleChange} name="confirmPassword" value={confirmPassword}/>
                                 </div>
                                 <div className="information">
                                     <label>Téléphone</label>
-                                    <input required type="phone" placeholder="06 00 00 00 00" className="p-m-regular" onChange={handleChange} name="phoneNumber" value={phoneNumber} />
+                                    <input required ref={addInputs} type="phone" placeholder="06 00 00 00 00" className="p-m-regular" onChange={handleChange} name="phoneNumber" value={phoneNumber} />
                                 </div>
 
-                                <div className="form-button button-under-input" onClick={()=>setSubPhase(1)}><p className="p-s-bold">Continuer</p></div>
+                                <div 
+                                    className="form-button button-under-input" 
+                                    onClick={()=>{
+                                        name && surname && password && confirmPassword && phoneNumber ? setSubPhase(1) : alert("Veuillez remplir tous les champs")
+                                    }}
+                                ><p className="p-s-bold">Continuer</p></div>
                             </section>
                         }
                         {                            
                             subPhase === 1 &&
                             <section id="phase-1-2">
-                                <div className="level">
+                                <div 
+                                    className={`level ${levelValue === 6 ? "active" : ""}`} 
+                                    onClick={() =>{
+                                        setLevelValue(6);
+                                        setFormFields({ ...formFields, level: 6 }); 
+                                    }}
+                                >
                                     <img src={sixieme} alt="sixieme"/>
                                     <p className="p-m-regular">6ème</p>
                                 </div>
-                                <div className="level">
+                                <div 
+                                    className={`level ${levelValue === 5 ? "active" : ""}`} 
+                                    onClick={() => {
+                                        setLevelValue(5);
+                                        setFormFields({ ...formFields, level: 5 })
+                                    }}
+                                >
                                     <img src={cinquieme} alt="cinquieme"/>
                                     <p className="p-m-regular">5ème</p>
                                 </div>
-                                <div className="level">
+                                <div 
+                                    className={`level ${levelValue === 4 ? "active" : ""}`} 
+                                    onClick={() => {setLevelValue(4); setFormFields({ ...formFields, level: 4 })
+                                    }}
+                                >
                                     <img src={quatrieme} alt="quatrieme"/>
                                     <p className="p-m-regular">4ème</p>
                                 </div>
-                                <div className="level">
+                                <div 
+                                    className = {`level ${levelValue === 3 ? "active" : ""}`} 
+                                    onClick = {() => { setLevelValue(3); setFormFields({ ...formFields, level: 3 })}}>
                                     <img src={troisieme} alt="troisieme"/>
                                     <p className="p-m-regular">3ème</p>
                                 </div>
+                                <p className="p-m-regular">{validation}</p>
                                 <div className="form-button button-under-input" onClick={()=>setSubPhase(2)}><p className="p-s-bold">Continuer</p></div>
                             </section>
                         }

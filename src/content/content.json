@@ -1,0 +1,134 @@
+[
+    {
+        "id": "6A1",
+        "niveau": 6,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 1,
+        "nomChapitre": "Nombre entier et décimaux",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-entiers-et-decimaux",
+        "competences": [
+            {
+                "id": "6A1A",
+                "nom":"Les nombres entiers",
+                "contenu":"/content/cours/6A1A-lesNombresEntiers.svg",
+                "slug": "les-nombres-entiers",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A1B",
+                "nom":"Les nombres décimaux",
+                "contenu":"/content/cours/6A1B-lesNombresDecimaux.svg",
+                "slug": "les-nombres-decimaux",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A1C",
+                "nom":"Repérage sur une demi-droite graduée",
+                "contenu": "/content/cours/6A1C-reperageSurUneDemiDroiteGraduee.svg",
+                "slug": "reperage-sur-une-demi-droite-graduee",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A1D",
+                "nom":"Comparer, ranger, encadrer, intercaler des nombres décimaux",
+                "contenu":"/content/cours/6A1D-comparerRangerEncadrerIntercalerDesNombresDecimaux.svg",
+                "slug": "comparer-ranger-encadrer-intercaler-des-nombres-decimaux",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A1E",
+                "nom":"Valeurs approchées",
+                "contenu":"/content/cours/6A1E-valeursApprochees.svg",
+                "slug": "valeurs-approchees",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6A2",
+        "niveau": 6,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 2,
+        "nomChapitre": "Division euclidienne, divisibilité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "division-euclidienne-divisibilite",
+        "competences": [
+            {
+                "id": "6A2A",
+                "nom":"Multiples et diviseurs",
+                "contenu":"/content/cours/6A2A-multiplesEtDiviseurs.svg",
+                "slug": "multiples-et-diviseurs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A2B",
+                "nom":"Effectuer une division euclidienne",
+                "contenu":"/content/cours/6A2B-effectuerUneDivisionEuclidienne.svg",
+                "slug": "effectuer-une-division-euclidienne",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A2C",
+                "nom":"Critères de divisibilité",
+                "contenu": "/content/cours/6A2C-criteresDeDivisibilite.svg",
+                "slug": "criteres-de-divisibilite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A2D",
+                "nom":"Division décimale",
+                "contenu":"/content/cours/6A2D-divisionDecimale.svg",
+                "slug": "division-decimale",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    }
+]

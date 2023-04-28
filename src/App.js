@@ -9,6 +9,7 @@ import MethodMath from './routes/MethodMath/MethodMath';
 import CoursePage from './routes/CoursePage/CoursePage';
 import ExercicesPage from './routes/ExercicesPage';
 import LandingPage from './routes/LandingPage/LandingPage';
+import CompetencesPage from './routes/CompetencesPage/CompetencesPage';
 
 import { Provider } from "react-redux";
 import { store } from "./store/redux";
@@ -30,10 +31,11 @@ function App() {
               <Route index element={<DashBoard />} />
               <Route path='/SearchPage' exact element={<SearchPage />} />
               <Route path="/:id" element={<CoursePresentationPage />} />
-              <Route path='/:id/La-fiche' element={<FichePage />} />
-              <Route path='/:id/MethodMath' element={<MethodMath />} />
-              <Route path='/:id/Le-cours' element={<CoursePage />} />
-              <Route path='/:id/Exercices' element={<ExercicesPage />} />
+              <Route path='/La-fiche/:id' element={<FichePage />} />
+              <Route path='/MethodMath/:id' element={<MethodMath />} />
+              <Route path='/maths/:id' element={<CompetencesPage />} />
+              <Route path='/Exercices/:id' element={<ExercicesPage />} />
+              <Route path='/le-cours/:id' element={<CoursePage />} />
             </Route>
           </Routes>
         </Router>

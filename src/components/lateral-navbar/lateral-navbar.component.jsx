@@ -35,7 +35,7 @@ function LateralNavbar() {
         }`
       }>
         <li>
-          <Link className="p-l-semi-bold" to={`/${namePage[1]}/Le-cours`}>
+          <Link className="p-l-semi-bold" to={`/Le-cours/${namePage[1]}`}>
             <Cours />
             <p className= {`p-s-medium ${menu ? "menuOpen" : "menuClosed"} `}>Cours</p>
           </Link>

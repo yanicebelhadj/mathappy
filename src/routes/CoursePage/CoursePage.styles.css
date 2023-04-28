@@ -4,6 +4,9 @@
 .course-page h1 {
   color: var(--deepSapphire);
 }
+.course-page .cours {
+  margin: 2rem 0 7rem;
+}
 .course-page h2 {
   color: var(--deepSapphire);
   margin: 2rem 0 1rem;

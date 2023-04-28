@@ -1,27 +1,23 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import Location from '../../icons/Location';
 import Duration from '../../icons/Duration';
 import Niveau from '../../icons/Niveau';
 
 import "./competence.styles.css"
-import Rate from '../rate/rate.component';
 
 function Competence(props) {
-    const { id, competenceName, nomCategorie, descriptionCompetence, avis, niveau, localisation, duree, iconCompetence } = props
+    const { id, competenceName, nomTheme, description, niveau, iconCompetence } = props
     return(
-        <Link to={`/${props.slug}`} className='competence' key={id}>
+        <Link to={`/${props.id + "-" + props.slug}`} className='competence' key={id}>
             <img src={`${iconCompetence}`} alt="Nombres et calculs" />
             <div className='TextArea'>
                 <p className='title p-s-semi-bold'>{competenceName}</p>
-                {nomCategorie && <p className='category p-s-medium'>{nomCategorie}</p>}
-                {descriptionCompetence && <p className='description p-s-medium'>{descriptionCompetence.substr(0,110) + " ..."}</p>}
-                {avis && <Rate />}
+                {description && <p className='description p-s-medium'>{description.substr(0,110) + " ..."}</p>}
                 <div className='Details'>
                     <div className='Detail'>
                         <Duration />
-                        <p>{duree}</p>
+                        <p>{nomTheme}</p>
                     </div>
                     {
                         niveau &&
@@ -29,17 +25,11 @@ function Competence(props) {
                             <p>•</p>
                             <div className='Detail'>
                                 <Niveau />
-                                <p>{niveau}</p>
+                                <p>{niveau}eme</p>
                             </div>
                         </>
 
                     }
-                    <p>•</p>
-                    <div className='Detail'>
-                        <Location />
-                        <p>{localisation}</p>
-                    </div>
-
                 </div>
             </div>
         </Link>

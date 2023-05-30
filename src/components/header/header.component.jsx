@@ -4,6 +4,8 @@ import RegisteredCourses from "../registered-course/registered-courses.component
 import SearchBox from "../search-box/search-box.component"
 import Logo from "../../icons/Logo.svg"
 import BurgerMenu from "../../icons/BurgerMenu.svg"
+import logout from "../../icons/logout.svg"
+import avatar from "../../media/ninjaH.svg"
 
 import "./header.styles.css"
 import { useDispatch } from "react-redux"
@@ -33,14 +35,23 @@ function Header(){
     return(
         <header className="row justify-between">
             <div className="row">
-                <img id="burger" src={BurgerMenu} alt="BurgerMenu" onClick={() => dispatch(toggleMenu())} /> 
-                <Link to="/">
-                    <img id="logo" src={Logo} alt="Logo" />
-                </Link>
+              <img id="burger" src={BurgerMenu} alt="BurgerMenu" onClick={() => dispatch(toggleMenu())} /> 
+              <Link to="/">
+                  <img id="logo" src={Logo} alt="Logo" />
+              </Link>
             </div>
             <SearchBox placeholder="Recherche un cours ..."/>
-            <button onClick={logOut}>Deconnecter</button>
-            <RegisteredCourses />
+
+            <div className="header-right-part">
+              <RegisteredCourses />
+              <div className="user-information">
+                <img className="avatar" src={avatar} alt="user" />
+                <p className="p-s-semi-bold">Yanice Belhadj</p>
+                <div onClick={logOut}>
+                  <img className="logout" src={logout} alt="logout" />
+                </div>
+              </div>
+            </div>
         </header>
     )
 }

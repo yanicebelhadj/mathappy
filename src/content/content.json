@@ -130,5 +130,2796 @@
                 "methode": null
             }
         ]
+    },
+    {
+        "id": "6A3",
+        "niveau": 6,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 3,
+        "nomChapitre": "Opérations",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "operations",
+        "competences": [
+            {
+                "id": "6A3A",
+                "nom":"Opérations sur les nombres entiers",
+                "contenu":"/content/cours/6A3A-operationsSurLesNombresEntiers.svg",
+                "slug": "operations-sur-les-nombres-entiers",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A3B",
+                "nom":"Multiplier et diviser par un multiple de 10",
+                "contenu":"/content/cours/6A3B-multiplierEtDiviserParMultipleDe10.svg",
+                "slug": "multiplier-et-diviser-par-un-multiple-de-10",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A3C",
+                "nom":"Additionner et soustraire des nombres décimaux",
+                "contenu": "/content/cours/6A3C-additionnerSoustraireDesNombresDecimaux.svg",
+                "slug": "additionner-et-soustraire-des-nombres-decimaux",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A3D",
+                "nom":"Multiplier par un nombre décimal",
+                "contenu":"/content/cours/6A3D-multiplierParUnNombreDecimal.svg",
+                "slug": "multiplier-par-un-nombre-decimal",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A3E",
+                "nom":"Diviser un nombre décimal par un nombre entier",
+                "contenu":"/content/cours/6A3E-diviserUnNombreDecimalParUnNombreEntier.svg",
+                "slug": "diviser-un-nombre-decimal-par-un-nombre-entier",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A3F",
+                "nom":"Multiplier par un nombre décimal",
+                "contenu":"/content/cours/6A3F-ordreDeGrandeur.svg",
+                "slug": "ordre-de-grandeur",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A3G",
+                "nom":"Résoudre un problème",
+                "contenu":"/content/cours/6A3G-resoudreUnProbleme.svg",
+                "slug": "resoudre-un-probleme",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6A4",
+        "niveau": 6,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 4,
+        "nomChapitre": "Fractions, écritures fractionnaires",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "fractions-ecritures-fractionnaires",
+        "competences": [
+            {
+                "id": "6A4A",
+                "nom":"Fraction partage",
+                "contenu":"/content/cours/6A4A-fractionPartage.svg",
+                "slug": "fraction-partage",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A4B",
+                "nom":"Notion de quotient",
+                "contenu":"/content/cours/6A4B-notionDeQuotient.svg",
+                "slug": "notion-de-quotient",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A4C",
+                "nom":"Valeur d'une fraction",
+                "contenu": "/content/cours/6A4C-valeurDUneFraction.svg",
+                "slug": "valeur-d-une-fraction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A4D",
+                "nom": "Écritures fractionnaires égales",
+                "contenu":"/content/cours/6A4D-ecrituresFractionnairesEgales.svg",
+                "slug": "ecritures-fractionnaires-egales",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A4E",
+                "nom":"Prendre une proportion : multiplier un nombre par une fraction",
+                "contenu":"/content/cours/6A4E-prendreUneProportionMultiplierUnNombreParUneFraction.svg",
+                "slug": "6A4E-prendre-une-proportion-multiplier-un-nombre-par-une-fraction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6A4F",
+                "nom":"Prendre un pourcentage",
+                "contenu":"/content/cours/6A4F-prendreUnPourcentage.svg",
+                "slug": "6A4F-prendre-un-pourcentage",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6B1",
+        "niveau": 6,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 1,
+        "nomChapitre": "Bases de la géométrie plane",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "bases-de-la-geometrie-plane",
+        "competences": [
+            {
+                "id": "6B1A",
+                "nom":"Point, droite, demi-droite et segment",
+                "contenu":"/content/cours/6B1A-pointDroiteDemiDroiteEtSegment.svg",
+                "slug": "point-droite-demi-droite-et-segment",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6B1B",
+                "nom":"Points alignement, appartenance, intersection",
+                "contenu":"/content/cours/6B1B-pointsAlignementAppartenanceIntersection.svg",
+                "slug": "points-alignement-appartenance-intersection",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6B1C",
+                "nom":"Longueur d'un segment, milieu",
+                "contenu": "/content/cours/6B1C-longueurDUnSegmentMilieu.svg",
+                "slug": "longueur-d-un-segment-milieu",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6B1D",
+                "nom": "Cercle",
+                "contenu":"/content/cours/6B1D-cercle.svg",
+                "slug": "cercle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6B1E",
+                "nom":"Angle",
+                "contenu":"/content/cours/6B1E-angle.svg",
+                "slug": "angle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6B2",
+        "niveau": 6,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 2,
+        "nomChapitre": "Parallèles et perpendiculaires",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "paralleles-et-perpendiculaires",
+        "competences": [
+            {
+                "id": "6B2A",
+                "nom":"Position relative de deux droites",
+                "contenu":"/content/cours/6B2A-positionRelativeDeDeuxDroites.svg",
+                "slug": "position-relative-de-deux-droites",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6B2B",
+                "nom":"Propriétés de la position relative de deux droites",
+                "contenu":"/content/cours/6B2B-proprietesPositionRelativeDroites.svg",
+                "slug": "proprietes-position-relative-droites",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6B3",
+        "niveau": 6,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 3,
+        "nomChapitre": "Polygones",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "polygones",
+        "competences": [
+            {
+                "id": "6B3A",
+                "nom":"Polygones",
+                "contenu":"/content/cours/6B3A-polygones.svg",
+                "slug": "polygones",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6B4",
+        "niveau": 6,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 4,
+        "nomChapitre": "Symétrie axiale",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "symetrie-axiale",
+        "competences": [
+            {
+                "id": "6B4A",
+                "nom":"Notion de symétrie axiale",
+                "contenu":"/content/cours/6B4A-notionSymetrieAxiale.svg",
+                "slug": "notion-symetrie-axiale",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },    
+            {
+                "id": "6B4B",
+                "nom":"Propriétés de la symétrie axiale",
+                "contenu":"/content/cours/6B4B-proprietesDeLaSymetrieAxiale.svg",
+                "slug": "proprietes-symetrie-axiale",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                }
+            },    
+            {
+                "id": "6B4C",
+                "nom":"Axes de symétrie et figures usuelles",
+                "contenu":"/content/cours/6B4C-axesDeSymetrieEtFiguresUsuelles.svg",
+                "slug": "axes-de-symetrie-et-figures-usuelles",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "6B5",
+        "niveau": 6,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 5,
+        "nomChapitre": "Médiatrice, bissectrice",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "mediatrice-bissectrice",
+        "competences": [
+            {
+                "id": "6B5A",
+                "nom":"Médiatrice",
+                "contenu":"/content/cours/6B5A-mediatrice.svg",
+                "slug": "mediatrice",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },    
+            {
+                "id": "6B5B",
+                "nom":"Bissectrice",
+                "contenu":"/content/cours/6B5B-bissectrice.svg",
+                "slug": "bissectrice",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "6B6",
+        "niveau": 6,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 6,
+        "nomChapitre": "Espace",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "espace",
+        "competences": [
+            {
+                "id": "6B6A",
+                "nom":"Vocabulaire de l'espace",
+                "contenu":"/content/cours/6B6A-vocabulaireEspace.svg",
+                "slug": "vocabulaire-espace",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },    
+            {
+                "id": "6B6B",
+                "nom":"Perspective cavalière",
+                "contenu":"/content/cours/6B6B-perspectiveCavaliere.svg",
+                "slug": "perspective-cavaliere",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                }
+            },    
+            {
+                "id": "6B6C",
+                "nom":"Patron",
+                "contenu":"/content/cours/6B6C-patron.svg",
+                "slug": "patron",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "6C1",
+        "niveau": 6,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 1,
+        "nomChapitre": "Proportionnalité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "proportionnalite",
+        "competences": [
+            {
+                "id": "6C1A",
+                "nom":"Reconnaitre une situation de proportionnalité",
+                "contenu":"/content/cours/6C1A-reconnaitreUneSituationDeProportionnalite.svg",
+                "slug": "reconnaitre-une-situation-de-proportionnalite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },    
+            {
+                "id": "6C1B",
+                "nom":"Calculs dans une situation de proportionnalité",
+                "contenu":"/content/cours/6C1B-calculsDansUneSituationDeProportionnalite.svg",
+                "slug": "calculs-dans-une-situation-de-proportionnalite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "6C2",
+        "niveau": 6,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 1,
+        "nomChapitre": "Tableaux, diagrammes, graphiques",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "tableaux-diagrammes-graphiques",
+        "competences": [
+            {
+                "id": "6C2A",
+                "nom":"Lire et compléter un tableau",
+                "contenu":"/content/cours/6C2A-lireEtCompleterUnTableau.svg",
+                "slug": "lire-et-completer-un-tableau",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },    
+            {
+                "id": "6C2B",
+                "nom":"Lire ou construire un graphique, des diagrammes",
+                "contenu":"/content/cours/6C2B-lireOuConstruireUnGraphiqueDesDiagrammes.svg",
+                "slug": "lire-ou-construire-un-graphique-des-diagrammes",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                }
+            }
+        ]
+    },
+    {
+        "id": "6D1",
+        "niveau": 6,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 1,
+        "nomChapitre": "Durées",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "durees",
+        "competences": [
+            {
+                "id": "6D1A",
+                "nom":"Opérations sur les durées",
+                "contenu":"/content/cours/6D1A-operationsSurLesDurees.svg",
+                "slug": "operations-sur-les-durees",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6D2",
+        "niveau": 6,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 2,
+        "nomChapitre": "Angles",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "angles",
+        "competences": [
+            {
+                "id": "6D2A",
+                "nom":"Notion d'angle",
+                "contenu":"/content/cours/6D2A-notionDAngle.svg",
+                "slug": "notion-d-angle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6D2B",
+                "nom":"Nature d'un angle",
+                "contenu":"/content/cours/6D2B-natureDUnAngle.svg",
+                "slug": "nature-d-un-angle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "6D2C",
+                "nom":"Mesure ou construction d'un angle",
+                "contenu":"/content/cours/6D2C-mesureOuConstructionDUnAngle.svg",
+                "slug": "mesure-ou-construction-d-un-angle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6D3",
+        "niveau": 6,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 3,
+        "nomChapitre": "Périmètres",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "perimetres",
+        "competences": [
+            {
+                "id": "6D2A",
+                "nom":"Périmètre d'une figure",
+                "contenu":"/content/cours/6D3A-perimetreDUneFigure.svg",
+                "slug": "perimetre-d-une-figure",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6D4",
+        "niveau": 6,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 4,
+        "nomChapitre": "Aires",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "aires",
+        "competences": [
+            {
+                "id": "6D4A",
+                "nom":"Notion d'angle",
+                "contenu":"/content/cours/6D4A-aire.svg",
+                "slug": "aire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "6D5",
+        "niveau": 6,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 5,
+        "nomChapitre": "Volumes",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "volumes",
+        "competences": [
+            {
+                "id": "6D5A",
+                "nom":"Volumes",
+                "contenu":"/content/cours/6D2A-volumes.svg",
+                "slug": "volumes",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5A1",
+        "niveau": 5,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 1,
+        "nomChapitre": "Nombres décimaux",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-decimaux",
+        "competences": [
+            {
+                "id": "5A1A",
+                "nom":"Multiplier et diviser par un multiple de 10",
+                "contenu":"/content/cours/5A1A-multiplierEtDiviserParMultipleDe10.svg",
+                "slug": "multiplier-et-diviser-par-un-multiple-de-10",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A1B",
+                "nom":"Ordre de grandeur",
+                "contenu":"/content/cours/5A1B-ordreDeGrandeur.svg",
+                "slug": "ordre-de-grandeur",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A1C",
+                "nom":"Caculer une expression",
+                "contenu":"/content/cours/5A1C-calculerUneExpression.svg",
+                "slug": "calculer-une-expression",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A1D",
+                "nom":"Caculer une expression fractionnaire",
+                "contenu":"/content/cours/5A1D-calculerUneExpressionFractionnaire.svg",
+                "slug": "calculer-une-expression-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5A2",
+        "niveau": 5,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 2,
+        "nomChapitre": "Nombres relatifs, priorités opératoires",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombre-relatifs-priorites-operatoires",
+        "competences": [
+            {
+                "id": "5A2A",
+                "nom":"Définition des nombres relatifs",
+                "contenu":"/content/cours/5A2A-definitionDesNombresRelatifs.svg",
+                "slug": "definition-des-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A2B",
+                "nom":"Comparer des nombres relatifs",
+                "contenu":"/content/cours/5A2B-comparerDesNombresRelatifs.svg",
+                "slug": "comparer-des-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A2C",
+                "nom":"Additionner des nombres relatifs",
+                "contenu":"/content/cours/5A2C-additionnerDeuxNombresRelatifs.svg",
+                "slug": "additionner-des-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A2D",
+                "nom":"Soustraire des nombres relatifs",
+                "contenu":"/content/cours/5A2D-soustraireDeuxNombresRelatifs.svg",
+                "slug": "soustraire-deux-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A2E",
+                "nom":"Simplification d'écriture d'une somme",
+                "contenu":"/content/cours/5A2E-simplificationDEcritureDUneSomme.svg",
+                "slug": "simplification-d-ecriture-d-une-somme",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A2F",
+                "nom":"Priorité opératoire",
+                "contenu":"/content/cours/5A2F-prioriteOperatoire.svg",
+                "slug": "priorite-operatoire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5A3",
+        "niveau": 5,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 3,
+        "nomChapitre": "Nombres rationnels",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-rationnels",
+        "competences": [
+            {
+                "id": "5A3A",
+                "nom":"Determiner un quotient",
+                "contenu":"/content/cours/5A3A-determinerUnQuotient.svg",
+                "slug": "determiner-un-quotient",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A3B",
+                "nom":"Simplifier une écriture fractionnaire",
+                "contenu":"/content/cours/5A3B-simplifierUneEcritureFractionnaire.svg",
+                "slug": "simplifier-une-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A3C",
+                "nom":"Comparer deux écritures fractionnaires",
+                "contenu":"/content/cours/5A3C-comparerDeuxEcrituresFractionnaires.svg",
+                "slug": "comparer-deux-ecritures-fractionnaires",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A3D",
+                "nom":"Additionner des nombres en écriture fractionnaire",
+                "contenu":"/content/cours/5A3D-additionnerDesNombresEnEcritureFractionnaire.svg",
+                "slug": "additionner-des-nombres-en-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A3E",
+                "nom":"Multiplier des nombres en écriture fractionnaire",
+                "contenu":"/content/cours/5A3E-multiplierDesNombresEnEcritureFractionnaire.svg",
+                "slug": "multiplier-des-nombres-en-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5A4",
+        "niveau": 5,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 4,
+        "nomChapitre": "Nombres entiers",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-entiers",
+        "competences": [
+            {
+                "id": "5A4A",
+                "nom":"Critères de divisibilité",
+                "contenu":"/content/cours/5A4A-criteresDeDivisibilite.svg",
+                "slug": "criteres-de-divisibilite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A4B",
+                "nom":"Simplifier une écriture fractionnaire",
+                "contenu":"/content/cours/5A4B-divisionEuclidienne.svg",
+                "slug": "simplifier-une-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5A5",
+        "niveau": 5,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 5,
+        "nomChapitre": "Le rôle de la lettre et du signe égal",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "le-role-de-la-lettre-et-du-signe-egal",
+        "competences": [
+            {
+                "id": "5A5A",
+                "nom":"Exprimer en fonction de x",
+                "contenu":"/content/cours/5A5A-exprimerEnFonctionDeX.svg",
+                "slug": "exprimer-en-fonction-de-x",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A5B",
+                "nom":"Utiliser les conventions d'écriture",
+                "contenu":"/content/cours/5A5B-utliserLesConventionsDEcriture.svg",
+                "slug": "utiliser-les-conventions-d-ecriture",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A5C",
+                "nom":"Simplifier l'écriture d'une somme algébrique",
+                "contenu":"/content/cours/5A5C-simplifierLEcritureDUneSommeAlgebrique.svg",
+                "slug": "simplifier-l-ecriture-d-une-somme-algebrique",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A5D",
+                "nom":"Déterminer la valeur d'une expression",
+                "contenu":"/content/cours/5A5D-determinerLaValeurDUneExpression.svg",
+                "slug": "determiner-la-valeur-d-une-expression",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A5E",
+                "nom":"Tester une égalité ou une inégalité",
+                "contenu":"/content/cours/5A5E-testerUneEgaliteOuUneInegalite.svg",
+                "slug": "tester-une-egalite-ou-une-inegalite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5A6",
+        "niveau": 5,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 6,
+        "nomChapitre": "Calcul littéral",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "calcul-litteral",
+        "competences": [
+            {
+                "id": "5A6A",
+                "nom":"Développer une expression",
+                "contenu":"/content/cours/5A6A-developperUneExpression.svg",
+                "slug": "developper-une-expression",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5A6B",
+                "nom":"Factoriser une expression",
+                "contenu":"/content/cours/5A6B-factoriserUneExpression.svg",
+                "slug": "factoriser-une-expression",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5A7",
+        "niveau": 5,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 7,
+        "nomChapitre": "Équations, inéquations",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "equations-inequations",
+        "competences": [
+            {
+                "id": "5A7A",
+                "nom":"Résoudre une équation",
+                "contenu":"/content/cours/5A7A-resoudreUneEquation.svg",
+                "slug": "resoudre-une-equation",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5B1",
+        "niveau": 5,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 1,
+        "nomChapitre": "Angles et triangles",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "angles-et-triangles",
+        "competences": [
+            {
+                "id": "5B1A",
+                "nom":"Inégalité triangulaire",
+                "contenu":"/content/cours/5B1A-inegaliteTriangulaire.svg",
+                "slug": "inegalite-triangulaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B1B",
+                "nom":"Construire un triangle",
+                "contenu":"/content/cours/5B1B-construireUnTriangle.svg",
+                "slug": "construire-un-triangle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B1C",
+                "nom":"Médiatrice d'un triangle",
+                "contenu":"/content/cours/5B1C-mediatriceDUnTriangle.svg",
+                "slug": "mediatrice-d-un-triangle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B1D",
+                "nom":"Hauteur d'un triangle",
+                "contenu":"/content/cours/5B1D-hauteurDUnTriangle.svg",
+                "slug": "hauteur-d-un-triangle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B1E",
+                "nom":"Angles et droites",
+                "contenu":"/content/cours/5B1E-anglesEtDroites.svg",
+                "slug": "angles-et-droites",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B1F",
+                "nom":"Utiliser la somme des mesures des trois angles d'un triangle",
+                "contenu":"/content/cours/5B1F-utiliserLaSommeDesMesuresDesTroisAnglesDUnTriangle.svg",
+                "slug": "utiliser-la-somme-des-mesures-des-trois-angles-d-un-triangle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5B2",
+        "niveau": 5,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 2,
+        "nomChapitre": "Transformations, Parallélogrammes",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "angles-et-triangles",
+        "competences": [
+            {
+                "id": "5B2A",
+                "nom":"Symétrie centrale",
+                "contenu":"/content/cours/5B2A-symetrieCentrale.svg",
+                "slug": "symetrie-centrale",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B2B",
+                "nom":"Parallélogramme",
+                "contenu":"/content/cours/5B2B-parallelogramme.svg",
+                "slug": "parallelogramme",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5B3",
+        "niveau": 5,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 3,
+        "nomChapitre": "Repérage",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "reperage",
+        "competences": [
+            {
+                "id": "5B3A",
+                "nom":"Repérer un point sur une droite graduée",
+                "contenu":"/content/cours/5B3A-repererUnPointSurUneDroiteGraduee.svg",
+                "slug": "reperer-un-point-sur-une-droite-graduee",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B3B",
+                "nom":"Repérer un point dans un repère du plan",
+                "contenu":"/content/cours/5B3B-repererUnPointDansUnRepereDuPlan.svg",
+                "slug": "reperer-un-point-dans-un-repere-du-plan",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5B4",
+        "niveau": 5,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 3,
+        "nomChapitre": "Espace",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "espace",
+        "competences": [
+            {
+                "id": "5B4A",
+                "nom":"Etudier un prisme droit",
+                "contenu":"/content/cours/5B4A-etudierUnPrismeDroit.svg",
+                "slug": "etudier-un-prisme-droit",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5B4B",
+                "nom":"Etudier un cylindre de révolution",
+                "contenu":"/content/cours/5B4B-etudierUnCylindreDeRevolution.svg",
+                "slug": "etudier-un-cylindre-de-revolution",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5C1",
+        "niveau": 5,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 1,
+        "nomChapitre": "Proportionnalité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "propotionnalite",
+        "competences": [
+            {
+                "id": "5C1A",
+                "nom":"Reconnaitre deux grandeurs proportionnelles liées par une formule",
+                "contenu":"/content/cours/5C1A-reconnaitreDeuxGrandeursProportionnellesLieesParUneFormule.svg",
+                "slug": "reconnaitre-deux-grandeurs-proportionnelles-liees-par-une-formule",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5C1B",
+                "nom":"Reconnaitre un tableau de proportionnalité",
+                "contenu":"/content/cours/5C1B-reconnaitreUnTableauDeProportionnalite.svg",
+                "slug": "reconnaitre-un-tableau-de-proportionnalite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5C1C",
+                "nom":"Utiliser un pourcentage",
+                "contenu":"/content/cours/5C1C-utiliserUnPourcentage.svg",
+                "slug": "utiliser-un-pourcentage",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5C1D",
+                "nom":"Utiliser ou calculer une échelle",
+                "contenu":"/content/cours/5C1D-utiliserOuCalculerUneEchelle.svg",
+                "slug": "utiliser-ou-calculer-une-echelle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5C2",
+        "niveau": 5,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 2,
+        "nomChapitre": "Statistique et probabilité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "statistique-et-probabilite",
+        "competences": [
+            {
+                "id": "5C2A",
+                "nom":"Vocabulaire, effectif et fréquence",
+                "contenu":"/content/cours/5C2A-vocabulaireEffectifEtFrequence.svg",
+                "slug": "vocabulaire-effectif-et-frequence",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5C2B",
+                "nom":"Représenter et lire des données",
+                "contenu":"/content/cours/5C2B-representerEtLireDesDonnees.svg",
+                "slug": "representer-et-lire-des-donnees",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5C2C",
+                "nom":"Moyenne d'une série statistique",
+                "contenu":"/content/cours/5C2C-moyenneDUneSerieStatistique.svg",
+                "slug": "moyenne-d-une-serie-statistique",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5C2D",
+                "nom":"Calculer une probabilité",
+                "contenu":"/content/cours/5C2D-calculerUneProbabilite.svg",
+                "slug": "calculer-une-probabilite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "5D1",
+        "niveau": 5,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 1,
+        "nomChapitre": "Grandeurs et mesures",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "grandeurs-et-mesures",
+        "competences": [
+            {
+                "id": "5D1A",
+                "nom":"Calculer des aires",
+                "contenu":"/content/cours/5D1A-calculerDesAires.svg",
+                "slug": "calculer-des-aires",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5D1B",
+                "nom":"Calculer des volumes",
+                "contenu":"/content/cours/5D1B-calculerDesVolumes.svg",
+                "slug": "calcul-des-volumes",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "5D1C",
+                "nom":"Convertir des grandeurs composées",
+                "contenu":"/content/cours/5D1C-convertirDesGrandeursComposees.svg",
+                "slug": "convertir-des-grandeurs-composees",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A1",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 1,
+        "nomChapitre": "Nombres décimaux",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-decimaux",
+        "competences": [
+            {
+                "id": "4A1A",
+                "nom":"Déterminer un ordre de grandeur",
+                "contenu":"/content/cours/4A1A-determinerUnOrdreDeGrandeur.svg",
+                "slug": "determiner-un-ordre-de-grandeur",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A2",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 2,
+        "nomChapitre": "Nombres relatifs",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-relatifs", 
+        "competences": [
+            {
+                "id": "4A2A",
+                "nom":"Additionner deux nombres relatifs",
+                "contenu":"/content/cours/4A2A-additionnerDeuxNombresRelatifs.svg",
+                "slug": "additionner-deux-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A2B",
+                "nom":"Soustraire deux nombres relatifs",
+                "contenu":"/content/cours/4A2B-soustraireDeuxNombresRelatifs.svg",
+                "slug": "soustraire-deux-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A2C",
+                "nom":"Simplifier l'écriture d'une somme",
+                "contenu":"/content/cours/4A2C-simplificationDEcritureDUneSomme.svg",
+                "slug": "simplifier-l-ecriture-d-une-somme",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A2D",
+                "nom":"Multiplier des nombres relatifs",
+                "contenu":"/content/cours/4A2D-mulitiplierDesNombresRelatifs.svg",
+                "slug": "multiplier-des-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A2E",
+                "nom":"Diviser des nombres relatifs",
+                "contenu":"/content/cours/4A2E-diviserDesNombresRelatifs.svg",
+                "slug": "diviser-des-nombres-relatifs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A2F",
+                "nom":"Calculer avec les quatre opérations",
+                "contenu":"/content/cours/4A2F-calculerAvecLesQuatresOperations.svg",
+                "slug": "calculer-avec-les-quatre-operations",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A3",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 3,
+        "nomChapitre": "Nombres rationnels",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-rationnels",
+        "competences": [
+            {
+                "id": "4A3A",
+                "nom":"Simplifier une écriture fractionnaire",
+                "contenu":"/content/cours/4A3A-simplifierUneEcritureFractionnaire.svg",
+                "slug": "simplifier-une-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A3B",
+                "nom":"Comparer deux écritures fractionnaires",
+                "contenu":"/content/cours/4A3B-comparerDeuxEcrituresFractionnaires.svg",
+                "slug": "comparer-deux-ecritures-fractionnaires",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A3C",
+                "nom":"Additionner ou soustraire des nombres en écriture fractionnaire",
+                "contenu":"/content/cours/4A3C-additionnerOuSoustraireDesNombresEnEcritureFractionnaire.svg",
+                "slug": "additionner-ou-soustraire-des-nombres-en-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A3D",
+                "nom":"Multiplier des nombres en écriture fractionnaire",
+                "contenu":"/content/cours/4A3D-multiplierDesNombresEnEcritureFractionnaire.svg",
+                "slug": "multiplier-des-nombres-en-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A4",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 4,
+        "nomChapitre": "Puissances",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-rationnels",
+        "competences": [
+            {
+                "id": "4A4A",
+                "nom":"Utiliser les puissances d'exposant positif",
+                "contenu":"/content/cours/4A4A-utiliserLesPuissancesDExposantPositif.svg",
+                "slug": "utiliser-les-puissances-d-exposant-positif",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A4B",
+                "nom":"Utiliser les puissances d'exposant négatif",
+                "contenu":"/content/cours/4A4B-utiliserLesPuissancesDExposantNegatif.svg",
+                "slug": "utiliser-les-puissances-d-exposant-negatif",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A4C",
+                "nom":"Déterminer le signe d'une puissance",
+                "contenu":"/content/cours/4A4C-determinerLeSigneDUnePuissance.svg",
+                "slug": "determiner-le-signe-d-une-puissance",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A5",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 5,
+        "nomChapitre": "Nombres rationnels",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-rationnels",
+        "competences": [
+            {
+                "id": "4A5A",
+                "nom":"Simplifier une écriture fractionnaire",
+                "contenu":"/content/cours/4A5A-nombresPremiers.svg",
+                "slug": "simplifier-une-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A5B",
+                "nom":"Utiliser les nombres premiers",
+                "contenu":"/content/cours/4A5B-utiliserLesNombresPremiers.svg",
+                "slug": "utiliser-les-nombres-premiers",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A6",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 6,
+        "nomChapitre": "Le rôle de la lettre et du signe égal",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "le-role-de-la-lettre-et-du-signe-egal",
+        "competences": [
+            {
+                "id": "4A6A",
+                "nom":"Exprimer en fonction de x",
+                "contenu":"/content/cours/4A6A-exprimerEnFonctionDeX.svg",
+                "slug": "exprimer-en-fonction-de-x",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A6B",
+                "nom":"Simplifier l'écriture d'un produit",
+                "contenu":"/content/cours/4A6B-simplifierLEcritureDUnProduit.svg",
+                "slug": "simplifier-l-ecriture-d-un-produit",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A6C",
+                "nom":"Simplifier l'écriture d'une somme algébrique",
+                "contenu":"/content/cours/4A6C-simplifierLEcritureDUneSommeAlgebrique.svg",
+                "slug": "simplifier-l-ecriture-d-une-somme-algebrique",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A6D",
+                "nom":"Simplifier l'écriture d'une somme algébrique",
+                "contenu":"/content/cours/4A6D-simplifierLEcritureDUneSommeAlgebrique.svg",
+                "slug": "simplifier-l-ecriture-d-une-somme-algebrique",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A6E",
+                "nom":"Déterminer la valeur d'une expression",
+                "contenu":"/content/cours/4A6E-determinerLaValeurDUneExpression.svg",
+                "slug": "determiner-la-valeur-d-une-expression",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A6F",
+                "nom":"Déterminer si une égalité est vraie",
+                "contenu":"/content/cours/4A6F-determinerSiUneEgaliteEstVraie.svg",
+                "slug": "determiner-si-une-egalite-est-vraie",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A7",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 7,
+        "nomChapitre": "Calcul littéral",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "calcul-litteral",
+        "competences": [
+            {
+                "id": "4A7A",
+                "nom":"Développer une expression",
+                "contenu":"/content/cours/4A7A-developperUneExpression.svg",
+                "slug": "developper-une-expression",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A7B",
+                "nom":"Factoriser une expression",
+                "contenu":"/content/cours/4A7B-factoriserUneExpression.svg",
+                "slug": "factoriser-une-expression",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4A8",
+        "niveau": 4,
+        "theme": 1,
+        "nomTheme": "Nombres et calculs",
+        "chapitre": 8,
+        "nomChapitre": "Équations, inéquations",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "equations-inequations",
+        "competences": [
+            {
+                "id": "4A8A",
+                "nom":"Résoudre une équation du premier degré",
+                "contenu":"/content/cours/4A8A-resoudreUneEquationDuPremierDegre.svg",
+                "slug": "resoudre-une-equation-du-premier-degre",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4A8B",
+                "nom":"Résoudre un problème",
+                "contenu":"/content/cours/4A8B-resoudreUnProbleme.svg",
+                "slug": "resoudre-un-probleme",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4B1",
+        "niveau": 4,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 1,
+        "nomChapitre": "Angles et triangles",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "angles-et-triangles",
+        "competences": [
+            {
+                "id": "4B1A",
+                "nom":"Construire un triangle",
+                "contenu":"/content/cours/4B1A-construireUnTriangle.svg",
+                "slug": "construire-un-triangle",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4B2",
+        "niveau": 4,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 2,
+        "nomChapitre": "Transformation et parallélogramme",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "transformation-et-parallelogramme",
+        "competences": [
+
+        ]
+    },
+    {
+        "id": "4B3",
+        "niveau": 4,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 3,
+        "nomChapitre": "Triangles rectangles",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "triangles-rectangles",
+        "competences": [
+            {
+                "id": "4B3A",
+                "nom":"Racines carrées",
+                "contenu":"/content/cours/4B3A-racinesCarres.svg",
+                "slug": "racines-carrees",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4B3B",
+                "nom":"Théorème de Pythagore",
+                "contenu":"/content/cours/4B3B-theoremeDePythagore.svg",
+                "slug": "theoreme-de-pythagore",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4B3C",
+                "nom":"Réciproque du théorème de Pythagore",
+                "contenu":"/content/cours/4B3C-reciproqueDuTheoremeDePythagore.svg",
+                "slug": "reciproque-du-theoreme-de-pythagore",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4B4",
+        "niveau": 4,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 4,
+        "nomChapitre": "Triangles et proportionnalité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "triangles-et-proportionnalite",
+        "competences": [
+            {
+                "id": "4B4A",
+                "nom":"Théorème de Thalès",
+                "contenu":"/content/cours/4B4A-theoremeDeThales.svg",
+                "slug": "theoreme-de-thales",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4B4B",
+                "nom":"Réciproque du théorème de Thalès",
+                "contenu":"/content/cours/4B4B-reciproqueDuTheoremeDeThales.svg",
+                "slug": "reciproque-du-theoreme-de-thales",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4B4C",
+                "nom":"Agrandissement et réduction",
+                "contenu":"/content/cours/4B4C-agrandissementReduction.svg",
+                "slug": "agrandissement-et-reduction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4B4D",
+                "nom":"Cosinus d'un angle aigu",
+                "contenu":"/content/cours/4B4D-cosinusAngleAigu.svg",
+                "slug": "cosinus-d-un-angle-aigu",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4B5",
+        "niveau": 4,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 5,
+        "nomChapitre": "Espace",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "espace",
+        "competences": [
+            {
+                "id": "4B5A",
+                "nom":"Pyramide",
+                "contenu":"/content/cours/4B5A-pyramide.svg",
+                "slug": "pyramide",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4B5B",
+                "nom":"Étudier un cylindre de révolution",
+                "contenu":"/content/cours/4B5B-etudierUnCylindreDeRevolution.svg",
+                "slug": "etudier-un-cylindre-de-revolution",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4C1",
+        "niveau": 4,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 1,
+        "nomChapitre": "Proportionnalité, diagrammes",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "proportionnalite-diagrammes",
+        "competences": [
+            {
+                "id": "4C1A",
+                "nom":"Repérer une situation de proportionnalité",
+                "contenu":"/content/cours/4C1A-repererUneSituationDeProportionnalite.svg",
+                "slug": "reperer-une-situation-de-proportionnalite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4C1B",
+                "nom":"Résoudre un problème de proportionnalité",
+                "contenu":"/content/cours/4C1B-resoudreUnProblemeDeProportionnalite.svg",
+                "slug": "resoudre-un-probleme-de-proportionnalite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4C1C",
+                "nom":"Calculer un pourcentage",
+                "contenu":"/content/cours/4C1C-calculerUnPourcentage.svg",
+                "slug": "calculer-un-pourcentage",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4C1D",
+                "nom":"Diagramme",
+                "contenu":"/content/cours/4C1D-diagramme.svg",
+                "slug": "diagramme",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4C2",
+        "niveau": 4,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 2,
+        "nomChapitre": "Statistique et probabilité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "statistique-et-probabilite",
+        "competences": [
+            {
+                "id": "4C2A",
+                "nom":"Calculer un effectif, une fréquence",
+                "contenu":"/content/cours/4C2A-calculerUnEffectifUneFrequence.svg",
+                "slug": "calculer-un-effectif-une-frequence",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4C2B",
+                "nom":"Calculer une moyenne",
+                "contenu":"/content/cours/4C2B-calculerUneMoyenne.svg",
+                "slug": "calculer-une-moyenne",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4C2C",
+                "nom":"Calculer une médiane, une étendue",
+                "contenu":"/content/cours/4C2C-calculerUneMedianeUneEtendue.svg",
+                "slug": "calculer-une-mediane-une-etendue",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "4C2D",
+                "nom":"Probabilité",
+                "contenu":"/content/cours/4C2D-probabilite.svg",
+                "slug": "probabilite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4C3",
+        "niveau": 4,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 3,
+        "nomChapitre": "Fonctions",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "fonctions",
+        "competences": [
+            {
+                "id": "4C3A",
+                "nom":"Déterminer une fonction",
+                "contenu":"/content/cours/4C3A-determinerUneFonction.svg",
+                "slug": "determiner-une-fonction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4D1",
+        "niveau": 4,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 1,
+        "nomChapitre": "Calcul de surfaces",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "calcul-de-surfaces",
+        "competences": [
+            {
+                "id": "4D1A",
+                "nom":"Formulaire d'aire",
+                "contenu":"/content/cours/4D1A-formulaireDAire.svg",
+                "slug": "formulaire-d-aire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4D2",
+        "niveau": 4,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 2,
+        "nomChapitre": "Calculs de volume",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "calculs-de-volume",
+        "competences": [
+            {
+                "id": "4D2A",
+                "nom":"Formulaire d'aire",
+                "contenu":"/content/cours/4D2A-calculerDesVolumes.svg",
+                "slug": "formulaire-d-aire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4D3",
+        "niveau": 4,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 3,
+        "nomChapitre": "Agrandissements et réductions",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "agrandissements-et-reductions",
+        "competences": [
+            {
+                "id": "4D3A",
+                "nom":"Agrandissement et réduction",
+                "contenu":"/content/cours/4D3A-agrandissementReduction.svg",
+                "slug": "agrandissement-et-reduction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "4D4",
+        "niveau": 4,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 3,
+        "nomChapitre": "Grandeurs composées",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "grandeurs-composees",
+        "competences": [
+            {
+                "id": "4D4A",
+                "nom":"Grandeurs composées",
+                "contenu":"/content/cours/4D4A-grandeursComposees.svg",
+                "slug": "grandeurs-composees",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3A1",
+        "niveau": 3,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 1,
+        "nomChapitre": "Nombres rationnels",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-rationnels",
+        "competences": [
+            {
+                "id": "3A1A",
+                "nom":"Additionner ou soustraire des nombres en écriture fractionnaire",
+                "contenu":"/content/cours/3A1A-additionnerOuSoustraireDesNombresEnEcritureFractionnaire.svg",
+                "slug": "additionner-ou-soustraire-des-nombres-en-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3A1B",
+                "nom":"Multiplier des nombres en écriture fractionnaire",
+                "contenu":"/content/cours/3A1B-multiplierDesNombresEnEcritureFractionnaire.svg",
+                "slug": "multiplier-des-nombres-en-ecriture-fractionnaire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3A1C",
+                "nom":"Diviser des rationnels",
+                "contenu":"/content/cours/3A1C-diviserDesRationnels.svg",
+                "slug": "diviser-des-rationnels",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3A2",
+        "niveau": 3,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 2,
+        "nomChapitre": "Nombres entiers",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "nombres-entiers",
+        "competences": [
+            {
+                "id": "3A2A",
+                "nom":"Nombres premiers",
+                "contenu":"/content/cours/3A2A-nombresPremiers.svg",
+                "slug": "nombres-premiers",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3A2B",
+                "nom":"Utiliser les nombres premiers",
+                "contenu":"/content/cours/3A2B-utiliserLesNombresPremiers.svg",
+                "slug": "utiliser-les-nombres-premiers",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3A3",
+        "niveau": 3,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 3,
+        "nomChapitre": "Calcul littéral",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "calcul-litteral",
+        "competences": [
+            {
+                "id": "3A3A",
+                "nom":"Développer et réduire",
+                "contenu":"/content/cours/3A3A-developperEtReduire.svg",
+                "slug": "developper-et-reduire",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3A3B",
+                "nom":"Factoriser",
+                "contenu":"/content/cours/3A3B-factoriser.svg",
+                "slug": "factoriser",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3A4",
+        "niveau": 3,
+        "theme": 1,
+        "nomTheme": "Nombre et calcul",
+        "chapitre": 4,
+        "nomChapitre": "Équations, inéquations",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "equations-inequations",
+        "competences": [
+            {
+                "id": "3A4A",
+                "nom":"Résoudre une équation",
+                "contenu":"/content/cours/3A4A-resoudreUneEquation.svg",
+                "slug": "resoudre-une-equation",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3A4B",
+                "nom":"Résoudre un problème",
+                "contenu":"/content/cours/3A4B-resoudreUnProbleme.svg",
+                "slug": "resoudre-un-probleme",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3B1",
+        "niveau": 3,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 1,
+        "nomChapitre": "Transformations",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "transformations",
+        "competences": [
+            {
+                "id": "3B1A",
+                "nom":"Rotation",
+                "contenu":"/content/cours/3B1A-rotation.svg",
+                "slug": "rotation",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3B1B",
+                "nom":"Homothétie",
+                "contenu":"/content/cours/3B1B-homothetie.svg",
+                "slug": "homothetie",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3B1C",
+                "nom":"Triangle égaux",
+                "contenu":"/content/cours/3B1C-triangleEgaux.svg",
+                "slug": "triangle-egaux",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3B2",
+        "niveau": 3,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 2,
+        "nomChapitre": "Triangles rectangles",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "triangles-rectangles",
+        "competences": [
+            {
+                "id": "3B2A",
+                "nom":"Trigonométrie",
+                "contenu":"/content/cours/3B2A-trigonometrie.svg",
+                "slug": "trigonometrie",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3B3",
+        "niveau": 3,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 3,
+        "nomChapitre": "Triangles rectangles",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "triangles-rectangles",
+        "competences": [
+            {
+                "id": "3B3A",
+                "nom":"Théorème de Thalès",
+                "contenu":"/content/cours/3B3A-theoremeDeThales.svg",
+                "slug": "theoreme-de-thales",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3B3B",
+                "nom":"Réciproque du théorème de Thalès",
+                "contenu":"/content/cours/3B3B-reciproqueDuTheoremeDeThales.svg",
+                "slug": "reciproque-du-theoreme-de-thales",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3B3C",
+                "nom":"Agrandissement et réduction",
+                "contenu":"/content/cours/3B3C-agrandissementReduction.svg",
+                "slug": "agrandissement-et-reduction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3B3D",
+                "nom":"Homothétie",
+                "contenu":"/content/cours/3B3D-homothetie.svg",
+                "slug": "homothetie",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3B3E",
+                "nom":"Triangle semblables",
+                "contenu":"/content/cours/3B3E-triangleSemblables.svg",
+                "slug": "triangle-semblables",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3B3F",
+                "nom":"Trigonométrie",
+                "contenu":"/content/cours/3B3F-trigonometrie.svg",
+                "slug": "trigonometrie",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3B4",
+        "niveau": 3,
+        "theme": 2,
+        "nomTheme": "Espace et géometrie",
+        "chapitre": 4,
+        "nomChapitre": "Repérage",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "reperage",
+        "competences": [
+            {
+                "id": "3B4A",
+                "nom":"Repérage sur la sphère",
+                "contenu":"/content/cours/3B4A-reperageSurLaSphere.svg",
+                "slug": "reperage-sur-la-sphere",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3C1",
+        "niveau": 3,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 1,
+        "nomChapitre": "Proportionnalité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "proportionnalite",
+        "competences": [
+            {
+                "id": "3C1A",
+                "nom":"Calculs avec les pourcentages",
+                "contenu":"/content/cours/3C1A-calculsAvecLesPourcentages.svg",
+                "slug": "calcul-avec-les-pourcentages",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C1B",
+                "nom":"Calculs avec les taux d'évolution",
+                "contenu":"/content/cours/3C1B-calculsAvecLesTauxDEvolution.svg",
+                "slug": "calculs-avec-les-taux-d-evolution",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3C2",
+        "niveau": 3,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 2,
+        "nomChapitre": "Statistique et probabilité",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "statistique-et-probabilite",
+        "competences": [
+            {
+                "id": "3C2A",
+                "nom":"Moyenne d'une série statistique",
+                "contenu":"/content/cours/3C2A-moyenneDUneSerieStatistique.svg",
+                "slug": "moyenne-d-une-serie-statistique",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C2B",
+                "nom":"Calculer une médiane, une étendue",
+                "contenu":"/content/cours/3C2B-calculerUneMedianeUneEtendue.svg",
+                "slug": "calculer-une-mediane-une-etendue",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C2C",
+                "nom":"Probabilité",
+                "contenu":"/content/cours/3C2C-probabilite.svg",
+                "slug": "probabilite",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3C3",
+        "niveau": 3,
+        "theme": 3,
+        "nomTheme": "Organisation et gestion de données",
+        "chapitre": 3,
+        "nomChapitre": "Fonctions",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "fonctions",
+        "competences": [
+            {
+                "id": "3C3A",
+                "nom":"Déterminer une fonction",
+                "contenu":"/content/cours/3C3A-determinerUneFonction.svg",
+                "slug": "determiner-une-fonction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C3B",
+                "nom":"Déterminer une image",
+                "contenu":"/content/cours/3C3B-determinerUneImage.svg",
+                "slug": "determiner-une-image",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C3C",
+                "nom":"Déterminer un antécédent",
+                "contenu":"/content/cours/3C3C-determinerUnAntecedent.svg",
+                "slug": "determiner-un-antecedent",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C3D",
+                "nom":"Utiliser un tableau de valeurs",
+                "contenu":"/content/cours/3C3D-utiliserUnTableauDeValeurs.svg",
+                "slug": "utiliser-un-tableau-de-valeurs",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C3E",
+                "nom":"Utiliser la représentation graphique d'une fonction",
+                "contenu":"/content/cours/3C3E-utiliserLaRepresentationGraphiqueDUneFonction.svg",
+                "slug": "utiliser-la-representation-graphique-d-une-fonction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3C3F",
+                "nom":"Fonctions linéaires et fonctions affines",
+                "contenu":"/content/cours/3C3F-fonctionsLineairesEtFonctionsAffines.svg",
+                "slug": "fonctions-lineaires-et-fonctions-affines",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3D1",
+        "niveau": 3,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 1,
+        "nomChapitre": "Calculs de volume",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "calculs-de-volume",
+        "competences": [
+            {
+                "id": "3D1A",
+                "nom":"Calculer des volumes",
+                "contenu":"/content/cours/3D1A-calculerDesVolumes.svg",
+                "slug": "calculer-des-volumes",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            },
+            {
+                "id": "3D1B",
+                "nom":"Agrandissement et réduction",
+                "contenu":"/content/cours/3D1B-agrandissementReduction.svg",
+                "slug": "agrandissement-et-reduction",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
+    },
+    {
+        "id": "3D2",
+        "niveau": 3,
+        "theme": 4,
+        "nomTheme": "Grandeurs et mesures",
+        "chapitre": 2,
+        "nomChapitre": "Grandeurs composées",
+        "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
+        "slug": "grandeurs-composees",
+        "competences": [
+            {
+                "id": "3D2A",
+                "nom":"Grandeurs composées",
+                "contenu":"/content/cours/3D2A-grandeursComposees.svg",
+                "slug": "grandeurs-composees",
+                "fiche": null,
+                "exercice": {
+                    "enonce": null,
+                    "solution": null
+                },
+                "methode": null
+            }
+        ]
     }
+
 ]

@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux"
-import CourseRecommandation from "../../components/course-recommandation/course-recommandation.component"
+// import CourseRecommandation from "../../components/course-recommandation/course-recommandation.component"
 import LastCourse from "../../components/last-course/last-course.component"
 import MyCourses from "../../components/my-courses/my-courses.component"
 
@@ -13,9 +13,9 @@ export default function DashBoard(){
             <div className="main-section">
                 <div className="main-section-first-line">
                     <LastCourse />
-                    <CourseRecommandation />
+                    <MyCourses />
                 </div>
-                <MyCourses />
+                {/* <CourseRecommandation /> */}
                 
             </div>
         </div>

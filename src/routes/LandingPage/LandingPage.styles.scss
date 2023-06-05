@@ -1,8 +1,9 @@
 .landing-page{
+    overflow-x: hidden;
     h1{ 
-        font-size: 50px;
+        font-size: 3.5vw;
         font-weight: 700;
-        line-height: 55px;
+        line-height: 3.9vw;
         color: var(--deepSapphire);
         .highlighth1{
             background: linear-gradient(120deg, var(--supernova) 0%, var(--supernova) 100%);
@@ -22,32 +23,46 @@
         backdrop-filter: blur(9px);
         padding: 0 5rem;
         width: calc(100% - 160px);
+        max-width: calc(1440px - 160px);
+        
         .connexion{
-            padding: 10px 12px;
-            background-color: var(--supernova);
-            border-radius: 20px;
+            padding: 8px 12px;
+            background-color: var(--white);
+            border-radius: 5px;
             height: fit-content;
             margin-left: auto;
-            border: none;
+            border: 1.5px solid var(--deepSapphire);
+            color: var(--deepSapphire);
         }
         .connexion:hover{
             cursor: pointer;
         }
     }
+
     .main-section{
         padding: 7rem 5rem 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 2rem;
+        img{
+            width: 40vw;
+            max-width: 540px;
+        }
         .text-area{
             max-width: 480px;
+            display: flex;
+            flex-direction: column;
 
             .description{
-                margin: 2rem 0 3.5rem;
+                margin: 2rem 0;
                 color: var(--deepSapphire);
+                font-size: max(16px, 1.2vw);
             }
             .connexion{
                 padding: 12px 16px;
+                width: fit-content;
+                font-size: max(14px, 1.5vw);
                 background-color: var(--supernova);
                 border-radius: 10px;
                 border: none;
@@ -178,13 +193,15 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+
+            gap: 2rem;
             margin-bottom: 5rem;
             h1{
                 max-width: 540px;
             }
             p{
                 font-weight: 400;
-                font-size: 18px;
+                font-size: max(16px, 1.2vw);
                 line-height: 28px;
                 color: var(--scorpion);
                 max-width: 570px;
@@ -248,34 +265,198 @@
     footer{
         background-color: var(--deepSapphire);
         padding: 1.5rem 5rem;
-        display: flex;
-        justify-content: space-between;
-        .text-area{
+
+        .footer-container{
+            max-width: 1280px;
             display: flex;
-            flex-direction: column;
-            gap: 4rem;
-            .first-part-links{
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-                gap: 12rem;
-                .column{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 12px;
-                    p{
-                        color: var(--white);
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
+            .text-area{
+                display: flex;
+                flex-direction: column;
+                gap: 4rem;
+                .first-part-links{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 12rem;
+                    .column{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+                        p{
+                            color: var(--white);
+                        }
+                        .title{
+                            margin-bottom: 12px;
+                        }
                     }
-                    .title{
-                        margin-bottom: 12px;
+                }
+                .social-media{
+                    display: flex;
+                    align-items: center;
+                    gap: 4rem;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1064px){
+    .landing-page{
+        .main-section{
+            .text-area{
+                .description{
+                    margin : 1rem 0 2rem;
+                }
+                .connexion{
+                    padding: 10px 12px;
+                }
+            }
+        }
+    }
+
+}   
+
+@media screen and (max-width: 900px){
+    .landing-page{
+        header{
+            padding: 0 2.5rem;
+            width: calc(100% - 5rem);
+        }
+        .main-section{
+            padding: 7rem 2.5rem 0;
+            .text-area{
+                .description{
+                    margin : 1rem 0;
+                }
+                .connexion{
+                    padding: 4px 8px;
+                }
+            }
+        }
+
+        .quick-course-presentation{
+            padding: 2rem 2.5rem ;
+        }
+
+        footer{
+            padding: 1.5rem 2.5rem;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .landing-page{
+        .quick-course-presentation{
+            padding: 2rem 2.5rem;
+            .title-description{
+                flex-direction: column;
+                margin-bottom: 2rem;
+            }
+
+            .categories{
+                overflow-x: scroll;
+                gap: 1rem;
+                .category{
+                    p{
+                        width: 115px;
                     }
                 }
             }
-            .social-media{
-                display: flex;
-                align-items: center;
-                gap: 4rem;
-                justify-content: flex-end;
+        }
+
+        .modal{
+            .modal-content{
+                padding: 1rem 2.5rem;
+                top: calc((100vh - 425.5px)/2);
+                bottom: calc((100vh - 425.5px)/2);
+                right: calc((100vw - 358px)/2);
+                left: calc((100vw - 358px)/2);
+    
+                .h2-m-medium{
+                    font-size: 20px;
+                }
+                .modal-body{                    
+                    button{
+                        padding: 10px 1.5rem;
+                        width: 278px;
+                        a{
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .sign-up{
+                    p,a{
+                        font-size:14px
+                    }
+                }
             }
         }
+
+        footer{
+            .footer-container{
+                flex-direction: column;
+                gap: 2rem;
+                img{
+                    height: 40px;
+                    width: fit-content;
+                }
+                .text-area{
+                    .social-media{
+                        gap: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .landing-page{
+        header{
+            padding: 0 10px;
+            width: calc(100% - 20px);
+        }
+        h1{
+            font-size: 39px;
+            line-height: 47.2px;
+        }
+        .main-section{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 7rem 10px 0;
+
+            .text-area{
+                .description{
+                    font-size: 16px;
+                    margin : 1rem 0;
+                }
+                .connexion{
+                    font-size: 16px;
+                    padding: 6px 10px;
+                }
+            }
+
+            img{
+                width: 100%;
+                max-width: 100%;
+            }
+
+        }
+
+        .quick-course-presentation{
+            padding: 2rem 10px ;
+        }
+
+        footer{
+            padding: 1.5rem 10px;
+        }
+
     }
 }

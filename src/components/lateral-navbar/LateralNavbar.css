@@ -1,19 +1,28 @@
 .LateralNavbar {
   position: fixed;
-  margin-top: 73px;
+  background-color: #fff;
+  margin-top: 78px;
   z-index: 2;
   width: fit-content;
   height: calc(100vw - 82px);
-  padding: 12px;
+  padding: 21px 12px 12px;
 }
 .LateralNavbar .non-active {
   display: none !important;
 }
-.LateralNavbar .menuOpen {
+.LateralNavbar .menuInitialState {
   display: block;
 }
-.LateralNavbar .menuClosed {
+.LateralNavbar .menuClickedState {
   display: none;
+}
+@media screen and (max-width: 768px) {
+  .LateralNavbar .menuInitialState {
+    display: none;
+  }
+  .LateralNavbar .menuClickedState {
+    display: block;
+  }
 }
 .LateralNavbar .categories {
   margin-top: 80px;

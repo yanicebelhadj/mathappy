@@ -3,7 +3,7 @@ import "./search-box.styles.css";
 
 import Competence from "../competence/competence";
 
-import client from "../../contentful/client.js";
+// import client from "../../contentful/client.js";
 import Search from "../../icons/Search";
 
 function SearchBox(props) {
@@ -37,31 +37,31 @@ function SearchBox(props) {
   }, []);
 
   //Récupère les données sur contentful
-  const getCompetences = useCallback(async () => {
-    setIsCompetencesLoading(true);
-    try {
-      const response = await client.getEntries({
-        content_type: "competence",
-        order: "-sys.createdAt",
-        limit: 200,
-      });
-      const responseData = response.items;
-      if (responseData) {
-        cleanUpCompetences(responseData);
-      } else {
-        setCompetences([]);
-      }
-      setIsCompetencesLoading(false);
-    } catch (error) {
-      console.log(error);
-      setIsCompetencesLoading(false);
-    }
-  }, [cleanUpCompetences]);
+  // const getCompetences = useCallback(async () => {
+  //   setIsCompetencesLoading(true);
+  //   try {
+  //     const response = await client.getEntries({
+  //       content_type: "competence",
+  //       order: "-sys.createdAt",
+  //       limit: 200,
+  //     });
+  //     const responseData = response.items;
+  //     if (responseData) {
+  //       cleanUpCompetences(responseData);
+  //     } else {
+  //       setCompetences([]);
+  //     }
+  //     setIsCompetencesLoading(false);
+  //   } catch (error) {
+  //     console.log(error);
+  //     setIsCompetencesLoading(false);
+  //   }
+  // }, [cleanUpCompetences]);
 
   //Fait en sorte que les données sois récupérer une seule fois et se mette à jour seulement s'il y a une MAJ des données contentful
-  useEffect(() => {
-    getCompetences();
-  }, [getCompetences]);
+  // useEffect(() => {
+  //   getCompetences();
+  // }, [getCompetences]);
 
 
   //SETUP DE LA BARRE DE RECHERCHE

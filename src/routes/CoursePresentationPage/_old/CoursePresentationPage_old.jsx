@@ -100,7 +100,7 @@ function CoursePresentationPage() {
   const menu = useSelector(state=> state.menu.open)
 
   return (
-    <div className={`CoursePresentationPage ${menu ? "container-menuOpen" : "container"}`}>
+    <div className={`CoursePresentationPage ${menu ? "container-initialState" : "container-clickedState"}`}>
       <div className="starter-information-course">
         <div className="main-informations">
           <h1 className="h1-l">{dataChapitre.nom}</h1>

@@ -24,7 +24,7 @@ function CoursePage(){
     console.log(competence[0])
 
     return(
-        <div className={`course-page ${menu ? "container-menuOpen" : "container"}`}>
+        <div className={`course-page ${menu ? "container-initialState" : "container-clickedState"}`}>
             <h1><span className="h1-m highlighth1">{nomCompetence}</span></h1>
             <img className="cours" src={ process.env.PUBLIC_URL + competence[0].contenu} alt="course" />
         </div>

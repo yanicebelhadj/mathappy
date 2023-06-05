@@ -97,7 +97,7 @@ function SearchPage() {
   
 
   return (
-    <div className={`Search-page ${menu ? "container-menuOpen" : "container"}`}>
+    <div className={`Search-page ${menu ? "container-initialState" : "container-clickedState"}`}>
       <div className="filters">
         <div className="filter">
           <p className="p-m-bold">Niveau</p>

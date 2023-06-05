@@ -24,12 +24,18 @@ body{
     --selagoBlue: #F6F8FE;
 }
 
-.container{
+.container-clickedState{
     padding: 105px 2.5rem 0 88px;
 }
 
-.container-menuOpen{
+.container-initialState{
     padding: 105px 2.5rem 0 210px;
+}
+
+@media screen and (max-width: 768px){
+    .container-initialState{
+        padding: 105px 2.5rem 0 88px;
+    }
 }
 
 h1,h2,h3,p,a,input,label{
@@ -264,4 +270,9 @@ ul{
     background-repeat: no-repeat;
     background-size: 100% 40%;
     background-position: 0 90%;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
 }

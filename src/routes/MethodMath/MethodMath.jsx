@@ -7,7 +7,7 @@ function MethodMath(){
     const menu = useSelector(state=> state.menu.open)
 
     return(
-        <div className={`method-math ${menu ? "container-menuOpen" : "container"}`}>
+        <div className={`method-math ${menu ? "container-initialState" : "container-clickedState"}`}>
             <h1><span className="h1-m highlighth1">Décomposer un nombre décimal en fractions décimales</span></h1>
             <h2><span className="h2-m-semi-bold highlighth2">Passer d’une écriture à une autre</span></h2>
             <div className="methode">

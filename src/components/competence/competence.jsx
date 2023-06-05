@@ -10,7 +10,7 @@ function Competence(props) {
     const { id, competenceName, nomTheme, description, niveau, iconCompetence } = props
     return(
         <Link to={`/${props.id + "-" + props.slug}`} className='competence' key={id}>
-            <img src={`${iconCompetence}`} alt="Nombres et calculs" />
+            <img src={`${iconCompetence}`} alt={`${competenceName}`} />
             <div className='TextArea'>
                 <p className='title p-s-semi-bold'>{competenceName}</p>
                 {description && <p className='description p-s-medium'>{description.substr(0,110) + " ..."}</p>}

@@ -10,7 +10,7 @@ function FichePage(){
     const menu = useSelector(state=> state.menu.open)
 
     return(
-        <div className={`fiche-page ${menu ? "container-menuOpen" : "container"}`}>
+        <div className={`fiche-page ${menu ? "container-initialState" : "container-clickedState"}`}>
             <img src={Fiche} alt="fiche" />
             <div className="button-area">
                 <div className="download-button"><Download /><p className="p-m-semi-bold">Télécharger la fiche</p></div>

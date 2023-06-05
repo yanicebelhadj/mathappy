@@ -9,7 +9,7 @@ import "./DashBoard.styles.css"
 export default function DashBoard(){
     const menu = useSelector(state=> state.menu.open)
     return(
-        <div className= {`dash-board ${menu ? "container-menuOpen" : "container"}`}>
+        <div className= {`dash-board ${menu ? "container-initialState" : "container-clickedState"}`}>
             <div className="main-section">
                 <div className="main-section-first-line">
                     <LastCourse />

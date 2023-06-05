@@ -1,23 +1,35 @@
 .LateralNavbar{
     position: fixed;
-    margin-top: 73px;
+    background-color: #fff;
+    margin-top: 78px;
     z-index: 2;
     width: fit-content;
     height: calc(100vw - 82px);
-    padding: 12px;
+    padding: 21px 12px 12px;
 
     .non-active{
         display: none !important;
     }
 
-    .menuOpen{
+    .menuInitialState{
         display: block;
     }
 
-    .menuClosed{
+    .menuClickedState{
         display: none;
     }
 
+    @media screen and (max-width: 768px){
+        .menuInitialState{
+            display: none;
+        }
+        .menuClickedState{
+            display: block;
+        }
+    }
+
+
+    
     .categories{
         margin-top: 80px;
         padding: 24px 16px ;
@@ -101,13 +113,3 @@
     }
 
 }
-
-// .LateralNavbar:hover{
-//     .menu{
-//         li{
-//             p{
-//                 display: block;
-//             }
-//         }
-//     }
-// }

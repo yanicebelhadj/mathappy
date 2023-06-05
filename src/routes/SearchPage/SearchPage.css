@@ -22,7 +22,7 @@
 }
 .Search-page .competence {
   align-items: flex-start;
-  padding: 2rem;
+  padding: 2rem 2rem 2rem 0;
 }
 .Search-page .competence img {
   height: 66px;

@@ -28,8 +28,8 @@ function App() {
             <Route path='/SignIn' exact element={<SignIn />} />
             <Route path='/SignUp' exact element={<SignUp />} />  
             <Route path='/' element={<Navigation /> }>
-              <Route index element={<DashBoard />} />
-              <Route path='/SearchPage' exact element={<SearchPage />} />
+              {/* <Route index element={<DashBoard />} /> */}
+              <Route index element={<SearchPage />} />
               <Route path="/:id" element={<CoursePresentationPage />} />
               <Route path='/La-fiche/:id' element={<FichePage />} />
               <Route path='/MethodMath/:id' element={<MethodMath />} />

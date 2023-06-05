@@ -101,7 +101,7 @@ function CoursePage(){
     const menu = useSelector (state=> state.menu.open)
 
     return(
-        <div className={`course-page ${menu ? "container-menuOpen" : "container"}`}>
+        <div className={`course-page ${menu ? "container-initialState" : "container-clickedState"}`}>
             <h1><span className="h1-m highlighth1">Décomposer un nombre décimal en fractions décimales</span></h1>
             <h2><span className="h2-m-semi-bold highlighth2">Fraction décimale</span></h2>        
             <p className="p-m-regular">Une <strong>fraction décimale</strong> est une fraction de dénominateur 10; 100; 1000 ....</p>    

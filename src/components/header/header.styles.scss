@@ -45,3 +45,18 @@ header{
 header.non-active{
     display: none;
 }
+
+@media screen and (max-width: 500px) {
+    header{
+        .header-right-part {
+            .Registered-courses{
+                display: none;
+            }
+            .user-information {
+                p{
+                    display: none;
+                }
+            }
+        }
+    }
+}

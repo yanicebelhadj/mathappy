@@ -42,4 +42,13 @@ header.non-active {
   display: none;
 }
 
+@media screen and (max-width: 500px) {
+  header .header-right-part .Registered-courses {
+    display: none;
+  }
+  header .header-right-part .user-information p {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=header.styles.css.map */

@@ -275,4 +275,11 @@ ul{
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    padding: 105px 2.5rem
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 105px 10px 32px;
+    }
 }

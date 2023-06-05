@@ -83,4 +83,21 @@
   text-decoration: underline;
 }
 
+@media screen and (max-width: 600px) {
+  .sign-in-form {
+    width: 300px;
+    gap: 1rem;
+  }
+  .sign-in-form h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .sign-in-form a, .sign-in-form p {
+    font-size: 12px;
+  }
+  .sign-in-form input {
+    font-size: 14px;
+  }
+}
+
 /*# sourceMappingURL=SignIn.styles.css.map */

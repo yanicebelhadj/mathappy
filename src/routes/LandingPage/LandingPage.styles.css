@@ -124,6 +124,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--black);
 }
 .landing-page .modal .modal-content .modal-body .facebook {
   background-color: #3C5997;

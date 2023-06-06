@@ -1,10 +1,10 @@
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 import "./CoursePage.styles.css"
 import ContentCourse from '../../content/content.json'
 
 function CoursePage(){
-    const menu = useSelector(state=> state.menu.open)
+    // const menu = useSelector(state=> state.menu.open)
 
     var urlcourante = document.location.href; 
 
@@ -24,7 +24,7 @@ function CoursePage(){
     console.log(competence[0])
 
     return(
-        <div className={`course-page ${menu ? "container-initialState" : "container-clickedState"}`}>
+        <div className={`course-page container`}> {/* REMETTRE ÇA POUR LE MENU ${menu ? "container-initialState" : "container-clickedState"}*/} 
             <h1><span className="h1-m highlighth1">{nomCompetence}</span></h1>
             <img className="cours" src={ process.env.PUBLIC_URL + competence[0].contenu} alt="course" />
         </div>

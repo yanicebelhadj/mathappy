@@ -19,4 +19,17 @@
   gap: 1rem;
 }
 
+@media screen and (max-width: 500px) {
+  .objectives .list-objectives {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .objectives p {
+    font-size: 14px;
+    line-height: 16.94px;
+  }
+  .objectives ul li p {
+    font-size: 12px;
+  }
+}
+
 /*# sourceMappingURL=objectives.styles.css.map */

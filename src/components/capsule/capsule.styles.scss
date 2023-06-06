@@ -1,5 +1,5 @@
 .capsule{
-    min-width: 385px;
+    // min-width: 385px;
     img{
         max-width: 400px;
         border-radius: 15px;
@@ -16,7 +16,7 @@
             .fiche-cta{
                 padding: 12px 24px;
                 background: var(--malibu);
-                border-radius: 28px;
+                border-radius: 10px;
                 color: var(--white);
             }
             .register-course{
@@ -26,7 +26,7 @@
                 border: 1px solid var(--gallery);
                 align-items: center;
                 padding: 12px 24px;
-                border-radius: 28px;
+                border-radius: 10px;
                 .icon{
                     display: flex;
                     svg{
@@ -47,7 +47,7 @@
             justify-content: center;
             align-items: center;
             padding: 12px 24px;
-            border-radius: 28px;
+            border-radius: 10px;
         }
     }
 }

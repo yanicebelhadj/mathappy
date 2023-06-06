@@ -42,3 +42,42 @@
     cursor: pointer;
     background-color: var(--selagoPurple);
 }
+
+@media screen and (max-width: 900px) {
+    .competences-page{
+        .course-summary-and-competences-list{
+            flex-direction: column!important;
+            .competences-list{
+                margin: 0!important;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .competences-page{
+        .course-summary-and-competences-list{
+            .competences-list{
+                .competence-item{
+                    .hexagone{
+                        height: 60px!important;
+                        width: 69px!important;
+                        min-width: 69px!important;
+                        background-size: 100%!important;
+                        p{
+                            font-size: 21px;
+                        }
+                    }
+                    .competence-name{
+                        font-size: 16px;
+                        line-height: 19px;
+                    }
+                }
+            }
+            .course-summary{
+                padding: 2rem 1rem!important;
+            }
+        }
+    }    
+}
+

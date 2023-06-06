@@ -29,7 +29,7 @@ const CompetencesPage = () => {
     const slug = result[0].slug
     
     return(
-        <div className={`competences-page ${menu ? "container-initialState" : "container-clickedState"}`}>
+        <div className={`competences-page container`}> {/* REMETTRE ÇA POUR LE MENU ${menu ? "container-initialState" : "container-clickedState"}*/}
             <div className="navigation">
                 <Link to={`/${idChapitre + "-" + slug}`} className="back-button">Retour</Link>
             </div>

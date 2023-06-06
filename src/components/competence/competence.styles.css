@@ -43,4 +43,31 @@
   background-color: var(--selagoPurple);
 }
 
+@media screen and (max-width: 900px) {
+  .competences-page .course-summary-and-competences-list {
+    flex-direction: column !important;
+  }
+  .competences-page .course-summary-and-competences-list .competences-list {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .competences-page .course-summary-and-competences-list .competences-list .competence-item .hexagone {
+    height: 60px !important;
+    width: 69px !important;
+    min-width: 69px !important;
+    background-size: 100% !important;
+  }
+  .competences-page .course-summary-and-competences-list .competences-list .competence-item .hexagone p {
+    font-size: 21px;
+  }
+  .competences-page .course-summary-and-competences-list .competences-list .competence-item .competence-name {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .competences-page .course-summary-and-competences-list .course-summary {
+    padding: 2rem 1rem !important;
+  }
+}
+
 /*# sourceMappingURL=competence.styles.css.map */

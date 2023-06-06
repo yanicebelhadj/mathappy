@@ -102,9 +102,35 @@
     justify-content: center;
   }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 750px) {
+  .CoursePresentationPage .capsule {
+    align-items: center;
+  }
   .CoursePresentationPage .capsule .thumbnail {
-    width: 100%;
+    max-width: 90vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .CoursePresentationPage .preliminary-cta-tablette {
+    flex-direction: column;
+  }
+  .CoursePresentationPage .preliminary-cta-tablette .register-course {
+    padding: 7.5px 0;
+  }
+  .CoursePresentationPage .starter-information-course .main-informations h1 {
+    font-size: 30px;
+    line-height: 36.31px;
+    font-weight: 700;
+  }
+  .CoursePresentationPage .starter-information-course .main-informations h2 {
+    font-size: 14px;
+    line-height: 16.94px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 410px) {
+  .CoursePresentationPage .capsule .thumbnail {
+    margin: 0;
   }
 }
 

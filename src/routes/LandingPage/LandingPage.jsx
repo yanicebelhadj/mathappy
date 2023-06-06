@@ -25,7 +25,7 @@ const LandingPage = () => {
                 <img id="logo" src={Logo} alt="Logo" />
                 <button onClick={()=>setModal(true)} className="p-m-bold connexion">Connexion</button>
             </header>
-            <div className="container"> 
+            <div className="container-landing-page"> 
 
                 <section className="main-section">
                     <div className="text-area">

@@ -16,10 +16,96 @@
   flex-direction: column;
   gap: 2rem;
 }
+.CoursePresentationPage .preliminary-cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 32px 0 28px;
+}
+.CoursePresentationPage .preliminary-cta .fiche-cta {
+  padding: 12px 24px;
+  background: var(--malibu);
+  border-radius: 15px;
+  color: var(--white);
+}
+.CoursePresentationPage .preliminary-cta .register-course {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid var(--gallery);
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+.CoursePresentationPage .preliminary-cta .register-course .icon {
+  display: flex;
+}
+.CoursePresentationPage .preliminary-cta .register-course .icon svg {
+  height: 16px;
+  width: fit-content;
+}
+.CoursePresentationPage .preliminary-cta .register-course p {
+  color: var(--deepSapphire);
+}
+.CoursePresentationPage .preliminary-cta-tablette {
+  display: none;
+}
+.CoursePresentationPage .course-cta {
+  background-color: var(--malibu);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
 .CoursePresentationPage .cta-section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .CoursePresentationPage {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  .CoursePresentationPage .capsule {
+    display: flex;
+    flex-direction: column;
+  }
+  .CoursePresentationPage .capsule .thumbnail {
+    width: 600px;
+    max-width: none;
+    margin: 0 auto;
+  }
+  .CoursePresentationPage .capsule .cta {
+    display: none;
+  }
+  .CoursePresentationPage .preliminary-cta-tablette {
+    display: flex;
+    gap: 24px;
+  }
+  .CoursePresentationPage .preliminary-cta-tablette .course-cta {
+    width: fill-available;
+  }
+  .CoursePresentationPage .preliminary-cta-tablette .register-course {
+    display: flex;
+    align-items: center;
+    color: var(--deepSapphire);
+    gap: 10px;
+    border: 1px solid var(--gallery);
+    border-radius: 10px;
+    width: fill-available;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 630px) {
+  .CoursePresentationPage .capsule .thumbnail {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=CoursePresentationPage.styles.css.map */

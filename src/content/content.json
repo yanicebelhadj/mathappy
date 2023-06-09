@@ -6,6 +6,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 1,
         "nomChapitre": "Nombre entier et décimaux",
+        "iconChapitre": "/content/cours/6A1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-entiers-et-decimaux",
         "competences": [
@@ -78,6 +79,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 2,
         "nomChapitre": "Division euclidienne, divisibilité",
+        "iconChapitre": "/content/cours/6A2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "division-euclidienne-divisibilite",
         "competences": [
@@ -138,6 +140,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 3,
         "nomChapitre": "Opérations",
+        "iconChapitre": "/content/cours/6A3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "operations",
         "competences": [
@@ -234,6 +237,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 4,
         "nomChapitre": "Fractions, écritures fractionnaires",
+        "iconChapitre": "/content/cours/6A4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "fractions-ecritures-fractionnaires",
         "competences": [
@@ -318,6 +322,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 1,
         "nomChapitre": "Bases de la géométrie plane",
+        "iconChapitre": "/content/cours/6B1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "bases-de-la-geometrie-plane",
         "competences": [
@@ -390,6 +395,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 2,
         "nomChapitre": "Parallèles et perpendiculaires",
+        "iconChapitre": "/content/cours/6B2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "paralleles-et-perpendiculaires",
         "competences": [
@@ -426,6 +432,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 3,
         "nomChapitre": "Polygones",
+        "iconChapitre": "/content/cours/6B3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "polygones",
         "competences": [
@@ -450,6 +457,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 4,
         "nomChapitre": "Symétrie axiale",
+        "iconChapitre": "/content/cours/6B4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "symetrie-axiale",
         "competences": [
@@ -496,6 +504,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 5,
         "nomChapitre": "Médiatrice, bissectrice",
+        "iconChapitre": "/content/cours/6B5.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "mediatrice-bissectrice",
         "competences": [
@@ -531,6 +540,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 6,
         "nomChapitre": "Espace",
+        "iconChapitre": "/content/cours/6B6.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "espace",
         "competences": [
@@ -577,6 +587,7 @@
         "nomTheme": "Organisation et gestion de données",
         "chapitre": 1,
         "nomChapitre": "Proportionnalité",
+        "iconChapitre": "/content/cours/6C1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "proportionnalite",
         "competences": [
@@ -612,6 +623,7 @@
         "nomTheme": "Organisation et gestion de données",
         "chapitre": 1,
         "nomChapitre": "Tableaux, diagrammes, graphiques",
+        "iconChapitre": "/content/cours/6C2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "tableaux-diagrammes-graphiques",
         "competences": [
@@ -647,6 +659,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 1,
         "nomChapitre": "Durées",
+        "iconChapitre": "/content/cours/6D1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "durees",
         "competences": [
@@ -671,6 +684,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 2,
         "nomChapitre": "Angles",
+        "iconChapitre": "/content/cours/6D2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "angles",
         "competences": [
@@ -719,6 +733,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 3,
         "nomChapitre": "Périmètres",
+        "iconChapitre": "/content/cours/6D3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "perimetres",
         "competences": [
@@ -743,6 +758,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 4,
         "nomChapitre": "Aires",
+        "iconChapitre": "/content/cours/6D4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "aires",
         "competences": [
@@ -767,6 +783,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 5,
         "nomChapitre": "Volumes",
+        "iconChapitre": "/content/cours/6D5.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "volumes",
         "competences": [

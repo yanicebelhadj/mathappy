@@ -26,13 +26,13 @@ function SearchPage() {
       <div className="competence-list">
         {
           dataChapitres.map((competence, index)=>{ 
-              const { id, nomChapitre, nomTheme, description, niveau, duree, iconCompetence, slug } = competence;
+              const { id, nomChapitre, nomTheme, description, niveau, duree, iconChapitre, slug } = competence;
               return(
                 <Chapitre
                   key={index}
                   slug={slug}
                   id={id}
-                  iconCompetence={iconCompetence}
+                  iconChapitre={iconChapitre}
                   competenceName={nomChapitre}
                   duree={duree} 
                   nomTheme={nomTheme}

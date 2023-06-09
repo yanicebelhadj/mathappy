@@ -28,9 +28,6 @@
 .Search-page .competence-list .competence {
   align-items: flex-start;
 }
-.Search-page .competence-list .competence img {
-  height: 66px;
-}
 .Search-page .competence-list .competence .TextArea {
   width: 800px !important;
   margin-left: 2rem;

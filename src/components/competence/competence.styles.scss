@@ -3,7 +3,9 @@
     align-items: center;
     border-radius: 15px;
     img{
-        width: 100px;
+        width: 90px;
+        height: 90px;
+        border-radius: 21px;
     }
     .TextArea{
         margin-left: 1rem;
@@ -23,6 +25,7 @@
                 font-weight: 400;
                 line-height: 12px;
                 color: var(--scorpion);
+                width: fit-content;
             }
             .Detail{
                 display: flex;

@@ -7,10 +7,10 @@ import Niveau from '../../icons/Niveau';
 import "./competence.styles.css"
 
 function Competence(props) {
-    const { id, competenceName, nomTheme, description, niveau, iconCompetence } = props
+    const { id, competenceName, nomTheme, description, niveau, iconChapitre } = props
     return(
         <Link to={`/${props.id + "-" + props.slug}`} className='competence' key={id}>
-            <img src={`${iconCompetence}`} alt={`${competenceName}`} />
+            <img src={`${iconChapitre}`} alt={`${competenceName}`} />
             <div className='TextArea'>
                 <p className='title p-s-semi-bold'>{competenceName}</p>
                 {description && <p className='description p-s-medium'>{description.substr(0,110) + " ..."}</p>}

@@ -66,6 +66,30 @@
   gap: 1rem;
   width: 100%;
 }
+.sign-in-form form .password-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #DDDFE0;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+.sign-in-form form .password-container input {
+  width: calc(100% - 2rem);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 1rem;
+}
+.sign-in-form form .password-container .displayPassword {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.sign-in-form form .password-container .displayPassword .eye {
+  padding: 0 8px;
+}
 .sign-in-form .connexion-button {
   width: calc(100% + 2px);
   padding: 12px 24px;

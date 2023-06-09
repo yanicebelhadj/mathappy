@@ -44,13 +44,33 @@ const SignIn = () => {
       }
     };
 
+    const toggleDisplay = () => {
+      const password = document.querySelector(".password-input");
+      const eye = document.querySelector(".eye");
+      if (password.type === "password") {
+        password.type = "text";
+        eye.innerHTML = "Masquer";
+
+      } else {
+        password.type = "password";
+        eye.innerHTML = "Afficher";
+      }
+    }
+
     return(
         <div className="sign-in-form">
             <img src={satellite} alt="logo" />
             <h1>Connexion</h1>
             <form ref={formRef} onSubmit={handleForm}>
                 <input required type="email" placeholder="Adresse e-mail" className="p-m-regular" ref={addInputs} name="email" />
-                <input required type="password" placeholder="Mot de passe" className="p-m-regular" ref={addInputs} name="password" />
+                <div className="password-container">
+                  <input required type="password" placeholder="Mot de passe" className="p-m-regular password-input" ref={addInputs} name="password" />
+                  <div>
+                    <div onClick={() => {toggleDisplay()}} className="displayPassword">
+                      <p className="eye p-s-medium">Afficher</p>
+                    </div>
+                  </div>                  
+                </div>
                 <p className="p-m-regular">{validation}</p>
                 <button type="submit" className="connexion-button">
                     <p className="p-s-bold">Se connecter</p> 

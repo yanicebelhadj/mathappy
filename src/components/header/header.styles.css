@@ -27,7 +27,7 @@ header .header-right-part .user-information {
   height: fit-content;
   gap: 1rem;
   padding: 4px 1rem 4px 8px;
-  outline: 1px solid #EBEBEB;
+  border: 1px solid #EBEBEB;
   border-radius: 29px;
 }
 header .header-right-part .user-information .avatar {

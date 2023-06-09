@@ -46,6 +46,9 @@ header.non-active {
   header .header-right-part .Registered-courses {
     display: none;
   }
+  header .header-right-part .user-information {
+    border-radius: 29px;
+  }
   header .header-right-part .user-information p {
     display: none;
   }

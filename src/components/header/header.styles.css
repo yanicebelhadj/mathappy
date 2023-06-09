@@ -29,6 +29,7 @@ header .header-right-part .user-information {
   padding: 4px 1rem 4px 8px;
   outline: 1px solid #EBEBEB;
   border-radius: 29px;
+  -webkit-border-radius: 29px;
 }
 header .header-right-part .user-information .avatar {
   height: 32px;
@@ -45,9 +46,6 @@ header.non-active {
 @media screen and (max-width: 500px) {
   header .header-right-part .Registered-courses {
     display: none;
-  }
-  header .header-right-part .user-information {
-    border-radius: 29px;
   }
   header .header-right-part .user-information p {
     display: none;

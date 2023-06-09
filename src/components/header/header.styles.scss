@@ -28,6 +28,7 @@ header{
             padding: 4px 1rem 4px 8px;
             outline: 1px solid #EBEBEB;
             border-radius: 29px;
+            -webkit-border-radius : 29px;
             .avatar{
                 height: 32px;
             }
@@ -53,7 +54,6 @@ header.non-active{
                 display: none;
             }
             .user-information {
-                border-radius: 29px;
                 p{
                     display: none;
                 }

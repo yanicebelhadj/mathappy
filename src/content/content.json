@@ -808,6 +808,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 1,
         "nomChapitre": "Nombres décimaux",
+        "iconChapitre": "/content/cours/5A1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-decimaux",
         "competences": [
@@ -868,6 +869,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 2,
         "nomChapitre": "Nombres relatifs, priorités opératoires",
+        "iconChapitre": "/content/cours/5A2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombre-relatifs-priorites-operatoires",
         "competences": [
@@ -952,6 +954,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 3,
         "nomChapitre": "Nombres rationnels",
+        "iconChapitre": "/content/cours/5A3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-rationnels",
         "competences": [
@@ -1024,6 +1027,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 4,
         "nomChapitre": "Nombres entiers",
+        "iconChapitre": "/content/cours/5A4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-entiers",
         "competences": [
@@ -1060,6 +1064,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 5,
         "nomChapitre": "Le rôle de la lettre et du signe égal",
+        "iconChapitre": "/content/cours/5A5.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "le-role-de-la-lettre-et-du-signe-egal",
         "competences": [
@@ -1132,6 +1137,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 6,
         "nomChapitre": "Calcul littéral",
+        "iconChapitre": "/content/cours/5A6.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "calcul-litteral",
         "competences": [
@@ -1168,6 +1174,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 7,
         "nomChapitre": "Équations, inéquations",
+        "iconChapitre": "/content/cours/5A7.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "equations-inequations",
         "competences": [
@@ -1192,6 +1199,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 1,
         "nomChapitre": "Angles et triangles",
+        "iconChapitre": "/content/cours/5B1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "angles-et-triangles",
         "competences": [
@@ -1276,6 +1284,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 2,
         "nomChapitre": "Transformations, Parallélogrammes",
+        "iconChapitre": "/content/cours/5B2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "angles-et-triangles",
         "competences": [
@@ -1312,6 +1321,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 3,
         "nomChapitre": "Repérage",
+        "iconChapitre": "/content/cours/5B3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "reperage",
         "competences": [
@@ -1348,6 +1358,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 3,
         "nomChapitre": "Espace",
+        "iconChapitre": "/content/cours/5B4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "espace",
         "competences": [
@@ -1384,6 +1395,7 @@
         "nomTheme": "Organisation et gestion de données",
         "chapitre": 1,
         "nomChapitre": "Proportionnalité",
+        "iconChapitre": "/content/cours/5C1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "propotionnalite",
         "competences": [
@@ -1444,6 +1456,7 @@
         "nomTheme": "Organisation et gestion de données",
         "chapitre": 2,
         "nomChapitre": "Statistique et probabilité",
+        "iconChapitre": "/content/cours/5C2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "statistique-et-probabilite",
         "competences": [
@@ -1504,6 +1517,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 1,
         "nomChapitre": "Grandeurs et mesures",
+        "iconChapitre": "/content/cours/5D1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "grandeurs-et-mesures",
         "competences": [
@@ -1552,6 +1566,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 1,
         "nomChapitre": "Nombres décimaux",
+        "iconChapitre": "/content/cours/4A1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-decimaux",
         "competences": [
@@ -1576,6 +1591,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 2,
         "nomChapitre": "Nombres relatifs",
+        "iconChapitre": "/content/cours/4A2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-relatifs", 
         "competences": [
@@ -1660,6 +1676,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 3,
         "nomChapitre": "Nombres rationnels",
+        "iconChapitre": "/content/cours/4A3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-rationnels",
         "competences": [
@@ -1720,6 +1737,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 4,
         "nomChapitre": "Puissances",
+        "iconChapitre": "/content/cours/4A4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-rationnels",
         "competences": [
@@ -1768,6 +1786,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 5,
         "nomChapitre": "Nombres rationnels",
+        "iconChapitre": "/content/cours/4A5.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-rationnels",
         "competences": [
@@ -1804,6 +1823,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 6,
         "nomChapitre": "Le rôle de la lettre et du signe égal",
+        "iconChapitre": "/content/cours/4A6.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "le-role-de-la-lettre-et-du-signe-egal",
         "competences": [
@@ -1888,6 +1908,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 7,
         "nomChapitre": "Calcul littéral",
+        "iconChapitre": "/content/cours/4A7.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "calcul-litteral",
         "competences": [
@@ -1924,6 +1945,7 @@
         "nomTheme": "Nombres et calculs",
         "chapitre": 8,
         "nomChapitre": "Équations, inéquations",
+        "iconChapitre": "/content/cours/4A8.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "equations-inequations",
         "competences": [
@@ -1960,6 +1982,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 1,
         "nomChapitre": "Angles et triangles",
+        "iconChapitre": "/content/cours/4B1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "angles-et-triangles",
         "competences": [
@@ -1984,6 +2007,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 2,
         "nomChapitre": "Transformation et parallélogramme",
+        "iconChapitre": "/content/cours/4B2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "transformation-et-parallelogramme",
         "competences": [
@@ -1997,6 +2021,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 3,
         "nomChapitre": "Triangles rectangles",
+        "iconChapitre": "/content/cours/4B3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "triangles-rectangles",
         "competences": [
@@ -2045,6 +2070,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 4,
         "nomChapitre": "Triangles et proportionnalité",
+        "iconChapitre": "/content/cours/4B4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "triangles-et-proportionnalite",
         "competences": [
@@ -2105,6 +2131,7 @@
         "nomTheme": "Espace et géometrie",
         "chapitre": 5,
         "nomChapitre": "Espace",
+        "iconChapitre": "/content/cours/4B5.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "espace",
         "competences": [
@@ -2141,6 +2168,7 @@
         "nomTheme": "Organisation et gestion de données",
         "chapitre": 1,
         "nomChapitre": "Proportionnalité, diagrammes",
+        "iconChapitre": "/content/cours/4C1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "proportionnalite-diagrammes",
         "competences": [
@@ -2201,6 +2229,7 @@
         "nomTheme": "Organisation et gestion de données",
         "chapitre": 2,
         "nomChapitre": "Statistique et probabilité",
+        "iconChapitre": "/content/cours/4C2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "statistique-et-probabilite",
         "competences": [
@@ -2261,6 +2290,7 @@
         "nomTheme": "Organisation et gestion de données",
         "chapitre": 3,
         "nomChapitre": "Fonctions",
+        "iconChapitre": "/content/cours/4C3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "fonctions",
         "competences": [
@@ -2285,6 +2315,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 1,
         "nomChapitre": "Calcul de surfaces",
+        "iconChapitre": "/content/cours/4D1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "calcul-de-surfaces",
         "competences": [
@@ -2309,6 +2340,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 2,
         "nomChapitre": "Calculs de volume",
+        "iconChapitre": "/content/cours/4D2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "calculs-de-volume",
         "competences": [
@@ -2333,6 +2365,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 3,
         "nomChapitre": "Agrandissements et réductions",
+        "iconChapitre": "/content/cours/4D3.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "agrandissements-et-reductions",
         "competences": [
@@ -2357,6 +2390,7 @@
         "nomTheme": "Grandeurs et mesures",
         "chapitre": 3,
         "nomChapitre": "Grandeurs composées",
+        "iconChapitre": "/content/cours/4D4.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "grandeurs-composees",
         "competences": [
@@ -2381,6 +2415,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 1,
         "nomChapitre": "Nombres rationnels",
+        "iconChapitre": "/content/cours/3A1.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-rationnels",
         "competences": [
@@ -2429,6 +2464,7 @@
         "nomTheme": "Nombre et calcul",
         "chapitre": 2,
         "nomChapitre": "Nombres entiers",
+        "iconChapitre": "/content/cours/3A2.png",
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "nombres-entiers",
         "competences": [

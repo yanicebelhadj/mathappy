@@ -25,7 +25,6 @@
                 font-weight: 400;
                 line-height: 12px;
                 color: var(--scorpion);
-                width: fit-content;
             }
             .Detail{
                 display: flex;
@@ -82,5 +81,14 @@
             }
         }
     }    
+    .competence{
+        .Details{
+            .Detail{
+                p{
+                    max-width: 105px;
+                }
+            }
+        }
+    }
 }
 

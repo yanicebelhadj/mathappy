@@ -17,7 +17,7 @@ function Competence(props) {
                 <div className='Details'>
                     <div className='Detail'>
                         <Duration />
-                        <p>{nomTheme}</p>
+                        <p className='nom-theme'>{nomTheme}</p>
                     </div>
                     {
                         niveau &&

@@ -28,7 +28,6 @@
   font-weight: 400;
   line-height: 12px;
   color: var(--scorpion);
-  width: fit-content;
 }
 .competence .TextArea .Details .Detail {
   display: flex;
@@ -70,6 +69,9 @@
   }
   .competences-page .course-summary-and-competences-list .course-summary {
     padding: 2rem 1rem !important;
+  }
+  .competence .Details .Detail p {
+    max-width: 105px;
   }
 }
 

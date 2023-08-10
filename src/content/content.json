@@ -16,10 +16,7 @@
                 "contenu":"/content/cours/6A1A-lesNombresEntiers.svg",
                 "slug": "les-nombres-entiers",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A1A-lesNombresEntiers-ex.pdf",
                 "methode": null
             },
             {
@@ -28,10 +25,7 @@
                 "contenu":"/content/cours/6A1B-lesNombresDecimaux.svg",
                 "slug": "les-nombres-decimaux",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A1B-lesNombresDecimaux-ex.pdf",
                 "methode": null
             },
             {
@@ -40,10 +34,7 @@
                 "contenu": "/content/cours/6A1C-reperageSurUneDemiDroiteGraduee.svg",
                 "slug": "reperage-sur-une-demi-droite-graduee",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A1C-reperageSurUneDemiDroiteGraduee-ex.pdf",
                 "methode": null
             },
             {
@@ -52,10 +43,7 @@
                 "contenu":"/content/cours/6A1D-comparerRangerEncadrerIntercalerDesNombresDecimaux.svg",
                 "slug": "comparer-ranger-encadrer-intercaler-des-nombres-decimaux",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A1D-comparerRangerEncadrerIntercalerDesNombresDecimaux-ex.pdf",
                 "methode": null
             },
             {
@@ -64,10 +52,7 @@
                 "contenu":"/content/cours/6A1E-valeursApprochees.svg",
                 "slug": "valeurs-approchees",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A1E-valeursApprochees-ex.pdf",
                 "methode": null
             }
         ]
@@ -89,10 +74,7 @@
                 "contenu":"/content/cours/6A2A-multiplesEtDiviseurs.svg",
                 "slug": "multiples-et-diviseurs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A2A-multiplesEtDiviseurs-ex.pdf",
                 "methode": null
             },
             {
@@ -101,10 +83,7 @@
                 "contenu":"/content/cours/6A2B-effectuerUneDivisionEuclidienne.svg",
                 "slug": "effectuer-une-division-euclidienne",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A2B-effectuerUneDivisionEuclidienne-ex.pdf",
                 "methode": null
             },
             {
@@ -113,10 +92,7 @@
                 "contenu": "/content/cours/6A2C-criteresDeDivisibilite.svg",
                 "slug": "criteres-de-divisibilite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A2C-criteresDeDivisibilite-ex.pdf",
                 "methode": null
             },
             {
@@ -125,10 +101,7 @@
                 "contenu":"/content/cours/6A2D-divisionDecimale.svg",
                 "slug": "division-decimale",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A2D-divisionDecimale-ex.pdf",
                 "methode": null
             }
         ]
@@ -150,10 +123,7 @@
                 "contenu":"/content/cours/6A3A-operationsSurLesNombresEntiers.svg",
                 "slug": "operations-sur-les-nombres-entiers",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A3A-operationsSurLesNombresEntiers-ex.pdf",
                 "methode": null
             },
             {
@@ -162,10 +132,7 @@
                 "contenu":"/content/cours/6A3B-multiplierEtDiviserParMultipleDe10.svg",
                 "slug": "multiplier-et-diviser-par-un-multiple-de-10",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A3B-multiplierEtDiviserParMultipleDe10-ex.pdf",
                 "methode": null
             },
             {
@@ -174,10 +141,7 @@
                 "contenu": "/content/cours/6A3C-additionnerSoustraireDesNombresDecimaux.svg",
                 "slug": "additionner-et-soustraire-des-nombres-decimaux",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A3C-additionnerSoustraireDesNombresDecimaux-ex.pdf",
                 "methode": null
             },
             {
@@ -186,10 +150,7 @@
                 "contenu":"/content/cours/6A3D-multiplierParUnNombreDecimal.svg",
                 "slug": "multiplier-par-un-nombre-decimal",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A3D-multiplierParUnNombreDecimal-ex.pdf",
                 "methode": null
             },
             {
@@ -198,10 +159,7 @@
                 "contenu":"/content/cours/6A3E-diviserUnNombreDecimalParUnNombreEntier.svg",
                 "slug": "diviser-un-nombre-decimal-par-un-nombre-entier",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A3E-diviserUnNombreDecimalParUnNombreEntier-ex.pdf",
                 "methode": null
             },
             {
@@ -210,10 +168,7 @@
                 "contenu":"/content/cours/6A3F-ordreDeGrandeur.svg",
                 "slug": "ordre-de-grandeur",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A3F-ordreDeGrandeur-ex.pdf",
                 "methode": null
             },
             {
@@ -222,10 +177,7 @@
                 "contenu":"/content/cours/6A3G-resoudreUnProbleme.svg",
                 "slug": "resoudre-un-probleme",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A3G-resoudreUnProbleme-ex.pdf",
                 "methode": null
             }
         ]
@@ -247,10 +199,7 @@
                 "contenu":"/content/cours/6A4A-fractionPartage.svg",
                 "slug": "fraction-partage",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A4A-fractionPartage-ex.pdf",
                 "methode": null
             },
             {
@@ -259,10 +208,7 @@
                 "contenu":"/content/cours/6A4B-notionDeQuotient.svg",
                 "slug": "notion-de-quotient",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A4B-notionDeQuotient-ex.pdf",
                 "methode": null
             },
             {
@@ -271,10 +217,7 @@
                 "contenu": "/content/cours/6A4C-valeurDUneFraction.svg",
                 "slug": "valeur-d-une-fraction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A4C-valeurDUneFraction-ex.pdf",
                 "methode": null
             },
             {
@@ -283,34 +226,25 @@
                 "contenu":"/content/cours/6A4D-ecrituresFractionnairesEgales.svg",
                 "slug": "ecritures-fractionnaires-egales",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A4D-ecrituresFractionnairesEgales-ex.pdf",
                 "methode": null
             },
             {
                 "id": "6A4E",
                 "nom":"Prendre une proportion : multiplier un nombre par une fraction",
                 "contenu":"/content/cours/6A4E-prendreUneProportionMultiplierUnNombreParUneFraction.svg",
-                "slug": "6A4E-prendre-une-proportion-multiplier-un-nombre-par-une-fraction",
+                "slug": "prendre-une-proportion-multiplier-un-nombre-par-une-fraction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A4E-prendreUneProportionMultiplierUnNombreParUneFraction-ex.pdf",
                 "methode": null
             },
             {
                 "id": "6A4F",
                 "nom":"Prendre un pourcentage",
                 "contenu":"/content/cours/6A4F-prendreUnPourcentage.svg",
-                "slug": "6A4F-prendre-un-pourcentage",
+                "slug": "prendre-un-pourcentage",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6A4F-prendreUnPourcentage-ex.pdf",
                 "methode": null
             }
         ]
@@ -332,10 +266,7 @@
                 "contenu":"/content/cours/6B1A-pointDroiteDemiDroiteEtSegment.svg",
                 "slug": "point-droite-demi-droite-et-segment",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B1A-pointDroiteDemiDroiteEtSegment-ex.pdf",
                 "methode": null
             },
             {
@@ -344,10 +275,7 @@
                 "contenu":"/content/cours/6B1B-pointsAlignementAppartenanceIntersection.svg",
                 "slug": "points-alignement-appartenance-intersection",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B1B-pointsAlignementAppartenanceIntersection-ex.pdf",
                 "methode": null
             },
             {
@@ -356,10 +284,7 @@
                 "contenu": "/content/cours/6B1C-longueurDUnSegmentMilieu.svg",
                 "slug": "longueur-d-un-segment-milieu",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B1C-longueurDUnSegmentMilieu-ex.pdf",
                 "methode": null
             },
             {
@@ -368,10 +293,7 @@
                 "contenu":"/content/cours/6B1D-cercle.svg",
                 "slug": "cercle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B1D-cercle-ex.pdf",
                 "methode": null
             },
             {
@@ -380,10 +302,7 @@
                 "contenu":"/content/cours/6B1E-angle.svg",
                 "slug": "angle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B1E-angle-ex.pdf",
                 "methode": null
             }
         ]
@@ -405,10 +324,7 @@
                 "contenu":"/content/cours/6B2A-positionRelativeDeDeuxDroites.svg",
                 "slug": "position-relative-de-deux-droites",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B2A-positionRelativeDeDeuxDroites-ex.pdf",
                 "methode": null
             },
             {
@@ -417,10 +333,7 @@
                 "contenu":"/content/cours/6B2B-proprietesPositionRelativeDroites.svg",
                 "slug": "proprietes-position-relative-droites",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B2B-proprietesPositionRelativeDroites-ex.pdf",
                 "methode": null
             }
         ]
@@ -442,10 +355,7 @@
                 "contenu":"/content/cours/6B3A-polygones.svg",
                 "slug": "polygones",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B3A-polygones-ex.pdf",
                 "methode": null
             }
         ]
@@ -467,10 +377,7 @@
                 "contenu":"/content/cours/6B4A-notionSymetrieAxiale.svg",
                 "slug": "notion-symetrie-axiale",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B4A-notionSymetrieAxiale-ex.pdf",
                 "methode": null
             },    
             {
@@ -479,10 +386,7 @@
                 "contenu":"/content/cours/6B4B-proprietesDeLaSymetrieAxiale.svg",
                 "slug": "proprietes-symetrie-axiale",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                }
+                "exercice": "/content/cours/6B4B-proprietesDeLaSymetrieAxiale-ex.pdf"
             },    
             {
                 "id": "6B4C",
@@ -490,10 +394,7 @@
                 "contenu":"/content/cours/6B4C-axesDeSymetrieEtFiguresUsuelles.svg",
                 "slug": "axes-de-symetrie-et-figures-usuelles",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                }
+                "exercice": "/content/cours/6B4C-axesDeSymetrieEtFiguresUsuelles-ex.pdf"
             }
         ]
     },
@@ -514,10 +415,7 @@
                 "contenu":"/content/cours/6B5A-mediatrice.svg",
                 "slug": "mediatrice",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B5A-mediatrice-ex.pdf",
                 "methode": null
             },    
             {
@@ -526,10 +424,7 @@
                 "contenu":"/content/cours/6B5B-bissectrice.svg",
                 "slug": "bissectrice",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                }
+                "exercice": "/content/cours/6B5B-bissectrice-ex.pdf"
             }
         ]
     },
@@ -550,10 +445,7 @@
                 "contenu":"/content/cours/6B6A-vocabulaireEspace.svg",
                 "slug": "vocabulaire-espace",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6B6A-vocabulaireEspace-ex.pdf",
                 "methode": null
             },    
             {
@@ -562,10 +454,7 @@
                 "contenu":"/content/cours/6B6B-perspectiveCavaliere.svg",
                 "slug": "perspective-cavaliere",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                }
+                "exercice": "/content/cours/6B6B-perspectiveCavaliere-ex.pdf"
             },    
             {
                 "id": "6B6C",
@@ -573,10 +462,7 @@
                 "contenu":"/content/cours/6B6C-patron.svg",
                 "slug": "patron",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                }
+                "exercice": "/content/cours/6B6C-patron-ex.pdf"
             }
         ]
     },
@@ -597,10 +483,7 @@
                 "contenu":"/content/cours/6C1A-reconnaitreUneSituationDeProportionnalite.svg",
                 "slug": "reconnaitre-une-situation-de-proportionnalite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6C1A-reconnaitreUneSituationDeProportionnalite-ex.pdf",
                 "methode": null
             },    
             {
@@ -609,10 +492,7 @@
                 "contenu":"/content/cours/6C1B-calculsDansUneSituationDeProportionnalite.svg",
                 "slug": "calculs-dans-une-situation-de-proportionnalite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                }
+                "exercice": "/content/cours/6C1B-calculsDansUneSituationDeProportionnalite-ex.pdf"
             }
         ]
     },
@@ -633,10 +513,7 @@
                 "contenu":"/content/cours/6C2A-lireEtCompleterUnTableau.svg",
                 "slug": "lire-et-completer-un-tableau",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6C2A-lireEtCompleterUnTableau-ex.pdf",
                 "methode": null
             },    
             {
@@ -645,10 +522,7 @@
                 "contenu":"/content/cours/6C2B-lireOuConstruireUnGraphiqueDesDiagrammes.svg",
                 "slug": "lire-ou-construire-un-graphique-des-diagrammes",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                }
+                "exercice": "/content/cours/6C2B-lireOuConstruireUnGraphiqueDesDiagrammes-ex.pdf"
             }
         ]
     },
@@ -669,10 +543,7 @@
                 "contenu":"/content/cours/6D1A-operationsSurLesDurees.svg",
                 "slug": "operations-sur-les-durees",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6D1A-operationsSurLesDurees-ex.pdf",
                 "methode": null
             }
         ]
@@ -694,10 +565,7 @@
                 "contenu":"/content/cours/6D2A-notionDAngle.svg",
                 "slug": "notion-d-angle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6D2A-notionDAngle-ex.pdf",
                 "methode": null
             },
             {
@@ -706,10 +574,7 @@
                 "contenu":"/content/cours/6D2B-natureDUnAngle.svg",
                 "slug": "nature-d-un-angle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6D2B-natureDUnAngle-ex.pdf",
                 "methode": null
             },
             {
@@ -718,10 +583,7 @@
                 "contenu":"/content/cours/6D2C-mesureOuConstructionDUnAngle.svg",
                 "slug": "mesure-ou-construction-d-un-angle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6D2C-mesureOuConstructionDUnAngle-ex.pdf",
                 "methode": null
             }
         ]
@@ -743,10 +605,7 @@
                 "contenu":"/content/cours/6D3A-perimetreDUneFigure.svg",
                 "slug": "perimetre-d-une-figure",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6D3A-perimetreDUneFigure-ex.pdf",
                 "methode": null
             }
         ]
@@ -768,10 +627,7 @@
                 "contenu":"/content/cours/6D4A-aire.svg",
                 "slug": "aire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6D4A-aire-ex.pdf",
                 "methode": null
             }
         ]
@@ -793,10 +649,7 @@
                 "contenu":"/content/cours/6D2A-volumes.svg",
                 "slug": "volumes",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/6D2A-volumes-ex.pdf",
                 "methode": null
             }
         ]
@@ -818,10 +671,7 @@
                 "contenu":"/content/cours/5A1A-multiplierEtDiviserParMultipleDe10.svg",
                 "slug": "multiplier-et-diviser-par-un-multiple-de-10",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A1A-multiplierEtDiviserParMultipleDe10-ex.pdf",
                 "methode": null
             },
             {
@@ -830,10 +680,7 @@
                 "contenu":"/content/cours/5A1B-ordreDeGrandeur.svg",
                 "slug": "ordre-de-grandeur",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A1B-ordreDeGrandeur-ex.pdf",
                 "methode": null
             },
             {
@@ -842,10 +689,7 @@
                 "contenu":"/content/cours/5A1C-calculerUneExpression.svg",
                 "slug": "calculer-une-expression",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A1C-calculerUneExpression-ex.pdf",
                 "methode": null
             },
             {
@@ -854,10 +698,7 @@
                 "contenu":"/content/cours/5A1D-calculerUneExpressionFractionnaire.svg",
                 "slug": "calculer-une-expression-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A1D-calculerUneExpressionFractionnaire-ex.pdf",
                 "methode": null
             }
         ]
@@ -879,10 +720,7 @@
                 "contenu":"/content/cours/5A2A-definitionDesNombresRelatifs.svg",
                 "slug": "definition-des-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A2A-definitionDesNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -891,10 +729,7 @@
                 "contenu":"/content/cours/5A2B-comparerDesNombresRelatifs.svg",
                 "slug": "comparer-des-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A2B-comparerDesNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -903,10 +738,7 @@
                 "contenu":"/content/cours/5A2C-additionnerDeuxNombresRelatifs.svg",
                 "slug": "additionner-des-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A2C-additionnerDeuxNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -915,10 +747,7 @@
                 "contenu":"/content/cours/5A2D-soustraireDeuxNombresRelatifs.svg",
                 "slug": "soustraire-deux-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A2D-soustraireDeuxNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -927,10 +756,7 @@
                 "contenu":"/content/cours/5A2E-simplificationDEcritureDUneSomme.svg",
                 "slug": "simplification-d-ecriture-d-une-somme",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A2E-simplificationDEcritureDUneSomme-ex.pdf",
                 "methode": null
             },
             {
@@ -939,10 +765,7 @@
                 "contenu":"/content/cours/5A2F-prioriteOperatoire.svg",
                 "slug": "priorite-operatoire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A2F-prioriteOperatoire-ex.pdf",
                 "methode": null
             }
         ]
@@ -964,10 +787,7 @@
                 "contenu":"/content/cours/5A3A-determinerUnQuotient.svg",
                 "slug": "determiner-un-quotient",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A3A-determinerUnQuotient-ex.pdf",
                 "methode": null
             },
             {
@@ -976,10 +796,7 @@
                 "contenu":"/content/cours/5A3B-simplifierUneEcritureFractionnaire.svg",
                 "slug": "simplifier-une-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A3B-simplifierUneEcritureFractionnaire-ex.pdf",
                 "methode": null
             },
             {
@@ -988,10 +805,7 @@
                 "contenu":"/content/cours/5A3C-comparerDeuxEcrituresFractionnaires.svg",
                 "slug": "comparer-deux-ecritures-fractionnaires",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A3C-comparerDeuxEcrituresFractionnaires-ex.pdf",
                 "methode": null
             },
             {
@@ -1000,10 +814,7 @@
                 "contenu":"/content/cours/5A3D-additionnerDesNombresEnEcritureFractionnaire.svg",
                 "slug": "additionner-des-nombres-en-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A3D-additionnerDesNombresEnEcritureFractionnaire-ex.pdf",
                 "methode": null
             },
             {
@@ -1012,10 +823,7 @@
                 "contenu":"/content/cours/5A3E-multiplierDesNombresEnEcritureFractionnaire.svg",
                 "slug": "multiplier-des-nombres-en-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A3E-multiplierDesNombresEnEcritureFractionnaire-ex.pdf",
                 "methode": null
             }
         ]
@@ -1037,10 +845,7 @@
                 "contenu":"/content/cours/5A4A-criteresDeDivisibilite.svg",
                 "slug": "criteres-de-divisibilite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A4A-criteresDeDivisibilite-ex.pdf",
                 "methode": null
             },
             {
@@ -1049,10 +854,7 @@
                 "contenu":"/content/cours/5A4B-divisionEuclidienne.svg",
                 "slug": "simplifier-une-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A4B-divisionEuclidienne-ex.pdf",
                 "methode": null
             }
         ]
@@ -1074,10 +876,7 @@
                 "contenu":"/content/cours/5A5A-exprimerEnFonctionDeX.svg",
                 "slug": "exprimer-en-fonction-de-x",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A5A-exprimerEnFonctionDeX-ex.pdf",
                 "methode": null
             },
             {
@@ -1086,10 +885,7 @@
                 "contenu":"/content/cours/5A5B-utliserLesConventionsDEcriture.svg",
                 "slug": "utiliser-les-conventions-d-ecriture",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A5B-utliserLesConventionsDEcriture-ex.pdf",
                 "methode": null
             },
             {
@@ -1098,10 +894,7 @@
                 "contenu":"/content/cours/5A5C-simplifierLEcritureDUneSommeAlgebrique.svg",
                 "slug": "simplifier-l-ecriture-d-une-somme-algebrique",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A5C-simplifierLEcritureDUneSommeAlgebrique-ex.pdf",
                 "methode": null
             },
             {
@@ -1110,10 +903,7 @@
                 "contenu":"/content/cours/5A5D-determinerLaValeurDUneExpression.svg",
                 "slug": "determiner-la-valeur-d-une-expression",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A5D-determinerLaValeurDUneExpression-ex.pdf",
                 "methode": null
             },
             {
@@ -1122,10 +912,7 @@
                 "contenu":"/content/cours/5A5E-testerUneEgaliteOuUneInegalite.svg",
                 "slug": "tester-une-egalite-ou-une-inegalite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A5E-testerUneEgaliteOuUneInegalite-ex.pdf",
                 "methode": null
             }
         ]
@@ -1147,10 +934,7 @@
                 "contenu":"/content/cours/5A6A-developperUneExpression.svg",
                 "slug": "developper-une-expression",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A6A-developperUneExpression-ex.pdf",
                 "methode": null
             },
             {
@@ -1159,10 +943,7 @@
                 "contenu":"/content/cours/5A6B-factoriserUneExpression.svg",
                 "slug": "factoriser-une-expression",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A6B-factoriserUneExpression-ex.pdf",
                 "methode": null
             }
         ]
@@ -1184,10 +965,7 @@
                 "contenu":"/content/cours/5A7A-resoudreUneEquation.svg",
                 "slug": "resoudre-une-equation",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5A7A-resoudreUneEquation-ex.pdf",
                 "methode": null
             }
         ]
@@ -1209,10 +987,7 @@
                 "contenu":"/content/cours/5B1A-inegaliteTriangulaire.svg",
                 "slug": "inegalite-triangulaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B1A-inegaliteTriangulaire-ex.pdf",
                 "methode": null
             },
             {
@@ -1221,10 +996,7 @@
                 "contenu":"/content/cours/5B1B-construireUnTriangle.svg",
                 "slug": "construire-un-triangle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B1B-construireUnTriangle-ex.pdf",
                 "methode": null
             },
             {
@@ -1233,10 +1005,7 @@
                 "contenu":"/content/cours/5B1C-mediatriceDUnTriangle.svg",
                 "slug": "mediatrice-d-un-triangle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B1C-mediatriceDUnTriangle-ex.pdf",
                 "methode": null
             },
             {
@@ -1245,10 +1014,7 @@
                 "contenu":"/content/cours/5B1D-hauteurDUnTriangle.svg",
                 "slug": "hauteur-d-un-triangle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B1D-hauteurDUnTriangle-ex.pdf",
                 "methode": null
             },
             {
@@ -1257,10 +1023,7 @@
                 "contenu":"/content/cours/5B1E-anglesEtDroites.svg",
                 "slug": "angles-et-droites",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B1E-anglesEtDroites-ex.pdf",
                 "methode": null
             },
             {
@@ -1269,10 +1032,7 @@
                 "contenu":"/content/cours/5B1F-utiliserLaSommeDesMesuresDesTroisAnglesDUnTriangle.svg",
                 "slug": "utiliser-la-somme-des-mesures-des-trois-angles-d-un-triangle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B1F-utiliserLaSommeDesMesuresDesTroisAnglesDUnTriangle-ex.pdf",
                 "methode": null
             }
         ]
@@ -1294,10 +1054,7 @@
                 "contenu":"/content/cours/5B2A-symetrieCentrale.svg",
                 "slug": "symetrie-centrale",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B2A-symetrieCentrale-ex.pdf",
                 "methode": null
             },
             {
@@ -1306,10 +1063,7 @@
                 "contenu":"/content/cours/5B2B-parallelogramme.svg",
                 "slug": "parallelogramme",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B2B-parallelogramme-ex.pdf",
                 "methode": null
             }
         ]
@@ -1331,10 +1085,7 @@
                 "contenu":"/content/cours/5B3A-repererUnPointSurUneDroiteGraduee.svg",
                 "slug": "reperer-un-point-sur-une-droite-graduee",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B3A-repererUnPointSurUneDroiteGraduee-ex.pdf",
                 "methode": null
             },
             {
@@ -1343,10 +1094,7 @@
                 "contenu":"/content/cours/5B3B-repererUnPointDansUnRepereDuPlan.svg",
                 "slug": "reperer-un-point-dans-un-repere-du-plan",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B3B-repererUnPointDansUnRepereDuPlan-ex.pdf",
                 "methode": null
             }
         ]
@@ -1368,10 +1116,7 @@
                 "contenu":"/content/cours/5B4A-etudierUnPrismeDroit.svg",
                 "slug": "etudier-un-prisme-droit",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B4A-etudierUnPrismeDroit-ex.pdf",
                 "methode": null
             },
             {
@@ -1380,10 +1125,7 @@
                 "contenu":"/content/cours/5B4B-etudierUnCylindreDeRevolution.svg",
                 "slug": "etudier-un-cylindre-de-revolution",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5B4B-etudierUnCylindreDeRevolution-ex.pdf",
                 "methode": null
             }
         ]
@@ -1405,10 +1147,7 @@
                 "contenu":"/content/cours/5C1A-reconnaitreDeuxGrandeursProportionnellesLieesParUneFormule.svg",
                 "slug": "reconnaitre-deux-grandeurs-proportionnelles-liees-par-une-formule",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C1A-reconnaitreDeuxGrandeursProportionnellesLieesParUneFormule-ex.pdf",
                 "methode": null
             },
             {
@@ -1417,10 +1156,7 @@
                 "contenu":"/content/cours/5C1B-reconnaitreUnTableauDeProportionnalite.svg",
                 "slug": "reconnaitre-un-tableau-de-proportionnalite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C1B-reconnaitreUnTableauDeProportionnalite-ex.pdf",
                 "methode": null
             },
             {
@@ -1429,10 +1165,7 @@
                 "contenu":"/content/cours/5C1C-utiliserUnPourcentage.svg",
                 "slug": "utiliser-un-pourcentage",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C1C-utiliserUnPourcentage-ex.pdf",
                 "methode": null
             },
             {
@@ -1441,10 +1174,7 @@
                 "contenu":"/content/cours/5C1D-utiliserOuCalculerUneEchelle.svg",
                 "slug": "utiliser-ou-calculer-une-echelle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C1D-utiliserOuCalculerUneEchelle-ex.pdf",
                 "methode": null
             }
         ]
@@ -1466,10 +1196,7 @@
                 "contenu":"/content/cours/5C2A-vocabulaireEffectifEtFrequence.svg",
                 "slug": "vocabulaire-effectif-et-frequence",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C2A-vocabulaireEffectifEtFrequence-ex.pdf",
                 "methode": null
             },
             {
@@ -1478,10 +1205,7 @@
                 "contenu":"/content/cours/5C2B-representerEtLireDesDonnees.svg",
                 "slug": "representer-et-lire-des-donnees",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C2B-representerEtLireDesDonnees-ex.pdf",
                 "methode": null
             },
             {
@@ -1490,10 +1214,7 @@
                 "contenu":"/content/cours/5C2C-moyenneDUneSerieStatistique.svg",
                 "slug": "moyenne-d-une-serie-statistique",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C2C-moyenneDUneSerieStatistique-ex.pdf",
                 "methode": null
             },
             {
@@ -1502,10 +1223,7 @@
                 "contenu":"/content/cours/5C2D-calculerUneProbabilite.svg",
                 "slug": "calculer-une-probabilite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5C2D-calculerUneProbabilite-ex.pdf",
                 "methode": null
             }
         ]
@@ -1527,10 +1245,7 @@
                 "contenu":"/content/cours/5D1A-calculerDesAires.svg",
                 "slug": "calculer-des-aires",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5D1A-calculerDesAires-ex.pdf",
                 "methode": null
             },
             {
@@ -1539,10 +1254,7 @@
                 "contenu":"/content/cours/5D1B-calculerDesVolumes.svg",
                 "slug": "calcul-des-volumes",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5D1B-calculerDesVolumes-ex.pdf",
                 "methode": null
             },
             {
@@ -1551,10 +1263,7 @@
                 "contenu":"/content/cours/5D1C-convertirDesGrandeursComposees.svg",
                 "slug": "convertir-des-grandeurs-composees",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/5D1C-convertirDesGrandeursComposees-ex.pdf",
                 "methode": null
             }
         ]
@@ -1576,10 +1285,7 @@
                 "contenu":"/content/cours/4A1A-determinerUnOrdreDeGrandeur.svg",
                 "slug": "determiner-un-ordre-de-grandeur",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A1A-determinerUnOrdreDeGrandeur-ex.pdf",
                 "methode": null
             }
         ]
@@ -1601,10 +1307,7 @@
                 "contenu":"/content/cours/4A2A-additionnerDeuxNombresRelatifs.svg",
                 "slug": "additionner-deux-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A2A-additionnerDeuxNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -1613,10 +1316,7 @@
                 "contenu":"/content/cours/4A2B-soustraireDeuxNombresRelatifs.svg",
                 "slug": "soustraire-deux-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A2B-soustraireDeuxNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -1625,10 +1325,7 @@
                 "contenu":"/content/cours/4A2C-simplificationDEcritureDUneSomme.svg",
                 "slug": "simplifier-l-ecriture-d-une-somme",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A2C-simplificationDEcritureDUneSomme-ex.pdf",
                 "methode": null
             },
             {
@@ -1637,10 +1334,7 @@
                 "contenu":"/content/cours/4A2D-mulitiplierDesNombresRelatifs.svg",
                 "slug": "multiplier-des-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A2D-mulitiplierDesNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -1649,10 +1343,7 @@
                 "contenu":"/content/cours/4A2E-diviserDesNombresRelatifs.svg",
                 "slug": "diviser-des-nombres-relatifs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A2E-diviserDesNombresRelatifs-ex.pdf",
                 "methode": null
             },
             {
@@ -1661,10 +1352,7 @@
                 "contenu":"/content/cours/4A2F-calculerAvecLesQuatresOperations.svg",
                 "slug": "calculer-avec-les-quatre-operations",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A2F-calculerAvecLesQuatresOperations-ex.pdf",
                 "methode": null
             }
         ]
@@ -1686,10 +1374,7 @@
                 "contenu":"/content/cours/4A3A-simplifierUneEcritureFractionnaire.svg",
                 "slug": "simplifier-une-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A3A-simplifierUneEcritureFractionnaire-ex.pdf",
                 "methode": null
             },
             {
@@ -1698,10 +1383,7 @@
                 "contenu":"/content/cours/4A3B-comparerDeuxEcrituresFractionnaires.svg",
                 "slug": "comparer-deux-ecritures-fractionnaires",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A3B-comparerDeuxEcrituresFractionnaires-ex.pdf",
                 "methode": null
             },
             {
@@ -1710,10 +1392,7 @@
                 "contenu":"/content/cours/4A3C-additionnerOuSoustraireDesNombresEnEcritureFractionnaire.svg",
                 "slug": "additionner-ou-soustraire-des-nombres-en-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A3C-additionnerOuSoustraireDesNombresEnEcritureFractionnaire-ex.pdf",
                 "methode": null
             },
             {
@@ -1722,10 +1401,7 @@
                 "contenu":"/content/cours/4A3D-multiplierDesNombresEnEcritureFractionnaire.svg",
                 "slug": "multiplier-des-nombres-en-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A3D-multiplierDesNombresEnEcritureFractionnaire-ex.pdf",
                 "methode": null
             }
         ]
@@ -1747,10 +1423,7 @@
                 "contenu":"/content/cours/4A4A-utiliserLesPuissancesDExposantPositif.svg",
                 "slug": "utiliser-les-puissances-d-exposant-positif",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A4A-utiliserLesPuissancesDExposantPositif-ex.pdf",
                 "methode": null
             },
             {
@@ -1759,10 +1432,7 @@
                 "contenu":"/content/cours/4A4B-utiliserLesPuissancesDExposantNegatif.svg",
                 "slug": "utiliser-les-puissances-d-exposant-negatif",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A4B-utiliserLesPuissancesDExposantNegatif-ex.pdf",
                 "methode": null
             },
             {
@@ -1771,10 +1441,7 @@
                 "contenu":"/content/cours/4A4C-determinerLeSigneDUnePuissance.svg",
                 "slug": "determiner-le-signe-d-une-puissance",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A4C-determinerLeSigneDUnePuissance-ex.pdf",
                 "methode": null
             }
         ]
@@ -1796,10 +1463,7 @@
                 "contenu":"/content/cours/4A5A-nombresPremiers.svg",
                 "slug": "simplifier-une-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A5A-nombresPremiers-ex.pdf",
                 "methode": null
             },
             {
@@ -1808,10 +1472,7 @@
                 "contenu":"/content/cours/4A5B-utiliserLesNombresPremiers.svg",
                 "slug": "utiliser-les-nombres-premiers",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A5B-utiliserLesNombresPremiers-ex.pdf",
                 "methode": null
             }
         ]
@@ -1833,10 +1494,7 @@
                 "contenu":"/content/cours/4A6A-exprimerEnFonctionDeX.svg",
                 "slug": "exprimer-en-fonction-de-x",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A6A-exprimerEnFonctionDeX-ex.pdf",
                 "methode": null
             },
             {
@@ -1845,10 +1503,7 @@
                 "contenu":"/content/cours/4A6B-simplifierLEcritureDUnProduit.svg",
                 "slug": "simplifier-l-ecriture-d-un-produit",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A6B-simplifierLEcritureDUnProduit-ex.pdf",
                 "methode": null
             },
             {
@@ -1857,10 +1512,7 @@
                 "contenu":"/content/cours/4A6C-simplifierLEcritureDUneSommeAlgebrique.svg",
                 "slug": "simplifier-l-ecriture-d-une-somme-algebrique",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A6C-simplifierLEcritureDUneSommeAlgebrique-ex.pdf",
                 "methode": null
             },
             {
@@ -1869,10 +1521,7 @@
                 "contenu":"/content/cours/4A6D-simplifierLEcritureDUneSommeAlgebrique.svg",
                 "slug": "simplifier-l-ecriture-d-une-somme-algebrique",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A6D-simplifierLEcritureDUneSommeAlgebrique-ex.pdf",
                 "methode": null
             },
             {
@@ -1881,10 +1530,7 @@
                 "contenu":"/content/cours/4A6E-determinerLaValeurDUneExpression.svg",
                 "slug": "determiner-la-valeur-d-une-expression",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A6E-determinerLaValeurDUneExpression-ex.pdf",
                 "methode": null
             },
             {
@@ -1893,10 +1539,7 @@
                 "contenu":"/content/cours/4A6F-determinerSiUneEgaliteEstVraie.svg",
                 "slug": "determiner-si-une-egalite-est-vraie",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A6F-determinerSiUneEgaliteEstVraie-ex.pdf",
                 "methode": null
             }
         ]
@@ -1918,10 +1561,7 @@
                 "contenu":"/content/cours/4A7A-developperUneExpression.svg",
                 "slug": "developper-une-expression",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A7A-developperUneExpression-ex.pdf",
                 "methode": null
             },
             {
@@ -1930,10 +1570,7 @@
                 "contenu":"/content/cours/4A7B-factoriserUneExpression.svg",
                 "slug": "factoriser-une-expression",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A7B-factoriserUneExpression-ex.pdf",
                 "methode": null
             }
         ]
@@ -1955,10 +1592,7 @@
                 "contenu":"/content/cours/4A8A-resoudreUneEquationDuPremierDegre.svg",
                 "slug": "resoudre-une-equation-du-premier-degre",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A8A-resoudreUneEquationDuPremierDegre-ex.pdf",
                 "methode": null
             },
             {
@@ -1967,10 +1601,7 @@
                 "contenu":"/content/cours/4A8B-resoudreUnProbleme.svg",
                 "slug": "resoudre-un-probleme",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4A8B-resoudreUnProbleme-ex.pdf",
                 "methode": null
             }
         ]
@@ -1992,10 +1623,7 @@
                 "contenu":"/content/cours/4B1A-construireUnTriangle.svg",
                 "slug": "construire-un-triangle",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B1A-construireUnTriangle-ex.pdf",
                 "methode": null
             }
         ]
@@ -2011,7 +1639,9 @@
         "description": "Découvre les nombres entiers, les nombres décimaux, le repérage, la comparaison, le rangement et les valeurs approchées en maths ! Deviens un ou une pro des nombres avec ces chapitres passionnants ! ",
         "slug": "transformation-et-parallelogramme",
         "competences": [
-
+            {
+                "exercice": "/content/cours/4B2A-transformationEtParallelogramme-ex.pdf"
+            }
         ]
     },
     {
@@ -2031,10 +1661,7 @@
                 "contenu":"/content/cours/4B3A-racinesCarres.svg",
                 "slug": "racines-carrees",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B3A-racinesCarres-ex.pdf",
                 "methode": null
             },
             {
@@ -2043,10 +1670,7 @@
                 "contenu":"/content/cours/4B3B-theoremeDePythagore.svg",
                 "slug": "theoreme-de-pythagore",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B3B-theoremeDePythagore-ex.pdf",
                 "methode": null
             },
             {
@@ -2055,10 +1679,7 @@
                 "contenu":"/content/cours/4B3C-reciproqueDuTheoremeDePythagore.svg",
                 "slug": "reciproque-du-theoreme-de-pythagore",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B3C-reciproqueDuTheoremeDePythagore-ex.pdf",
                 "methode": null
             }
         ]
@@ -2080,10 +1701,7 @@
                 "contenu":"/content/cours/4B4A-theoremeDeThales.svg",
                 "slug": "theoreme-de-thales",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B4A-theoremeDeThales-ex.pdf",
                 "methode": null
             },
             {
@@ -2092,10 +1710,7 @@
                 "contenu":"/content/cours/4B4B-reciproqueDuTheoremeDeThales.svg",
                 "slug": "reciproque-du-theoreme-de-thales",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B4B-reciproqueDuTheoremeDeThales-ex.pdf",
                 "methode": null
             },
             {
@@ -2104,10 +1719,7 @@
                 "contenu":"/content/cours/4B4C-agrandissementReduction.svg",
                 "slug": "agrandissement-et-reduction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B4C-agrandissementReduction-ex.pdf",
                 "methode": null
             },
             {
@@ -2116,10 +1728,7 @@
                 "contenu":"/content/cours/4B4D-cosinusAngleAigu.svg",
                 "slug": "cosinus-d-un-angle-aigu",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B4D-cosinusAngleAigu-ex.pdf",
                 "methode": null
             }
         ]
@@ -2141,10 +1750,7 @@
                 "contenu":"/content/cours/4B5A-pyramide.svg",
                 "slug": "pyramide",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B5A-pyramide-ex.pdf",
                 "methode": null
             },
             {
@@ -2153,10 +1759,7 @@
                 "contenu":"/content/cours/4B5B-etudierUnCylindreDeRevolution.svg",
                 "slug": "etudier-un-cylindre-de-revolution",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4B5B-etudierUnCylindreDeRevolution-ex.pdf",
                 "methode": null
             }
         ]
@@ -2178,10 +1781,7 @@
                 "contenu":"/content/cours/4C1A-repererUneSituationDeProportionnalite.svg",
                 "slug": "reperer-une-situation-de-proportionnalite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C1A-repererUneSituationDeProportionnalite-ex.pdf",
                 "methode": null
             },
             {
@@ -2190,10 +1790,7 @@
                 "contenu":"/content/cours/4C1B-resoudreUnProblemeDeProportionnalite.svg",
                 "slug": "resoudre-un-probleme-de-proportionnalite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C1B-resoudreUnProblemeDeProportionnalite-ex.pdf",
                 "methode": null
             },
             {
@@ -2202,10 +1799,7 @@
                 "contenu":"/content/cours/4C1C-calculerUnPourcentage.svg",
                 "slug": "calculer-un-pourcentage",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C1C-calculerUnPourcentage-ex.pdf",
                 "methode": null
             },
             {
@@ -2214,10 +1808,7 @@
                 "contenu":"/content/cours/4C1D-diagramme.svg",
                 "slug": "diagramme",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C1D-diagramme-ex.pdf",
                 "methode": null
             }
         ]
@@ -2239,10 +1830,7 @@
                 "contenu":"/content/cours/4C2A-calculerUnEffectifUneFrequence.svg",
                 "slug": "calculer-un-effectif-une-frequence",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C2A-calculerUnEffectifUneFrequence-ex.pdf",
                 "methode": null
             },
             {
@@ -2251,10 +1839,7 @@
                 "contenu":"/content/cours/4C2B-calculerUneMoyenne.svg",
                 "slug": "calculer-une-moyenne",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C2B-calculerUneMoyenne-ex.pdf",
                 "methode": null
             },
             {
@@ -2263,10 +1848,7 @@
                 "contenu":"/content/cours/4C2C-calculerUneMedianeUneEtendue.svg",
                 "slug": "calculer-une-mediane-une-etendue",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C2C-calculerUneMedianeUneEtendue-ex.pdf",
                 "methode": null
             },
             {
@@ -2275,10 +1857,7 @@
                 "contenu":"/content/cours/4C2D-probabilite.svg",
                 "slug": "probabilite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C2D-probabilite-ex.pdf",
                 "methode": null
             }
         ]
@@ -2300,10 +1879,7 @@
                 "contenu":"/content/cours/4C3A-determinerUneFonction.svg",
                 "slug": "determiner-une-fonction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4C3A-determinerUneFonction-ex.pdf",
                 "methode": null
             }
         ]
@@ -2325,10 +1901,7 @@
                 "contenu":"/content/cours/4D1A-formulaireDAire.svg",
                 "slug": "formulaire-d-aire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4D1A-formulaireDAire-ex.pdf",
                 "methode": null
             }
         ]
@@ -2350,10 +1923,7 @@
                 "contenu":"/content/cours/4D2A-calculerDesVolumes.svg",
                 "slug": "formulaire-d-aire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4D2A-calculerDesVolumes-ex.pdf",
                 "methode": null
             }
         ]
@@ -2375,10 +1945,7 @@
                 "contenu":"/content/cours/4D3A-agrandissementReduction.svg",
                 "slug": "agrandissement-et-reduction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4D3A-agrandissementReduction-ex.pdf",
                 "methode": null
             }
         ]
@@ -2400,10 +1967,7 @@
                 "contenu":"/content/cours/4D4A-grandeursComposees.svg",
                 "slug": "grandeurs-composees",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/4D4A-grandeursComposees-ex.pdf",
                 "methode": null
             }
         ]
@@ -2425,10 +1989,7 @@
                 "contenu":"/content/cours/3A1A-additionnerOuSoustraireDesNombresEnEcritureFractionnaire.svg",
                 "slug": "additionner-ou-soustraire-des-nombres-en-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A1A-additionnerOuSoustraireDesNombresEnEcritureFractionnaire-ex.pdf",
                 "methode": null
             },
             {
@@ -2437,10 +1998,7 @@
                 "contenu":"/content/cours/3A1B-multiplierDesNombresEnEcritureFractionnaire.svg",
                 "slug": "multiplier-des-nombres-en-ecriture-fractionnaire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A1B-multiplierDesNombresEnEcritureFractionnaire-ex.pdf",
                 "methode": null
             },
             {
@@ -2449,10 +2007,7 @@
                 "contenu":"/content/cours/3A1C-diviserDesRationnels.svg",
                 "slug": "diviser-des-rationnels",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A1C-diviserDesRationnels-ex.pdf",
                 "methode": null
             }
         ]
@@ -2474,10 +2029,7 @@
                 "contenu":"/content/cours/3A2A-nombresPremiers.svg",
                 "slug": "nombres-premiers",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A2A-nombresPremiers-ex.pdf",
                 "methode": null
             },
             {
@@ -2486,10 +2038,7 @@
                 "contenu":"/content/cours/3A2B-utiliserLesNombresPremiers.svg",
                 "slug": "utiliser-les-nombres-premiers",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A2B-utiliserLesNombresPremiers-ex.pdf",
                 "methode": null
             }
         ]
@@ -2511,10 +2060,7 @@
                 "contenu":"/content/cours/3A3A-developperEtReduire.svg",
                 "slug": "developper-et-reduire",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A3A-developperEtReduire-ex.pdf",
                 "methode": null
             },
             {
@@ -2523,10 +2069,7 @@
                 "contenu":"/content/cours/3A3B-factoriser.svg",
                 "slug": "factoriser",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A3B-factoriser-ex.pdf",
                 "methode": null
             }
         ]
@@ -2548,10 +2091,7 @@
                 "contenu":"/content/cours/3A4A-resoudreUneEquation.svg",
                 "slug": "resoudre-une-equation",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A4A-resoudreUneEquation-ex.pdf",
                 "methode": null
             },
             {
@@ -2560,10 +2100,7 @@
                 "contenu":"/content/cours/3A4B-resoudreUnProbleme.svg",
                 "slug": "resoudre-un-probleme",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3A4B-resoudreUnProbleme-ex.pdf",
                 "methode": null
             }
         ]
@@ -2585,10 +2122,7 @@
                 "contenu":"/content/cours/3B1A-rotation.svg",
                 "slug": "rotation",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B1A-rotation-ex.pdf",
                 "methode": null
             },
             {
@@ -2597,10 +2131,7 @@
                 "contenu":"/content/cours/3B1B-homothetie.svg",
                 "slug": "homothetie",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B1B-homothetie-ex.pdf",
                 "methode": null
             },
             {
@@ -2609,10 +2140,7 @@
                 "contenu":"/content/cours/3B1C-triangleEgaux.svg",
                 "slug": "triangle-egaux",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B1C-triangleEgaux-ex.pdf",
                 "methode": null
             }
         ]
@@ -2634,10 +2162,7 @@
                 "contenu":"/content/cours/3B2A-trigonometrie.svg",
                 "slug": "trigonometrie",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B2A-trigonometrie-ex.pdf",
                 "methode": null
             }
         ]
@@ -2659,10 +2184,7 @@
                 "contenu":"/content/cours/3B3A-theoremeDeThales.svg",
                 "slug": "theoreme-de-thales",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B3A-theoremeDeThales-ex.pdf",
                 "methode": null
             },
             {
@@ -2671,10 +2193,7 @@
                 "contenu":"/content/cours/3B3B-reciproqueDuTheoremeDeThales.svg",
                 "slug": "reciproque-du-theoreme-de-thales",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B3B-reciproqueDuTheoremeDeThales-ex.pdf",
                 "methode": null
             },
             {
@@ -2683,10 +2202,7 @@
                 "contenu":"/content/cours/3B3C-agrandissementReduction.svg",
                 "slug": "agrandissement-et-reduction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B3C-agrandissementReduction-ex.pdf",
                 "methode": null
             },
             {
@@ -2695,10 +2211,7 @@
                 "contenu":"/content/cours/3B3D-homothetie.svg",
                 "slug": "homothetie",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B3D-homothetie-ex.pdf",
                 "methode": null
             },
             {
@@ -2707,10 +2220,7 @@
                 "contenu":"/content/cours/3B3E-triangleSemblables.svg",
                 "slug": "triangle-semblables",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B3E-triangleSemblables-ex.pdf",
                 "methode": null
             },
             {
@@ -2719,10 +2229,7 @@
                 "contenu":"/content/cours/3B3F-trigonometrie.svg",
                 "slug": "trigonometrie",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B3F-trigonometrie-ex.pdf",
                 "methode": null
             }
         ]
@@ -2744,10 +2251,7 @@
                 "contenu":"/content/cours/3B4A-reperageSurLaSphere.svg",
                 "slug": "reperage-sur-la-sphere",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3B4A-reperageSurLaSphere-ex.pdf",
                 "methode": null
             }
         ]
@@ -2769,10 +2273,7 @@
                 "contenu":"/content/cours/3C1A-calculsAvecLesPourcentages.svg",
                 "slug": "calcul-avec-les-pourcentages",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C1A-calculsAvecLesPourcentages-ex.pdf",
                 "methode": null
             },
             {
@@ -2781,10 +2282,7 @@
                 "contenu":"/content/cours/3C1B-calculsAvecLesTauxDEvolution.svg",
                 "slug": "calculs-avec-les-taux-d-evolution",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C1B-calculsAvecLesTauxDEvolution-ex.pdf",
                 "methode": null
             }
         ]
@@ -2806,10 +2304,7 @@
                 "contenu":"/content/cours/3C2A-moyenneDUneSerieStatistique.svg",
                 "slug": "moyenne-d-une-serie-statistique",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C2A-moyenneDUneSerieStatistique-ex.pdf",
                 "methode": null
             },
             {
@@ -2818,10 +2313,7 @@
                 "contenu":"/content/cours/3C2B-calculerUneMedianeUneEtendue.svg",
                 "slug": "calculer-une-mediane-une-etendue",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C2B-calculerUneMedianeUneEtendue-ex.pdf",
                 "methode": null
             },
             {
@@ -2830,10 +2322,7 @@
                 "contenu":"/content/cours/3C2C-probabilite.svg",
                 "slug": "probabilite",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C2C-probabilite-ex.pdf",
                 "methode": null
             }
         ]
@@ -2855,10 +2344,7 @@
                 "contenu":"/content/cours/3C3A-determinerUneFonction.svg",
                 "slug": "determiner-une-fonction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C3A-determinerUneFonction-ex.pdf",
                 "methode": null
             },
             {
@@ -2867,10 +2353,7 @@
                 "contenu":"/content/cours/3C3B-determinerUneImage.svg",
                 "slug": "determiner-une-image",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C3B-determinerUneImage-ex.pdf",
                 "methode": null
             },
             {
@@ -2879,10 +2362,7 @@
                 "contenu":"/content/cours/3C3C-determinerUnAntecedent.svg",
                 "slug": "determiner-un-antecedent",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C3C-determinerUnAntecedent-ex.pdf",
                 "methode": null
             },
             {
@@ -2891,10 +2371,7 @@
                 "contenu":"/content/cours/3C3D-utiliserUnTableauDeValeurs.svg",
                 "slug": "utiliser-un-tableau-de-valeurs",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C3D-utiliserUnTableauDeValeurs-ex.pdf",
                 "methode": null
             },
             {
@@ -2903,10 +2380,7 @@
                 "contenu":"/content/cours/3C3E-utiliserLaRepresentationGraphiqueDUneFonction.svg",
                 "slug": "utiliser-la-representation-graphique-d-une-fonction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C3E-utiliserLaRepresentationGraphiqueDUneFonction-ex.pdf",
                 "methode": null
             },
             {
@@ -2915,10 +2389,7 @@
                 "contenu":"/content/cours/3C3F-fonctionsLineairesEtFonctionsAffines.svg",
                 "slug": "fonctions-lineaires-et-fonctions-affines",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3C3F-fonctionsLineairesEtFonctionsAffines-ex.pdf",
                 "methode": null
             }
         ]
@@ -2940,10 +2411,7 @@
                 "contenu":"/content/cours/3D1A-calculerDesVolumes.svg",
                 "slug": "calculer-des-volumes",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3D1A-calculerDesVolumes-ex.pdf",
                 "methode": null
             },
             {
@@ -2952,10 +2420,7 @@
                 "contenu":"/content/cours/3D1B-agrandissementReduction.svg",
                 "slug": "agrandissement-et-reduction",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3D1B-agrandissementReduction-ex.pdf",
                 "methode": null
             }
         ]
@@ -2977,10 +2442,7 @@
                 "contenu":"/content/cours/3D2A-grandeursComposees.svg",
                 "slug": "grandeurs-composees",
                 "fiche": null,
-                "exercice": {
-                    "enonce": null,
-                    "solution": null
-                },
+                "exercice": "/content/cours/3D2A-grandeursComposees-ex.pdf",
                 "methode": null
             }
         ]

@@ -8,6 +8,17 @@
   margin: 2rem 0;
   width: 100%;
 }
+.course-page .btn-exercices {
+  background-color: var(--malibu);
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course-page .btn-exercices p {
+  color: var(--white);
+}
 .course-page h2 {
   color: var(--deepSapphire);
   margin: 2rem 0 1rem;

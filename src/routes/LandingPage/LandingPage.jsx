@@ -3,9 +3,12 @@ import { useState } from "react"
 
 import mainSection from "../../media/mainSection.png"
 // import pilierReussite from "../../media/pilierReussite.png"
-import rectangle from "../../media/rect.png"
-// import argument from "../../media/argument.png"
+import ctaSection from "../../media/ctaSection.png"
+import quickCoursePresentation from "../../media/quickCoursePresentation.png"
 import Modal from "../../media/modal.png"
+import explorationExcellenceDescription1 from "../../media/explorationExcellenceDescription1.png"
+import explorationExcellenceDescription2 from "../../media/explorationExcellenceDescription2.png"
+import explorationExcellenceDescription3 from "../../media/explorationExcellenceDescription3.png"
 
 import "./LandingPage.styles.css"
 import Logo from "../../icons/Logo.svg"
@@ -29,8 +32,8 @@ const LandingPage = () => {
 
                 <section className="main-section">
                     <div className="text-area">
-                        <h1>Obtiens les réponses dont tu as besoin en <span className="highlighth1">mathématiques</span></h1>
-                        <p className="p-m-semi-bold description">Découvre les maths sous un nouvel angle.</p>
+                        <h1>Explorez les <span className="highlighth1">Mathématiques</span> d'une Nouvelle Façon ! </h1>
+                        <p className="p-m-semi-bold description">Embarquez pour une aventure où chaque cours devient une exploration captivante, chaque défi une opportunité de s’améliorer, et où la confiance en mathématiques devient votre plus grande force. </p>
                         <Link to="/SignUp" className="p-l-bold connexion">Commencer</Link>
                     </div>
                     <img src={mainSection} alt="main section" />
@@ -56,115 +59,67 @@ const LandingPage = () => {
                     </div>
                 }
 
-                {/* <section className="pilier-reussite">
-                    <div className="image-area">
-                        <h1>Maitrise les <span className="highlighth1">compétences une à une</span></h1>
-                        <img src={pilierReussite} alt="pilier reussite" />
-                    </div>
-                    <div className="text-area">
-                        <div className="pilier">
-                            <p className="title">Efficacité</p>
-                            <p className="description p-l-regular">
-                                Pas de miracle pour être efficace, la fiche de cours ne doit plus avoir de 
-                                secrets pour toi. C’est pourquoi elle constitue ton guide. Une fois que tu 
-                                te sens prêt place à la pratique.
-                            </p>
-                        </div>
-                        <div className="pilier">
-                            <p className="title">Organisation</p>
-                            <p className="description p-l-regular">
-                                Un travail organisé est essentiel non seulement en maths mais aussi dans ton quotidien. 
-                                Cette organisation inclut beaucoup de paramètres c’est pourquoi on va t’aider à prendre 
-                                conscience de cela et à mieux la gérer.
-                            </p>
-                        </div>
-                        <div className="pilier">
-                            <p className="title">Rapidité</p>
-                            <p className="description p-l-regular">
-                                Pas de miracle pour être efficace, la fiche de cours ne doit plus avoir de 
-                                secrets pour toi. C’est pourquoi elle constitue ton guide. Une fois que tu 
-                                te sens prêt place à la pratique.
-                            </p>
-                        </div>
-                    </div>
-                </section> */}
-
                 <section className="quick-course-presentation">
                     <div className="title-description">
-                        <h1>Apprends les <span className="highlighth1">mathématiques d’une autre manière</span></h1>
-                        <p>
-                            Nos élèves nous aiment pour notre créativité. Tous nos cours sont conçus en 
-                            mettant les élèves au centre de l’apprentissage. 
-                        </p>
+                        <h1>Découvrez une approche qui combine <span className="highlighth1">innovation pédagogique</span> et <span className="highlighth1">inspiration</span>.</h1>
+                        <p className="p-l-bold">Plongez dans une aventure éducative inédite en France où les mathématiques prennent vie.  Mathappy vous offre une plateforme d'apprentissage en ligne conçue spécialement pour les élèves du niveau collège.</p>
                     </div>
-                    <div className="categories">
-                        <div className="category">
-                            <img src={rectangle} alt="category" />
-                            <p className="p-xxs-medium">NOMBRES ET CALCULS</p>
-                        </div>
-                        <div className="category">
-                            <img src={rectangle} alt="category" />
-                            <p className="p-xxs-medium">ESPACE ET GÉOMÉTRIE</p>
-                        </div>
-                        <div className="category">
-                            <img src={rectangle} alt="category" />
-                            <p className="p-xxs-medium">GRANDEURS ET MESURES</p>
-                        </div>
-                        <div className="category">
-                            <img src={rectangle} alt="category" />
-                            <p className="p-xxs-medium">ORGANISATIONS ET GESTION DE DONNÉES</p>
-                        </div>
-                    </div>
+                    
                     <div className="image-area">
-                        <p>Cours sur les nombres et calculs</p>
+                        <img src={quickCoursePresentation} alt="quick course presentation" />
                     </div>
                 </section>
 
-                {/* <section className="arguments-section">
-                    <h1>Maîtriser les <span className="highlighth1">compétences essentielles</span></h1>
-                    <div className="arguments">
-                        <div className="argument-container">
-                            <div className="line"></div>
-                            <div className="argument">
-                                <img src={argument} alt="argument" />
-                                <div className="text-area">
-                                    <p className="title">Maîtriser les compétences essentielles</p>
-                                    <p className="description">Nos élèves nous aiment pour notre créativité. Tous nos cours sont conçus en metteant les élèves au centre. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="argument-container">
-                            <div className="line"></div>
-                            <div className="argument">
-                                <img src={argument} alt="argument" />
-                                <div className="text-area">
-                                    <p className="title">Maîtriser les compétences essentielles</p>
-                                    <p className="description">Nos élèves nous aiment pour notre créativité. Tous nos cours sont conçus en metteant les élèves au centre. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="argument-container">
-                            <div className="line"></div>
-                            <div className="argument">
-                                <img src={argument} alt="argument" />
-                                <div className="text-area">
-                                    <p className="title">Maîtriser les compétences essentielles</p>
-                                    <p className="description">Nos élèves nous aiment pour notre créativité. Tous nos cours sont conçus en metteant les élèves au centre. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="argument-container">
-                            <div className="line"></div>
-                            <div className="argument">
-                                <img src={argument} alt="argument" />
-                                <div className="text-area">
-                                    <p className="title">Maîtriser les compétences essentielles</p>
-                                    <p className="description">Nos élèves nous aiment pour notre créativité. Tous nos cours sont conçus en metteant les élèves au centre. </p>
-                                </div>
-                            </div>
+                <section className="exploration-excellence-section">
+                    <div className="title-description">
+                        <h1>Bienvenue dans un monde où <span className="highlighth1">l'exploration</span> mène à <span className="highlighth1">l'excellence</span>.</h1>
+                    </div>
+                    
+                    <div className="exploration-excellence-description">
+                        <img src={explorationExcellenceDescription1} alt="exploration Excellence Description" />
+                        <div className="text-area">
+                            <p className="h1-m title">Là où l'Exploration Devient Personnalisée</p>
+                            <p className="p-m-bold description">
+                                Découvrez des cours structurés qui démystifient les mathématiques et rendent chaque concept passionnant. 
+                                Et pour une montée en compétences encore plus rapide et ciblée, plongez dans nos cours particuliers sur mesure. 
+                                Nos professeurs vous guideront vers la maîtrise des concepts mathématiques, débloquant votre plein potentiel !
+                            </p>
                         </div>
                     </div>
-                </section> */}
+
+                    <div className="exploration-excellence-description">
+                        <img src={explorationExcellenceDescription2} alt="exploration Excellence Description" />
+                        <div className="text-area">
+                            <p className="h1-m title">Les maths en images</p>
+                            <p className="p-m-bold description">
+                            Parcourez des cours organisés par chapitre et compétence. Des vidéos originales vous guideront à travers chaque concept, 
+                            vous aidant à visualiser et à comprendre les mathématiques de manière concrète.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="exploration-excellence-description">
+                        <img src={explorationExcellenceDescription3} alt="exploration Excellence Description" />
+                        <div className="text-area">
+                            <p className="h1-m title">La connaissance s’acquiert par la pratique le reste n’est que de l’information</p>
+                            <p className="p-m-bold description">
+                                Que vous cherchiez à perfectionner vos compétences en résolution de problèmes, à affiner votre compréhension des concepts 
+                                clés ou à relever des défis stimulants, nos exercices vous guideront vers l'excellence mathématique. Préparez-vous à explorer, 
+                                à apprendre et à exceller grâce à nos exercices soigneusement élaborés.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="cta-section">
+                    <div className="text-area">
+                        <p className="h1-m title">Prêt à explorer les mathématiques sous un nouvel angle ?</p>
+                        <p className="p-m-bold description">Rejoignez Mathappy aujourd'hui et ouvrez la porte vers une nouvelle manière d'apprendre !</p>
+                        <Link to="/SignUp" className="p-l-bold connexion">Commencer</Link>
+                    </div>
+                    <img src={ctaSection} alt="cta section" />
+                </section>
+                
             </div>
 
             <footer>

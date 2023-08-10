@@ -4,7 +4,7 @@ import "./objectives.styles.css"
 function Objectives(props){
     return(
         <div className="objectives">
-            <p className="p-l-bold">Les objectifs pour cette compétences sont:</p>
+            <p className="p-l-bold">Les objectifs pour ce chapitre sont:</p>
             <ul className="list-objectives">
                 {
                     props.competences ?

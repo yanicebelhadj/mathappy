@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 .landing-page .main-section {
-  padding: 7rem 5rem 0;
+  padding: 7rem 5rem 2.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,10 +46,10 @@
 }
 .landing-page .main-section img {
   width: 40vw;
-  max-width: 540px;
+  max-width: 480px;
 }
 .landing-page .main-section .text-area {
-  max-width: 480px;
+  max-width: 570px;
   display: flex;
   flex-direction: column;
 }
@@ -63,7 +63,7 @@
   width: fit-content;
   font-size: max(14px, 1.5vw);
   background-color: var(--supernova);
-  border-radius: 10px;
+  border-radius: 24px;
   border: none;
 }
 .landing-page .main-section .text-area .connexion:hover {
@@ -150,103 +150,108 @@
   flex-direction: row;
   gap: 10px;
 }
-.landing-page .pilier-reussite {
-  padding: 7rem 5rem;
-  display: flex;
-  justify-content: space-between;
-}
-.landing-page .pilier-reussite .image-area {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: 540px;
-}
-.landing-page .pilier-reussite .text-area {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 586px;
-  gap: 6rem;
-}
-.landing-page .pilier-reussite .text-area .title {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 34px;
-  margin-bottom: 12px;
-}
-.landing-page .pilier-reussite .text-area .description {
-  color: var(--scorpion);
-}
 .landing-page .quick-course-presentation {
   padding: 7rem 5rem;
   background: #F5F8FB;
 }
 .landing-page .quick-course-presentation .title-description {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   gap: 2rem;
   margin-bottom: 5rem;
 }
 .landing-page .quick-course-presentation .title-description h1 {
-  max-width: 540px;
+  max-width: 910px;
+  text-align: center;
 }
 .landing-page .quick-course-presentation .title-description p {
-  font-weight: 400;
-  font-size: max(16px, 1.2vw);
-  line-height: 28px;
-  color: var(--scorpion);
-  max-width: 570px;
+  color: var(--deepSapphire, #081271);
+  opacity: 0.55;
+  text-align: center;
+  max-width: 800px;
 }
-.landing-page .quick-course-presentation .categories {
+.landing-page .quick-course-presentation .image-area {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
-.landing-page .quick-course-presentation .categories .category {
-  display: flex;
-  flex-direction: row;
-  border-radius: 5px;
-  align-items: center;
-  gap: 1rem;
-  padding: 8px 16px;
-  border: 1px solid #000000;
+.landing-page .quick-course-presentation .image-area img {
+  max-width: 657px;
+  width: 40vw;
 }
-.landing-page .arguments-section {
+.landing-page .exploration-excellence-section {
   padding: 7rem 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 164px;
 }
-.landing-page .arguments-section .arguments {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 4rem;
-}
-.landing-page .arguments-section .arguments .argument-container {
+.landing-page .exploration-excellence-section .title-description {
   display: flex;
   flex-direction: column;
-  margin-top: 4rem;
+  align-items: center;
 }
-.landing-page .arguments-section .arguments .argument-container .line {
-  height: 1px;
-  width: 100%;
-  background-color: var(--black);
-  margin-bottom: 2.5rem;
+.landing-page .exploration-excellence-section h1 {
+  max-width: 910px;
+  text-align: center;
 }
-.landing-page .arguments-section .arguments .argument-container .argument {
+.landing-page .exploration-excellence-section .exploration-excellence-description {
   display: flex;
+  justify-content: space-between;
+  width: 1050px;
+}
+.landing-page .exploration-excellence-section .exploration-excellence-description .text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.landing-page .exploration-excellence-section .exploration-excellence-description .text-area p {
+  color: var(--deepSapphire, #081271);
+  max-width: 450px;
+  text-align: left;
+}
+.landing-page .exploration-excellence-section .exploration-excellence-description .text-area .description {
+  opacity: 0.65;
+}
+.landing-page .exploration-excellence-section .exploration-excellence-description img {
+  max-width: 450px;
+}
+.landing-page .exploration-excellence-section .exploration-excellence-description:nth-child(3) {
+  flex-direction: row-reverse;
+}
+.landing-page .cta-section {
+  padding: 7rem 5rem;
+  display: flex;
+  gap: 180px;
   flex-direction: row;
-  gap: 2.5rem;
+  background: #F5F8FB;
 }
-.landing-page .arguments-section .arguments .argument-container .argument .text-area .title {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 34px;
-  margin-bottom: 1rem;
+.landing-page .cta-section img {
+  max-width: 600px;
 }
-.landing-page .arguments-section .arguments .argument-container .argument .text-area .description {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  color: var(--scorpion);
+.landing-page .cta-section .text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 500px;
+}
+.landing-page .cta-section .text-area p {
+  color: var(--deepSapphire, #081271);
+}
+.landing-page .cta-section .text-area .description {
+  opacity: 0.65;
+}
+.landing-page .cta-section .text-area .connexion {
+  padding: 12px 16px;
+  width: fit-content;
+  font-size: max(14px, 1.5vw);
+  background-color: var(--supernova);
+  border-radius: 24px;
+  border: none;
+}
+.landing-page .cta-section .text-area .connexion:hover {
+  cursor: pointer;
 }
 .landing-page footer {
   background-color: var(--deepSapphire);
@@ -301,7 +306,7 @@
     width: calc(100% - 5rem);
   }
   .landing-page .main-section {
-    padding: 7rem 2.5rem 0;
+    padding: 7rem 2.5rem 2.5rem;
   }
   .landing-page .main-section .text-area .description {
     margin: 1rem 0;
@@ -377,7 +382,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 7rem 10px 0;
+    padding: 7rem 10px 2.5rem;
   }
   .landing-page .main-section .text-area .description {
     font-size: 16px;
@@ -389,7 +394,7 @@
   }
   .landing-page .main-section img {
     width: 100%;
-    max-width: 100%;
+    max-width: 300px;
   }
   .landing-page .quick-course-presentation {
     padding: 2rem 10px;

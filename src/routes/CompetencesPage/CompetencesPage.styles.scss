@@ -44,6 +44,29 @@
                 align-items: center;
                 gap: 2rem;
                 cursor: pointer;
+
+                .competence-icon{
+                    height: 56px !important;
+                    background-color: #ccc;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 11px;
+                    border-radius: 11px;
+                    border: 6px solid #B3B3B3;
+                    box-shadow: 0px 13px 0px 0px #808080;
+                    p{
+                        width: 56px;
+                        text-align: center;
+                        color: #808080;
+                    }
+                }
+
+                .competence-icon:hover{
+                    border: 6px solid #999899;
+                    background: #B3B4B3;
+                }
+
                 .hexagone{
                     min-width:92px;
                     height: 80px;
@@ -52,16 +75,16 @@
                     align-items: center;
                 }
                 .competence-name{
-                    background: linear-gradient(120deg, var(--salomie) 0%, var(--salomie) 100%);
-                    background-repeat: no-repeat;
-                    background-size: 0 40%;
-                    background-position: 0 90%;
-                    transition: background-size 0.5s ease-in-out;
+                    // background: linear-gradient(120deg, var(--salomie) 0%, var(--salomie) 100%);
+                    // background-repeat: no-repeat;
+                    // background-size: 0 40%;
+                    // background-position: 0 90%;
+                    // transition: background-size 0.5s ease-in-out;
                 }
             }
             .competence-item:hover{
                 .competence-name{
-                    background-size: 100% 40%;
+                    // background-size: 100% 40%;
                 }
             }
         }

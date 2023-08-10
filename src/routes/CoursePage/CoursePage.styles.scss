@@ -9,6 +9,18 @@
         width: 100%;
     }
 
+    .btn-exercices{
+        background-color: var(--malibu);
+        padding: 12px 24px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            color: var(--white);
+        }
+    }
+
     h2{
         color: var(--deepSapphire);
         margin: 2rem 0 1rem;

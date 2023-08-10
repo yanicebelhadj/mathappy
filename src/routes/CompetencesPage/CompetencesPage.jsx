@@ -55,7 +55,10 @@ const CompetencesPage = () => {
                         competenceList.map((competence, index) => {
                             return(
                                 <Link key={index} to={{ pathname: `/le-cours/${competence.id + "-" + competence.slug}` }} className="competence-item">
-                                    <div className="hexagone" style={{backgroundImage: `url(${Hexagone})`}}>
+                                    {/* <div className="hexagone" style={{backgroundImage: `url(${Hexagone})`}}>
+                                        <p className="h2-m-semi-bold">{index + 1}</p>
+                                    </div> */}
+                                    <div className="competence-icon">
                                         <p className="h2-m-semi-bold">{index + 1}</p>
                                     </div>
                                     <p className="p-l-semi-bold competence-name">{competence.nom}</p>

@@ -171,6 +171,7 @@
   font-size: max(14px, 1.4vw);
   text-align: center;
   max-width: 800px;
+  line-height: max(16px, 1.7vw);
 }
 .landing-page .quick-course-presentation .image-area {
   display: flex;
@@ -199,7 +200,9 @@
 .landing-page .exploration-excellence-section .exploration-excellence-description {
   display: flex;
   justify-content: space-between;
-  width: 1050px;
+  max-width: 1050px;
+  width: 73vw;
+  gap: 32px;
 }
 .landing-page .exploration-excellence-section .exploration-excellence-description .text-area {
   display: flex;
@@ -209,13 +212,22 @@
 .landing-page .exploration-excellence-section .exploration-excellence-description .text-area p {
   color: var(--deepSapphire, #081271);
   max-width: 450px;
+  width: 32vw;
   text-align: left;
+}
+.landing-page .exploration-excellence-section .exploration-excellence-description .text-area .title {
+  font-size: max(14px, 2.22vw);
+  line-height: 2.7vw;
 }
 .landing-page .exploration-excellence-section .exploration-excellence-description .text-area .description {
   color: rgba(8, 18, 113, 0.65);
+  font-size: max(12px, 1.11vw);
+  line-height: max(14px, 1.31vw);
 }
 .landing-page .exploration-excellence-section .exploration-excellence-description img {
   max-width: 450px;
+  min-width: 200px;
+  width: 32vw;
 }
 .landing-page .exploration-excellence-section .exploration-excellence-description:nth-child(3) {
   flex-direction: row-reverse;
@@ -226,6 +238,7 @@
   flex-direction: row;
   background: #F5F8FB;
   justify-content: space-between;
+  gap: 32px;
 }
 .landing-page .cta-section img {
   width: 42vw;
@@ -240,8 +253,14 @@
 .landing-page .cta-section .text-area p {
   color: var(--deepSapphire, #081271);
 }
+.landing-page .cta-section .text-area .title {
+  font-size: max(14px, 2.22vw);
+  line-height: 2.7vw;
+}
 .landing-page .cta-section .text-area .description {
   color: rgba(8, 18, 113, 0.65);
+  font-size: max(12px, 1.11vw);
+  line-height: max(14px, 1.31vw);
 }
 .landing-page .cta-section .text-area .connexion {
   padding: 12px 16px;
@@ -300,6 +319,9 @@
   .landing-page .main-section .text-area .connexion {
     padding: 10px 12px;
   }
+  .landing-page .exploration-excellence-section {
+    gap: 80px;
+  }
   .landing-page .cta-section .text-area .connexion {
     padding: 10px 12px;
   }
@@ -319,6 +341,12 @@
     padding: 4px 8px;
   }
   .landing-page .quick-course-presentation {
+    padding: 2rem 2.5rem;
+  }
+  .landing-page .exploration-excellence-section {
+    padding: 2rem 2.5rem;
+  }
+  .landing-page .cta-section {
     padding: 2rem 2.5rem;
   }
   .landing-page .cta-section .text-area .connexion {
@@ -375,6 +403,15 @@
   .landing-page footer .footer-container .text-area .social-media {
     gap: 1.5rem;
   }
+  .exploration-excellence-section .exploration-excellence-description, .exploration-excellence-description:nth-child(3) .exploration-excellence-description {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .exploration-excellence-section .exploration-excellence-description .text-area p, .exploration-excellence-description:nth-child(3) .exploration-excellence-description .text-area p {
+    max-width: 600px !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .landing-page header {
@@ -404,6 +441,12 @@
     max-width: 300px;
   }
   .landing-page .quick-course-presentation {
+    padding: 2rem 10px;
+  }
+  .landing-page .exploration-excellence-section {
+    padding: 2rem 10px;
+  }
+  .landing-page .cta-section {
     padding: 2rem 10px;
   }
   .landing-page footer {

@@ -180,6 +180,7 @@
                 font-size: max(14px,1.4vw);
                 text-align: center;
                 max-width: 800px;
+                line-height: max(16px,1.7vw);
             }
         }
 
@@ -212,7 +213,9 @@
         .exploration-excellence-description{
             display: flex;
             justify-content: space-between;
-            width: 1050px;
+            max-width: 1050px;
+            width: 73vw;
+            gap: 32px;
             .text-area{
                 display: flex;
                 flex-direction: column;
@@ -221,15 +224,25 @@
                 p{
                     color: var(--deepSapphire, #081271);
                     max-width: 450px;
+                    width: 32vw;
                     text-align: left;
+                }
+
+                .title{
+                    font-size: max(14px, 2.22vw);
+                    line-height: 2.7vw;
                 }
         
                 .description{
                     color: rgba(8, 18, 113, 0.65);
+                    font-size: max(12px, 1.11vw);
+                    line-height: max(14px, 1.31vw);
                 }
             }
             img{
                 max-width: 450px;
+                min-width: 200px;
+                width: 32vw;
             }
         }
 
@@ -245,6 +258,7 @@
         flex-direction: row;
         background: #F5F8FB;
         justify-content: space-between;
+        gap: 32px;
         img{
             width: 42vw;
             max-width: 600px;
@@ -259,8 +273,15 @@
                 color: var(--deepSapphire, #081271);
             }
 
+            .title{
+                font-size: max(14px, 2.22vw);
+                line-height: 2.7vw;
+            }
+    
             .description{
                 color: rgba(8, 18, 113, 0.65);
+                font-size: max(12px, 1.11vw);
+                line-height: max(14px, 1.31vw);
             }
 
             .connexion{
@@ -333,6 +354,10 @@
             }
         }
 
+        .exploration-excellence-section{
+            gap: 80px;
+        }
+
         .cta-section{
             .text-area{
                 .connexion{
@@ -363,10 +388,15 @@
         }
 
         .quick-course-presentation{
-            padding: 2rem 2.5rem ;
+            padding: 2rem 2.5rem;
+        }
+
+        .exploration-excellence-section{
+            padding: 2rem 2.5rem;
         }
 
         .cta-section{
+            padding: 2rem 2.5rem;
             .text-area{
                 .connexion{
                     padding: 4px 8px;
@@ -445,6 +475,20 @@
             }
         }
     }
+
+    .exploration-excellence-section, .exploration-excellence-description:nth-child(3){
+        .exploration-excellence-description{
+            flex-direction: column!important;
+            align-items: center ;
+            .text-area{
+                p{
+                    max-width: 600px !important;
+                    width: 100% !important;
+                    text-align: center !important;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -482,6 +526,14 @@
         }
 
         .quick-course-presentation{
+            padding: 2rem 10px ;
+        }
+
+        .exploration-excellence-section{
+            padding: 2rem 10px ;
+        }
+
+        .cta-section{
             padding: 2rem 10px ;
         }
 

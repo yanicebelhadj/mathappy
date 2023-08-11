@@ -179,6 +179,7 @@
 }
 .landing-page .quick-course-presentation .image-area img {
   max-width: 657px;
+  min-width: 200px;
   width: 40vw;
 }
 .landing-page .exploration-excellence-section {
@@ -217,7 +218,7 @@
 }
 .landing-page .exploration-excellence-section .exploration-excellence-description .text-area .title {
   font-size: max(14px, 2.22vw);
-  line-height: 2.7vw;
+  line-height: max(16px, 2.7vw);
 }
 .landing-page .exploration-excellence-section .exploration-excellence-description .text-area .description {
   color: rgba(8, 18, 113, 0.65);
@@ -255,7 +256,7 @@
 }
 .landing-page .cta-section .text-area .title {
   font-size: max(14px, 2.22vw);
-  line-height: 2.7vw;
+  line-height: max(16px, 2.7vw);
 }
 .landing-page .cta-section .text-area .description {
   color: rgba(8, 18, 113, 0.65);

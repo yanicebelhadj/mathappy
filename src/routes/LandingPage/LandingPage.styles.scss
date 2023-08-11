@@ -189,7 +189,8 @@
             justify-content: center;
             img{
                 max-width: 657px;
-                width: 40vw
+                min-width: 200px;
+                width: 40vw;
             }
         }
     }
@@ -230,7 +231,7 @@
 
                 .title{
                     font-size: max(14px, 2.22vw);
-                    line-height: 2.7vw;
+                    line-height: max(16px, 2.7vw);
                 }
         
                 .description{
@@ -275,7 +276,8 @@
 
             .title{
                 font-size: max(14px, 2.22vw);
-                line-height: 2.7vw;
+                line-height: max(16px, 2.7vw);
+                
             }
     
             .description{

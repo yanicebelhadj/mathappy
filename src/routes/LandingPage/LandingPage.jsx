@@ -82,7 +82,7 @@ const LandingPage = () => {
                             <p className="p-m-bold description">
                                 Découvrez des cours structurés qui démystifient les mathématiques et rendent chaque concept passionnant. 
                                 Et pour une montée en compétences encore plus rapide et ciblée, plongez dans nos cours particuliers sur mesure. 
-                                Nos professeurs vous guideront vers la maîtrise des concepts mathématiques, débloquant votre plein potentiel !
+                                Nos professeurs vous guideront vers la maîtrise des concepts mathématiques, débloquant votre potentiel !
                             </p>
                         </div>
                     </div>

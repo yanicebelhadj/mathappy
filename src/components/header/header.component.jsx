@@ -44,7 +44,7 @@ function Header(){
             {/* <SearchBox placeholder="Recherche un cours ..."/> */}
 
             <div className="header-right-part">
-              <RegisteredCourses />
+              {/* <RegisteredCourses /> */}
               <div className="user-information">
                 <img className="avatar" src={avatar} alt="user" />
                 <p className="p-s-semi-bold">Yanice Belhadj</p>

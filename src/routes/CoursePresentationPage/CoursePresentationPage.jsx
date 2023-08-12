@@ -2,7 +2,7 @@ import Objectives from "../../components/objectives/objectives.component";
 import Capsule from "../../components/capsule/capsule.component";
 import ContentCourse from "../../content/content.json";
 import { Link } from "react-router-dom";
-import Heart from "../../icons/Heart";
+import Reservation from "../../icons/reservation.svg";
 
 import "./CoursePresentationPage.styles.css";
 // import { useSelector } from "react-redux"; REMETTRE ÇA POUR LE MENU
@@ -42,8 +42,9 @@ function CoursePresentationPage() {
         <div className="preliminary-cta-tablette">
           <Link to={{ pathname: `/maths/${dataChapitre.id + "-" + dataChapitre.slug}` }} className="course-cta p-m-medium">Voir le cours</Link>{/*  */}
           <div className="register-course">
-            <Heart />
-            <p className="p-m-semi-bold">Enregistrer ce cours</p>
+            {/* <Reservation /> */}
+            <img src={Reservation} alt="reserver un cours"/>
+            <a href="https://calendly.com/mathappy/nombre-et-calculs-6eme?month=2023-08" className="p-m-semi-bold">Réserver un cours</a>
           </div>
         </div>
       </div>

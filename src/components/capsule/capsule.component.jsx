@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Heart from "../../icons/Heart";
+import Reservation from "../../icons/reservation.svg";
 
 import "./capsule.styles.css";
 
@@ -11,10 +11,10 @@ function capsule(props) {
       <div className="cta">
         <div className="preliminary-cta">
           <Link to={{ pathname: `/maths/${props.id + "-" + props.slug}` }} className="course-cta p-m-medium">Voir le cours</Link>{/*  */}
-          <div className="register-course">
-            <Heart />
-            <p className="p-m-semi-bold">Enregistrer ce cours</p>
-          </div>
+          <a href="https://calendly.com/mathappy/cours-particulier" className="register-course">
+            <img src={Reservation} alt="reserver un cours"/>
+            <p className="p-m-semi-bold">Réserver un cours</p>
+          </a>
         </div>
         
       </div>

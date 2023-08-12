@@ -27,12 +27,18 @@
                 align-items: center;
                 padding: 12px 24px;
                 border-radius: 10px;
+                img{
+                    width: 19px !important;
+                    border-radius: 0;
+                }
+
                 .icon{
                     display: flex;
                     svg{
                         height: 16px;
                         width: fit-content;
                     }
+                    
                 }
 
                 p{

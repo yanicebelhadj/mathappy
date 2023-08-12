@@ -25,6 +25,10 @@
   padding: 12px 24px;
   border-radius: 10px;
 }
+.capsule .cta .preliminary-cta .register-course img {
+  width: 19px !important;
+  border-radius: 0;
+}
 .capsule .cta .preliminary-cta .register-course .icon {
   display: flex;
 }

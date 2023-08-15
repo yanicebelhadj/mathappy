@@ -1,3 +1,7 @@
+.mobile-breadcrumbs-course-presentation-page {
+  display: none;
+}
+
 .CoursePresentationPage {
   display: flex;
   flex-direction: row;
@@ -68,6 +72,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .desktop-breadcrumbs-course-presentation-page {
+    display: none;
+  }
+  .mobile-breadcrumbs-course-presentation-page {
+    display: flex;
+  }
   .CoursePresentationPage {
     flex-direction: column-reverse;
     gap: 3rem;
@@ -100,6 +110,10 @@
     border-radius: 10px;
     width: fill-available;
     justify-content: center;
+  }
+  .CoursePresentationPage .preliminary-cta-tablette .register-course img {
+    width: 19px !important;
+    border-radius: 0;
   }
 }
 @media screen and (max-width: 750px) {

@@ -1,0 +1,12 @@
+.Breadcrumbs {
+  margin-bottom: 32px;
+}
+.Breadcrumbs .row {
+  gap: 8px;
+}
+.Breadcrumbs .row p {
+  font-weight: 500;
+  color: var(--tundora);
+}
+
+/*# sourceMappingURL=breadcrumbs.styles.css.map */

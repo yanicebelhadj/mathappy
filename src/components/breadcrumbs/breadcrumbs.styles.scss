@@ -1,0 +1,10 @@
+.Breadcrumbs{
+    margin-bottom: 32px;
+    .row{
+        gap: 8px;
+        p{
+            font-weight: 500;
+            color: var(--tundora);
+        }
+    }
+}

@@ -1,7 +1,6 @@
 .competences-page {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 .competences-page .course-summary-and-competences-list {
   display: flex;

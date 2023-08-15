@@ -2,6 +2,7 @@
 
 import "./CoursePage.styles.css"
 import ContentCourse from '../../content/content.json'
+import Breadcrumbs from "components/breadcrumbs/breadcrumbs.component";
 
 function CoursePage(){
     // const menu = useSelector(state=> state.menu.open)
@@ -25,6 +26,7 @@ function CoursePage(){
 
     return(
         <div className={`course-page container`}> {/* REMETTRE ÇA POUR LE MENU ${menu ? "container-initialState" : "container-clickedState"}*/} 
+            <Breadcrumbs />
             <h1><span className="h1-m highlighth1">{nomCompetence}</span></h1>
             <img className="cours" src={ process.env.PUBLIC_URL + competence[0].contenu} alt="course" />
             <a href= { process.env.PUBLIC_URL + competence[0].exercice} target="_blank" rel="noreferrer" className="btn-exercices">

@@ -10,6 +10,7 @@ import image from "../../media/chapitreIcon.png"
 import Cours from "../../icons/cours.svg";
 import Exercices from "icons/exercice.svg";
 import Hexagone from "../../icons/hexagone.svg";
+import Breadcrumbs from "components/breadcrumbs/breadcrumbs.component";
 
 const CompetencesPage = () => {
     const menu = useSelector(state=> state.menu.open)
@@ -30,9 +31,7 @@ const CompetencesPage = () => {
     
     return(
         <div className={`competences-page container`}> {/* REMETTRE ÇA POUR LE MENU ${menu ? "container-initialState" : "container-clickedState"}*/}
-            <div className="navigation">
-                <Link to={`/${idChapitre + "-" + slug}`} className="back-button">Retour</Link>
-            </div>
+            <Breadcrumbs />
             <div className="course-summary-and-competences-list">
                 <div className="course-summary">
                     <img src={image} alt="course-summary" />

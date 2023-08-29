@@ -34,7 +34,10 @@ const LandingPage = () => {
                     <div className="text-area">
                         <h1>Explorez les <span className="highlighth1">Mathématiques</span> d'une Nouvelle Façon ! </h1>
                         <p className="p-m-semi-bold description">Embarquez pour une aventure où chaque cours devient une exploration captivante, chaque défi une opportunité de s’améliorer, et où la confiance en mathématiques devient votre plus grande force. </p>
-                        <Link to="/SignUp" className="p-l-bold connexion">Commencer</Link>
+                        <div className="cta">
+                            <Link to="/SignUp" className="p-l-bold connexion">Commencer</Link>
+                            <a className="p-l-bold cta-button" href="https://www.meetinclass.com/prof/yanice20/ingenieur-informatique-ma-mission-est-apporter-mon-soutien-collegiens-pour-exceller-mathematiques">Réserver des cours de soutien scolaire</a>
+                        </div>
                     </div>
                     <img src={mainSection} alt="main section" />
                 </section>

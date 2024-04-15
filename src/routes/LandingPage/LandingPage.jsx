@@ -32,8 +32,8 @@ const LandingPage = () => {
 
                 <section className="main-section">
                     <div className="text-area">
-                        <h1>Explorez les <span className="highlighth1">Mathématiques</span> d'une Nouvelle Façon ! </h1>
-                        <p className="p-m-semi-bold description">Soyez les bienvenus sur Mathappy, la plateforme de soutien scolaire avec la pédagogie la plus adaptée à chacun pour véritablement progresser. Pour être en pleine confiance et ainsi obtenir les meilleures notes possibles.</p>
+                        <h1>Explorez les <span className="highlighth1">mathématiques</span> d'une autre façon ! </h1>
+                        <p className="p-m-semi-bold description">Soyez les bienvenus sur Mathappy, la plateforme de soutien scolaire avec la pédagogie la plus adaptée à chacun pour véritablement progresser. Afin d'être en pleine confiance et ainsi obtenir les meilleures notes possibles.</p>
                         <div className="cta">
                             <Link to="/SignUp" className="p-l-bold connexion">Commencer</Link>
                             <a className="p-l-bold cta-button" href="https://www.meetinclass.com/prof/yanice20/ingenieur-informatique-ma-mission-est-apporter-mon-soutien-collegiens-pour-exceller-mathematiques">Réserver des cours de soutien scolaire</a>
@@ -64,7 +64,7 @@ const LandingPage = () => {
 
                 <section className="quick-course-presentation">
                     <div className="title-description">
-                        <h1>Notre <span className="highlighth1">secret </span> ? <br/> <span className="highlighth1">Comprendre</span> et ne pas qu'apprendre par coeur.</h1>
+                        <h1>Notre <span className="highlighth1">secret </span> ? <br/> <span className="highlighth1">Comprendre</span> et ne pas seulement apprendre par coeur.</h1>
                         <p className="p-l-bold">Lire ses leçons régulièrement et chercher ensuite, avec un temps raisonnable, les exercices correspondants. <br/>La clé de la réussite est la régularité dans le travail personnel tout en étant guidé par un pédagogue expérimenté. Notre cours est très visuel, basé sur des schématisations, des prises d'initiatives et toujours éclairé par nos explications uniques. </p>
                     </div>
                     
@@ -83,7 +83,7 @@ const LandingPage = () => {
                         <div className="text-area">
                             <p className="h1-m title">La particularité de nos cours</p>
                             <p className="p-m-bold description">
-                                Choisir successivement, sans temps mort et en temps réel, les exercices les plus appropriés pour une progression optimale de l’élève. En le guidant ni trop ni pas assez, pour y répondre. Qu’ils soient parfaitement compris et donc que le cours le soit aussi.
+                                Sélectionner méthodiquement et de manière successive les exercices les plus adaptés pour favoriser une progression optimale de l'élève. Le guider avec juste mesure pour faciliter la compréhension des exercices et assurer une parfaite assimilation du cours.
                             </p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ const LandingPage = () => {
                         <div className="text-area">
                             <p className="h1-m title">Élever chaque élève vers la réussite, quel que soit son niveau</p>
                             <p className="p-m-bold description">
-                                Nous aidons les plus en difficulté à reprendre confiance en eux ; nous permettons à ceux ayant un niveau correct de consolider leur dossier scolaire ; nous menons les plus performants aux portes des meilleures écoles de France et du monde ; à tous, nous transmets le goût de l'effort, la volonté de réussir et de rendre un travail de qualité.
+                                Nous soutenons ceux qui rencontrent des difficultés pour qu'ils regagnent confiance en eux. Nous aidons les élèves au niveau satisfaisant à renforcer leur dossier scolaire. Nous préparons les plus performants à intégrer les meilleures écoles en France et à l'international. À tous, nous inculquons le goût de l'effort, la détermination de réussir et l'importance de fournir un travail de qualité.
                             </p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ const LandingPage = () => {
                         <div className="text-area">
                             <p className="h1-m title">Forger des champions en mathématiques</p>
                             <p className="p-m-bold description">
-                                Nous rendons nos étudiants forts en mathématiques. Le véritable "fort" est celui qui sait résoudre toutes les questions, correspondants aux thèmes qu'il a étudiés, avec un temps suffisant. C'est celui chez qui l'instinct et l'intuition prédominent.
+                                Nous rendons nos élèves forts en mathématiques. Le véritable "fort" est celui qui sait résoudre toutes les questions, correspondants aux thèmes qu'il a étudiés, avec un temps suffisant. C'est celui chez qui l'instinct et l'intuition prédominent.
                             </p>
                         </div>
                     </div>
